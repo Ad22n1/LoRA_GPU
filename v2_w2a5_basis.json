@@ -1,0 +1,10 @@
+{
+ "source": "prechauffage",
+ "k": 5,
+ "pas": 3,
+ "sur": 49,
+ "run": "b6408eb623c7",
+ "modules": 196,
+ "md5": "910cef6857515970c977ad833fdd7ea6",
+ "sha256": "7a6e1db57b3d5fa49801cc834dc08d175a344c950ccca593578b299c826cec49"
+}

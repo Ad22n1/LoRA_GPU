@@ -1,0 +1,2100 @@
+[
+ {
+  "row": 1,
+  "status": "PH; per comparison (tab:bandqwen)",
+  "cls": "t",
+  "p": 0.010579452636551344,
+  "components": [
+   0.024008196755730942,
+   0.010579452636551344,
+   0.36040286470542887,
+   0.000272120528742104
+  ],
+  "established": true,
+  "level": 0.012518550425738389,
+  "note": "",
+  "holm": 0.6506753325347361,
+  "after": "no longer established"
+ },
+ {
+  "row": 2,
+  "status": "PH NE",
+  "cls": "p",
+  "p": 0.016,
+  "components": [
+   0.016
+  ],
+  "established": false,
+  "level": 0.0125,
+  "note": "p >= 0.016: the bound is used",
+  "holm": 0.784,
+  "after": "not established"
+ },
+ {
+  "row": 3,
+  "status": "PH NE",
+  "cls": "t",
+  "p": 0.025947649874426076,
+  "components": [
+   0.025947649874426076
+  ],
+  "established": false,
+  "level": 0.00996959906949837,
+  "note": "",
+  "holm": 1.0,
+  "after": "not established"
+ },
+ {
+  "row": 4,
+  "status": "PR; per comparison (tab:bandqwen)",
+  "cls": "t",
+  "p": 0.008907690386188893,
+  "components": [
+   0.008907690386188893,
+   0.0035374420493821802,
+   0.15590360746254187,
+   4.0131881231255745e-06
+  ],
+  "established": true,
+  "level": 0.009999314788600756,
+  "note": "",
+  "holm": 0.5700921847160891,
+  "after": "no longer established"
+ },
+ {
+  "row": 5,
+  "status": "PR NE",
+  "cls": "t",
+  "p": 0.014251986888204896,
+  "components": [
+   0.014251986888204896
+  ],
+  "established": false,
+  "level": 0.009999314788600756,
+  "note": "",
+  "holm": 0.7553553050748595,
+  "after": "not established"
+ },
+ {
+  "row": 6,
+  "status": "PH E",
+  "cls": "p",
+  "p": 0.008,
+  "components": [
+   0.008
+  ],
+  "established": true,
+  "level": 0.01,
+  "note": "",
+  "holm": 0.552,
+  "after": "no longer established"
+ },
+ {
+  "row": 7,
+  "status": "PH NE",
+  "cls": "p",
+  "p": 0.035,
+  "components": [
+   0.035
+  ],
+  "established": false,
+  "level": 0.01,
+  "note": "",
+  "holm": 1.0,
+  "after": "not established"
+ },
+ {
+  "row": 10,
+  "status": "PH NE",
+  "cls": "t",
+  "p": 0.14795062826298222,
+  "components": [
+   0.34091297953002625,
+   0.14795062826298222
+  ],
+  "established": false,
+  "level": 0.05,
+  "note": "range 1.08 to 1.79 over four comparisons: its two ends",
+  "holm": 1.0,
+  "after": "not established"
+ },
+ {
+  "row": 12,
+  "status": "PH; per comparison (tab:bandqwen)",
+  "cls": "t",
+  "p": 0.0006010576409550149,
+  "components": [
+   0.0006010576409550149,
+   6.643782226104109e-05,
+   1.063483797430302e-05,
+   0.04017106130345988
+  ],
+  "established": true,
+  "level": 0.012500222111211582,
+  "note": "",
+  "holm": 0.059504706454546474,
+  "after": "no longer established"
+ },
+ {
+  "row": 13,
+  "status": "PR E (marginal)",
+  "cls": "t",
+  "p": 0.03363258850753877,
+  "components": [
+   0.03363258850753877
+  ],
+  "established": true,
+  "level": 0.05000897002529153,
+  "note": "",
+  "holm": 1.0,
+  "after": "no longer established"
+ },
+ {
+  "row": 14,
+  "status": "PR NE",
+  "cls": "t",
+  "p": 0.23283634676777498,
+  "components": [
+   0.23283634676777498
+  ],
+  "established": false,
+  "level": 0.012489597896877142,
+  "note": "",
+  "holm": 1.0,
+  "after": "not established"
+ },
+ {
+  "row": 15,
+  "status": "PH E (vs top)",
+  "cls": "t",
+  "p": 0.01178261463371277,
+  "components": [
+   0.01178261463371277,
+   0.003954495870448131,
+   0.0017607429691336575
+  ],
+  "established": true,
+  "level": 0.01667764604270557,
+  "note": "which t is vs top is not stated: the smallest is used (conservative)",
+  "holm": 0.6951742633890534,
+  "after": "no longer established"
+ },
+ {
+  "row": 16,
+  "status": "PH E",
+  "cls": "ci",
+  "p": 0.005307788576507922,
+  "components": [
+   0.005307788576507922
+  ],
+  "established": true,
+  "level": 0.05,
+  "note": "",
+  "holm": 0.40869972039111,
+  "after": "no longer established"
+ },
+ {
+  "row": 17,
+  "status": "PH NE",
+  "cls": "t",
+  "p": 0.01960446874805654,
+  "components": [
+   0.01960446874805654,
+   0.3914191812835761
+  ],
+  "established": false,
+  "level": 0.01667764604270557,
+  "note": "",
+  "holm": 0.8596648076492733,
+  "after": "not established"
+ },
+ {
+  "row": 18,
+  "status": "PH NE",
+  "cls": "t",
+  "p": 0.32541788223599966,
+  "components": [
+   0.32541788223599966
+  ],
+  "established": false,
+  "level": 0.0500227783199764,
+  "note": "",
+  "holm": 1.0,
+  "after": "not established"
+ },
+ {
+  "row": 19,
+  "status": "PH E",
+  "cls": "t",
+  "p": 0.0047418857763105665,
+  "components": [
+   0.0047418857763105665
+  ],
+  "established": true,
+  "level": 0.0500227783199764,
+  "note": "",
+  "holm": 0.36986709055222416,
+  "after": "no longer established"
+ },
+ {
+  "row": 20,
+  "status": "PH E",
+  "cls": "t",
+  "p": 6.796985999670068e-05,
+  "components": [
+   6.796985999670068e-05
+  ],
+  "established": true,
+  "level": 0.0500227783199764,
+  "note": "",
+  "holm": 0.008292322919597483,
+  "after": "stays established"
+ },
+ {
+  "row": 21,
+  "status": "PR NE",
+  "cls": "t",
+  "p": 0.07276305245176415,
+  "components": [
+   0.07276305245176415
+  ],
+  "established": false,
+  "level": 0.0500227783199764,
+  "note": "",
+  "holm": 1.0,
+  "after": "not established"
+ },
+ {
+  "row": 22,
+  "status": "PR E",
+  "cls": "t",
+  "p": 0.00017523618515202926,
+  "components": [
+   0.00017523618515202926
+  ],
+  "established": true,
+  "level": 0.0500227783199764,
+  "note": "",
+  "holm": 0.020327397477635394,
+  "after": "stays established"
+ },
+ {
+  "row": 23,
+  "status": "PR E",
+  "cls": "t",
+  "p": 0.006698022568095636,
+  "components": [
+   0.006698022568095636
+  ],
+  "established": true,
+  "level": 0.0500227783199764,
+  "note": "",
+  "holm": 0.5019870363436473,
+  "after": "no longer established"
+ },
+ {
+  "row": 24,
+  "status": "PR E",
+  "cls": "t",
+  "p": 0.0008156088218649694,
+  "components": [
+   0.0008156088218649694
+  ],
+  "established": true,
+  "level": 0.0500227783199764,
+  "note": "",
+  "holm": 0.07422040278971222,
+  "after": "no longer established"
+ },
+ {
+  "row": 25,
+  "status": "PR E",
+  "cls": "t",
+  "p": 0.0009610779686182863,
+  "components": [
+   0.0009610779686182863
+  ],
+  "established": true,
+  "level": 0.0500227783199764,
+  "note": "",
+  "holm": 0.08553593920702748,
+  "after": "no longer established"
+ },
+ {
+  "row": 26,
+  "status": "PR NE",
+  "cls": "t",
+  "p": 0.09908781583895712,
+  "components": [
+   0.09908781583895712
+  ],
+  "established": false,
+  "level": 0.0500227783199764,
+  "note": "",
+  "holm": 1.0,
+  "after": "not established"
+ },
+ {
+  "row": 27,
+  "status": "PH E",
+  "cls": "t",
+  "p": 0.0013238969092171677,
+  "components": [
+   0.0013238969092171677
+  ],
+  "established": true,
+  "level": 0.004535416625043113,
+  "note": "t >= 8.0 over 11 comparisons: 8.0 is used",
+  "holm": 0.11517903110189359,
+  "after": "no longer established"
+ },
+ {
+  "row": 28,
+  "status": "PR E",
+  "cls": "none",
+  "p": 1.0,
+  "components": [
+   1.0
+  ],
+  "established": true,
+  "level": 0.05,
+  "note": "",
+  "holm": 1.0,
+  "after": "outside Holm (not a test)"
+ },
+ {
+  "row": 29,
+  "status": "PR E",
+  "cls": "t",
+  "p": 0.000424492291912209,
+  "components": [
+   0.000424492291912209
+  ],
+  "established": true,
+  "level": 0.0500227783199764,
+  "note": "",
+  "holm": 0.042873721483133106,
+  "after": "stays established"
+ },
+ {
+  "row": 30,
+  "status": "PR E",
+  "cls": "t",
+  "p": 0.0003787007619256328,
+  "components": [
+   0.0003787007619256328
+  ],
+  "established": true,
+  "level": 0.0500227783199764,
+  "note": "",
+  "holm": 0.03900617847834018,
+  "after": "stays established"
+ },
+ {
+  "row": 31,
+  "status": "PR NE",
+  "cls": "ci",
+  "p": 0.1305338625408643,
+  "components": [
+   0.1305338625408643
+  ],
+  "established": false,
+  "level": 0.05,
+  "note": "",
+  "holm": 1.0,
+  "after": "not established"
+ },
+ {
+  "row": 32,
+  "status": "PH E",
+  "cls": "ci",
+  "p": 0.0006397111371601039,
+  "components": [
+   0.0006397111371601039
+  ],
+  "established": true,
+  "level": 0.05,
+  "note": "",
+  "holm": 0.062051980304530074,
+  "after": "no longer established"
+ },
+ {
+  "row": 33,
+  "status": "PH E",
+  "cls": "ci",
+  "p": 0.00030180007626268157,
+  "components": [
+   0.00030180007626268157
+  ],
+  "established": true,
+  "level": 0.05,
+  "note": "",
+  "holm": 0.03199080808384425,
+  "after": "stays established"
+ },
+ {
+  "row": 34,
+  "status": "PH E",
+  "cls": "ci",
+  "p": 0.025516756280044017,
+  "components": [
+   0.025516756280044017
+  ],
+  "established": true,
+  "level": 0.05,
+  "note": "",
+  "holm": 1.0,
+  "after": "no longer established"
+ },
+ {
+  "row": 35,
+  "status": "PH NE",
+  "cls": "ci",
+  "p": 0.96187174888245,
+  "components": [
+   0.96187174888245
+  ],
+  "established": false,
+  "level": 0.05,
+  "note": "",
+  "holm": 1.0,
+  "after": "not established"
+ },
+ {
+  "row": 36,
+  "status": "PR E",
+  "cls": "ci",
+  "p": 1.4621871251563334e-05,
+  "components": [
+   1.4621871251563334e-05
+  ],
+  "established": true,
+  "level": 0.05,
+  "note": "",
+  "holm": 0.0019008432627032334,
+  "after": "stays established"
+ },
+ {
+  "row": 37,
+  "status": "PH NE",
+  "cls": "t",
+  "p": 0.06263807819240083,
+  "components": [
+   0.06263807819240083
+  ],
+  "established": false,
+  "level": 0.04981850846139899,
+  "note": "",
+  "holm": 1.0,
+  "after": "not established"
+ },
+ {
+  "row": 38,
+  "status": "PH E",
+  "cls": "t",
+  "p": 0.01960446874805654,
+  "components": [
+   0.01960446874805654
+  ],
+  "established": true,
+  "level": 0.02489616346022275,
+  "note": "",
+  "holm": 0.8596648076492733,
+  "after": "no longer established"
+ },
+ {
+  "row": 39,
+  "status": "PH E",
+  "cls": "t",
+  "p": 0.009037197811757469,
+  "components": [
+   0.009037197811757469
+  ],
+  "established": true,
+  "level": 0.02489616346022275,
+  "note": "",
+  "holm": 0.5700921847160891,
+  "after": "no longer established"
+ },
+ {
+  "row": 40,
+  "status": "PH; E for random_ortho and free",
+  "cls": "t",
+  "p": 0.00833942098815127,
+  "components": [
+   0.00833942098815127,
+   0.0173938329500268,
+   6.162303694161425e-05,
+   0.03137573422015396
+  ],
+  "established": true,
+  "level": 0.01254604070437493,
+  "note": "",
+  "holm": 0.552,
+  "after": "no longer established"
+ },
+ {
+  "row": 41,
+  "status": "PH; E for random and free",
+  "cls": "t",
+  "p": 0.0025393673177926436,
+  "components": [
+   0.0025393673177926436,
+   0.002078545773306327,
+   0.45320272743661966,
+   0.13959843808593983
+  ],
+  "established": true,
+  "level": 0.01254604070437493,
+  "note": "",
+  "holm": 0.20568875274120413,
+  "after": "no longer established"
+ },
+ {
+  "row": 42,
+  "status": "PH NE",
+  "cls": "t",
+  "p": 0.09474450521033173,
+  "components": [
+   0.09474450521033173
+  ],
+  "established": false,
+  "level": 0.0500227783199764,
+  "note": "",
+  "holm": 1.0,
+  "after": "not established"
+ },
+ {
+  "row": 43,
+  "status": "PH E",
+  "cls": "t",
+  "p": 0.008043991885294163,
+  "components": [
+   0.008043991885294163,
+   0.0021006707770651893,
+   0.0009443271723464069
+  ],
+  "established": true,
+  "level": 0.01667764604270557,
+  "note": "",
+  "holm": 0.552,
+  "after": "no longer established"
+ },
+ {
+  "row": 44,
+  "status": "PH E",
+  "cls": "t",
+  "p": 0.008043991885294163,
+  "components": [
+   0.008043991885294163,
+   0.007929396018136563,
+   0.003282820519492948
+  ],
+  "established": true,
+  "level": 0.01667764604270557,
+  "note": "",
+  "holm": 0.552,
+  "after": "no longer established"
+ },
+ {
+  "row": 45,
+  "status": "PH NE",
+  "cls": "p",
+  "p": 0.15,
+  "components": [
+   0.15
+  ],
+  "established": false,
+  "level": 0.05,
+  "note": "",
+  "holm": 1.0,
+  "after": "not established"
+ },
+ {
+  "row": 46,
+  "status": "PH E",
+  "cls": "t",
+  "p": 0.013477590279351248,
+  "components": [
+   0.013477590279351248
+  ],
+  "established": true,
+  "level": 0.0500227783199764,
+  "note": "",
+  "holm": 0.7335661438240076,
+  "after": "no longer established"
+ },
+ {
+  "row": 47,
+  "status": "PH E",
+  "cls": "t",
+  "p": 0.00021536447085813352,
+  "components": [
+   0.00021536447085813352
+  ],
+  "established": true,
+  "level": 0.0500227783199764,
+  "note": "",
+  "holm": 0.02455154967782722,
+  "after": "stays established"
+ },
+ {
+  "row": 48,
+  "status": "PH NE",
+  "cls": "t",
+  "p": 0.8005177430470457,
+  "components": [
+   0.8005177430470457
+  ],
+  "established": false,
+  "level": 0.0500227783199764,
+  "note": "",
+  "holm": 1.0,
+  "after": "not established"
+ },
+ {
+  "row": 49,
+  "status": "PR E",
+  "cls": "t",
+  "p": 0.02937853209374718,
+  "components": [
+   0.02937853209374718
+  ],
+  "established": true,
+  "level": 0.0500227783199764,
+  "note": "",
+  "holm": 1.0,
+  "after": "no longer established"
+ },
+ {
+  "row": 50,
+  "status": "PR NE",
+  "cls": "t",
+  "p": 0.09162611638057,
+  "components": [
+   0.09162611638057
+  ],
+  "established": false,
+  "level": 0.0500227783199764,
+  "note": "",
+  "holm": 1.0,
+  "after": "not established"
+ },
+ {
+  "row": 51,
+  "status": "PR NE",
+  "cls": "t",
+  "p": 0.04831693486195954,
+  "components": [
+   0.5281402141606774,
+   0.04831693486195954
+  ],
+  "established": false,
+  "level": 0.01667764604270557,
+  "note": "range over 3 arms: its two ends",
+  "holm": 1.0,
+  "after": "not established"
+ },
+ {
+  "row": 52,
+  "status": "PR NE",
+  "cls": "ci",
+  "p": 0.2285895785453036,
+  "components": [
+   0.2285895785453036
+  ],
+  "established": false,
+  "level": 0.05,
+  "note": "",
+  "holm": 1.0,
+  "after": "not established"
+ },
+ {
+  "row": 53,
+  "status": "PR E",
+  "cls": "ci",
+  "p": 1.4588428887130078e-06,
+  "components": [
+   1.4588428887130078e-06
+  ],
+  "established": true,
+  "level": 0.05,
+  "note": "",
+  "holm": 0.0002027791615311081,
+  "after": "stays established"
+ },
+ {
+  "row": 54,
+  "status": "PR NE",
+  "cls": "t",
+  "p": 0.018618099869711992,
+  "components": [
+   0.03765849654010633,
+   0.018618099869711992
+  ],
+  "established": false,
+  "level": 0.01667764604270557,
+  "note": "range over 3 arms: its two ends",
+  "holm": 0.8564325940067516,
+  "after": "not established"
+ },
+ {
+  "row": 55,
+  "status": "PR E",
+  "cls": "ci",
+  "p": 1.2420439631233293e-05,
+  "components": [
+   1.2420439631233293e-05
+  ],
+  "established": true,
+  "level": 0.05,
+  "note": "",
+  "holm": 0.0016394980313227947,
+  "after": "stays established"
+ },
+ {
+  "row": 56,
+  "status": "PR NE",
+  "cls": "t",
+  "p": 1.0,
+  "components": [
+   1.0
+  ],
+  "established": false,
+  "level": 0.025009199750198,
+  "note": "predicted direction positive; observed negative: p = 1",
+  "holm": 1.0,
+  "after": "not established"
+ },
+ {
+  "row": 57,
+  "status": "PR E",
+  "cls": "ci",
+  "p": 0.028603737633648985,
+  "components": [
+   0.028603737633648985
+  ],
+  "established": true,
+  "level": 0.05,
+  "note": "",
+  "holm": 1.0,
+  "after": "no longer established"
+ },
+ {
+  "row": 58,
+  "status": "PR NE",
+  "cls": "t",
+  "p": 1.0,
+  "components": [
+   1.0
+  ],
+  "established": false,
+  "level": 0.0500227783199764,
+  "note": "predicted direction positive; observed negative: p = 1",
+  "holm": 1.0,
+  "after": "not established"
+ },
+ {
+  "row": 59,
+  "status": "PR E (reversed)",
+  "cls": "ci",
+  "p": 3.7514777950775624e-08,
+  "components": [
+   3.7514777950775624e-08
+  ],
+  "established": true,
+  "level": 0.05,
+  "note": "",
+  "holm": 5.40212802491169e-06,
+  "after": "stays established"
+ },
+ {
+  "row": 60,
+  "status": "PR E (reversed)",
+  "cls": "ci",
+  "p": 7.21550253990344e-07,
+  "components": [
+   7.21550253990344e-07
+  ],
+  "established": true,
+  "level": 0.05,
+  "note": "",
+  "holm": 0.00010101703555864816,
+  "after": "stays established"
+ },
+ {
+  "row": 62,
+  "status": "PR NE",
+  "cls": "tost",
+  "p": 0.08552687609513539,
+  "components": [
+   0.08552687609513539
+  ],
+  "established": false,
+  "level": 0.05,
+  "note": "",
+  "holm": 1.0,
+  "after": "not established"
+ },
+ {
+  "row": 63,
+  "status": "PR E (equivalence)",
+  "cls": "tost",
+  "p": 0.0035946447902172733,
+  "components": [
+   0.0035946447902172733
+  ],
+  "established": true,
+  "level": 0.05,
+  "note": "",
+  "holm": 0.28757158321738185,
+  "after": "no longer established"
+ },
+ {
+  "row": 64,
+  "status": "PR E",
+  "cls": "ci",
+  "p": 0.00028311873349548257,
+  "components": [
+   0.00028311873349548257
+  ],
+  "established": true,
+  "level": 0.025,
+  "note": "",
+  "holm": 0.030293704484016633,
+  "after": "stays established"
+ },
+ {
+  "row": 65,
+  "status": "PR E",
+  "cls": "ci",
+  "p": 0.00014042292607800887,
+  "components": [
+   0.00014042292607800887
+  ],
+  "established": true,
+  "level": 0.025,
+  "note": "",
+  "holm": 0.016569905277205046,
+  "after": "stays established"
+ },
+ {
+  "row": 66,
+  "status": "PR E",
+  "cls": "t",
+  "p": 4.363399767588594e-05,
+  "components": [
+   4.363399767588594e-05
+  ],
+  "established": true,
+  "level": 0.025009199750198,
+  "note": "",
+  "holm": 0.005541517704837514,
+  "after": "stays established"
+ },
+ {
+  "row": 67,
+  "status": "PR E",
+  "cls": "t",
+  "p": 6.569517471845819e-06,
+  "components": [
+   6.569517471845819e-06
+  ],
+  "established": true,
+  "level": 0.025009199750198,
+  "note": "",
+  "holm": 0.0008803153412273398,
+  "after": "stays established"
+ },
+ {
+  "row": 68,
+  "status": "PR NE",
+  "cls": "ci",
+  "p": 0.7731666338404006,
+  "components": [
+   0.7731666338404006
+  ],
+  "established": false,
+  "level": 0.05,
+  "note": "",
+  "holm": 1.0,
+  "after": "not established"
+ },
+ {
+  "row": 69,
+  "status": "PR E (reversed)",
+  "cls": "ci",
+  "p": 0.012525379519203073,
+  "components": [
+   0.012525379519203073
+  ],
+  "established": true,
+  "level": 0.05,
+  "note": "",
+  "holm": 0.7014212530753721,
+  "after": "no longer established"
+ },
+ {
+  "row": 70,
+  "status": "PH E",
+  "cls": "t",
+  "p": 0.007706109079664491,
+  "components": [
+   0.007706109079664491
+  ],
+  "established": true,
+  "level": 0.0500227783199764,
+  "note": "",
+  "holm": 0.5394276355765144,
+  "after": "no longer established"
+ },
+ {
+  "row": 71,
+  "status": "PR E",
+  "cls": "t",
+  "p": 0.00035686955990738017,
+  "components": [
+   0.00035686955990738017
+  ],
+  "established": true,
+  "level": 0.025009199750198,
+  "note": "",
+  "holm": 0.03711443423036754,
+  "after": "stays established"
+ },
+ {
+  "row": 72,
+  "status": "PR E",
+  "cls": "t",
+  "p": 3.5578849302508772e-06,
+  "components": [
+   3.5578849302508772e-06
+  ],
+  "established": true,
+  "level": 0.025009199750198,
+  "note": "",
+  "holm": 0.0004874302354443702,
+  "after": "stays established"
+ },
+ {
+  "row": 73,
+  "status": "PH E",
+  "cls": "t",
+  "p": 0.0173938329500268,
+  "components": [
+   0.0173938329500268
+  ],
+  "established": true,
+  "level": 0.0500227783199764,
+  "note": "",
+  "holm": 0.8175101486512597,
+  "after": "no longer established"
+ },
+ {
+  "row": 74,
+  "status": "PR E",
+  "cls": "ci",
+  "p": 0.00048783039736374577,
+  "components": [
+   0.00048783039736374577
+  ],
+  "established": true,
+  "level": 0.025,
+  "note": "",
+  "holm": 0.04878303973637458,
+  "after": "stays established"
+ },
+ {
+  "row": 75,
+  "status": "PR E",
+  "cls": "ci",
+  "p": 0.005516184154050421,
+  "components": [
+   0.005516184154050421
+  ],
+  "established": true,
+  "level": 0.025,
+  "note": "",
+  "holm": 0.41922999570783204,
+  "after": "no longer established"
+ },
+ {
+  "row": 76,
+  "status": "PR E",
+  "cls": "t",
+  "p": 0.00021536447085813352,
+  "components": [
+   0.00021536447085813352,
+   4.381492245261282e-05
+  ],
+  "established": true,
+  "level": 0.025009199750198,
+  "note": "",
+  "holm": 0.02455154967782722,
+  "after": "stays established"
+ },
+ {
+  "row": 77,
+  "status": "PR E",
+  "cls": "t",
+  "p": 0.014612440498350433,
+  "components": [
+   0.014612440498350433
+  ],
+  "established": true,
+  "level": 0.0500227783199764,
+  "note": "",
+  "holm": 0.7555246561512002,
+  "after": "no longer established"
+ },
+ {
+  "row": 78,
+  "status": "PR E",
+  "cls": "t",
+  "p": 0.0007985623786014091,
+  "components": [
+   0.0007985623786014091
+  ],
+  "established": true,
+  "level": 0.0500227783199764,
+  "note": "",
+  "holm": 0.07346773883132963,
+  "after": "no longer established"
+ },
+ {
+  "row": 79,
+  "status": "PR E",
+  "cls": "t",
+  "p": 0.0006424447399926454,
+  "components": [
+   0.0006424447399926454,
+   0.0003388925871416366
+  ],
+  "established": true,
+  "level": 0.025009199750198,
+  "note": "",
+  "holm": 0.062051980304530074,
+  "after": "no longer established"
+ },
+ {
+  "row": 80,
+  "status": "PR E",
+  "cls": "t",
+  "p": 0.008585311748480292,
+  "components": [
+   0.008585311748480292
+  ],
+  "established": true,
+  "level": 0.0500227783199764,
+  "note": "",
+  "holm": 0.558045263651219,
+  "after": "no longer established"
+ },
+ {
+  "row": 81,
+  "status": "PR E (difference)",
+  "cls": "t",
+  "p": 0.044144620471318376,
+  "components": [
+   0.044144620471318376
+  ],
+  "established": true,
+  "level": 0.049966687609346555,
+  "note": "",
+  "holm": 1.0,
+  "after": "no longer established"
+ },
+ {
+  "row": 82,
+  "status": "PR E",
+  "cls": "ci",
+  "p": 0.0,
+  "components": [
+   0.0
+  ],
+  "established": true,
+  "level": 0.05,
+  "note": "",
+  "holm": 0.0,
+  "after": "stays established"
+ },
+ {
+  "row": 83,
+  "status": "PR NE",
+  "cls": "ci",
+  "p": 0.09861229334677968,
+  "components": [
+   0.09861229334677968
+  ],
+  "established": false,
+  "level": 0.05,
+  "note": "",
+  "holm": 1.0,
+  "after": "not established"
+ },
+ {
+  "row": 85,
+  "status": "PR E / inconclusive",
+  "cls": "ci",
+  "p": 0.014529320310600004,
+  "components": [
+   0.014529320310600004,
+   0.2036693013904417
+  ],
+  "established": true,
+  "level": 0.025,
+  "note": "0.7 G from G = 4.49 and 6.51 (rank-16 isolation table)",
+  "holm": 0.7555246561512002,
+  "after": "no longer established"
+ },
+ {
+  "row": 86,
+  "status": "PR E (top)",
+  "cls": "t",
+  "p": 0.019103662392206074,
+  "components": [
+   0.019103662392206074,
+   7.881613190825006e-05
+  ],
+  "established": true,
+  "level": 0.025009199750198,
+  "note": "",
+  "holm": 0.8596648076492733,
+  "after": "no longer established"
+ },
+ {
+  "row": 87,
+  "status": "PR E, fragile",
+  "cls": "t",
+  "p": 0.001972136586752045,
+  "components": [
+   0.001972136586752045
+  ],
+  "established": true,
+  "level": 0.0500227783199764,
+  "note": "",
+  "holm": 0.16368733670041974,
+  "after": "no longer established"
+ },
+ {
+  "row": 88,
+  "status": "PR NE; PR E",
+  "cls": "t",
+  "p": 0.0445629111719187,
+  "components": [
+   0.039550360758660384,
+   0.0445629111719187
+  ],
+  "established": true,
+  "level": 0.025009199750198,
+  "note": "two tests in one row: cost (t > 3.495, NE) and bands (t > 2.776, E)",
+  "holm": 1.0,
+  "after": "no longer established"
+ },
+ {
+  "row": 89,
+  "status": "PR E",
+  "cls": "t",
+  "p": 0.0002693386829301331,
+  "components": [
+   0.0002693386829301331
+  ],
+  "established": true,
+  "level": 0.025009199750198,
+  "note": "",
+  "holm": 0.029088577756454376,
+  "after": "stays established"
+ },
+ {
+  "row": 90,
+  "status": "PR E",
+  "cls": "t",
+  "p": 0.00015401798971400072,
+  "components": [
+   0.00015401798971400072
+  ],
+  "established": true,
+  "level": 0.0500227783199764,
+  "note": "",
+  "holm": 0.018020104796538084,
+  "after": "stays established"
+ },
+ {
+  "row": 91,
+  "status": "PR E",
+  "cls": "t",
+  "p": 0.0008770468629220757,
+  "components": [
+   0.00025746738619189616,
+   0.0008770468629220757
+  ],
+  "established": true,
+  "level": 0.05,
+  "note": "",
+  "holm": 0.07893421766298682,
+  "after": "no longer established"
+ },
+ {
+  "row": 92,
+  "status": "PR E",
+  "cls": "ci",
+  "p": 0.006693160484581963,
+  "components": [
+   0.0018716926195687898,
+   0.006693160484581963
+  ],
+  "established": true,
+  "level": 0.025,
+  "note": "0.7 G from G = 16.22 and 14.89 (tab:headline)",
+  "holm": 0.5019870363436473,
+  "after": "no longer established"
+ },
+ {
+  "row": 93,
+  "status": "PR E",
+  "cls": "t",
+  "p": 0.0002326858532359866,
+  "components": [
+   0.000144008498488276,
+   0.0002326858532359866
+  ],
+  "established": true,
+  "level": 0.025009199750198,
+  "note": "",
+  "holm": 0.0260608155624305,
+  "after": "stays established"
+ },
+ {
+  "row": 94,
+  "status": "PR below floor",
+  "cls": "none",
+  "p": 1.0,
+  "components": [
+   1.0
+  ],
+  "established": false,
+  "level": 0.05,
+  "note": "",
+  "holm": 1.0,
+  "after": "outside Holm (not a test)"
+ },
+ {
+  "row": 95,
+  "status": "PR E",
+  "cls": "t",
+  "p": 0.0002541957754042028,
+  "components": [
+   0.0002541957754042028,
+   7.769428952793923e-05
+  ],
+  "established": true,
+  "level": 0.025009199750198,
+  "note": "",
+  "holm": 0.027707339519058103,
+  "after": "stays established"
+ },
+ {
+  "row": 96,
+  "status": "PR E",
+  "cls": "t",
+  "p": 0.004128870421057824,
+  "components": [
+   0.004128870421057824
+  ],
+  "established": true,
+  "level": 0.0500227783199764,
+  "note": "",
+  "holm": 0.3261807632635681,
+  "after": "no longer established"
+ },
+ {
+  "row": 97,
+  "status": "PR not interpretable / E",
+  "cls": "t",
+  "p": 4.713349440679988e-06,
+  "components": [
+   4.733735233474424e-05,
+   4.713349440679988e-06
+  ],
+  "established": true,
+  "level": 0.025009199750198,
+  "note": "",
+  "holm": 0.0006410155239324783,
+  "after": "stays established"
+ },
+ {
+  "row": 98,
+  "status": "PR not read",
+  "cls": "none",
+  "p": 1.0,
+  "components": [
+   1.0
+  ],
+  "established": false,
+  "level": 0.05,
+  "note": "",
+  "holm": 1.0,
+  "after": "outside Holm (not a test)"
+ },
+ {
+  "row": 99,
+  "status": "PR E",
+  "cls": "t",
+  "p": 0.007031456277050082,
+  "components": [
+   0.007031456277050082,
+   0.000775432920096162
+  ],
+  "established": true,
+  "level": 0.025009199750198,
+  "note": "",
+  "holm": 0.5062648519476058,
+  "after": "no longer established"
+ },
+ {
+  "row": 100,
+  "status": "PR inconclusive",
+  "cls": "ci",
+  "p": 0.06580045970871942,
+  "components": [
+   0.5091721333705501,
+   0.06580045970871942
+  ],
+  "established": false,
+  "level": 0.025,
+  "note": "",
+  "holm": 1.0,
+  "after": "not established"
+ },
+ {
+  "row": 101,
+  "status": "PR E",
+  "cls": "t",
+  "p": 0.01695979017412758,
+  "components": [
+   0.01695979017412758
+  ],
+  "established": true,
+  "level": 0.0500227783199764,
+  "note": "",
+  "holm": 0.8140699283581239,
+  "after": "no longer established"
+ },
+ {
+  "row": 102,
+  "status": "PR NE / E",
+  "cls": "t",
+  "p": 0.00024161551702041846,
+  "components": [
+   0.47896646880319005,
+   0.00024161551702041846
+  ],
+  "established": true,
+  "level": 0.025009199750198,
+  "note": "",
+  "holm": 0.02681932238926645,
+  "after": "stays established"
+ },
+ {
+  "row": 103,
+  "status": "PR NE / E",
+  "cls": "t",
+  "p": 0.001395431514242619,
+  "components": [
+   0.17843495018516875,
+   0.001395431514242619
+  ],
+  "established": true,
+  "level": 0.025009199750198,
+  "note": "",
+  "holm": 0.1186116787106226,
+  "after": "no longer established"
+ },
+ {
+  "row": 104,
+  "status": "PR E",
+  "cls": "t",
+  "p": 0.00117747160354283,
+  "components": [
+   0.00117747160354283
+  ],
+  "established": true,
+  "level": 0.0500227783199764,
+  "note": "",
+  "holm": 0.10361750111176903,
+  "after": "no longer established"
+ },
+ {
+  "row": 105,
+  "status": "PR E (marginal)",
+  "cls": "t",
+  "p": 0.040338120104067204,
+  "components": [
+   0.040338120104067204
+  ],
+  "established": true,
+  "level": 0.0500227783199764,
+  "note": "",
+  "holm": 1.0,
+  "after": "no longer established"
+ },
+ {
+  "row": 106,
+  "status": "PR E",
+  "cls": "ci",
+  "p": 0.010494763427979614,
+  "components": [
+   0.010494763427979614,
+   0.00506606603369635
+  ],
+  "established": true,
+  "level": 0.025,
+  "note": "",
+  "holm": 0.6506753325347361,
+  "after": "no longer established"
+ },
+ {
+  "row": 107,
+  "status": "PR E",
+  "cls": "ci",
+  "p": 0.012013815672081988,
+  "components": [
+   0.0017171918671003293,
+   0.012013815672081988
+  ],
+  "established": true,
+  "level": 0.025,
+  "note": "",
+  "holm": 0.6968013089807553,
+  "after": "no longer established"
+ },
+ {
+  "row": 108,
+  "status": "PR E",
+  "cls": "t",
+  "p": 0.00032421543954740155,
+  "components": [
+   0.00032421543954740155,
+   6.218135129175245e-05
+  ],
+  "established": true,
+  "level": 0.025009199750198,
+  "note": "",
+  "holm": 0.034042621152477165,
+  "after": "stays established"
+ },
+ {
+  "row": 109,
+  "status": "PR E",
+  "cls": "t",
+  "p": 5.089094035586591e-05,
+  "components": [
+   5.089094035586591e-05,
+   1.2961573882488133e-05
+  ],
+  "established": true,
+  "level": 0.025009199750198,
+  "note": "",
+  "holm": 0.006259585663771507,
+  "after": "stays established"
+ },
+ {
+  "row": 110,
+  "status": "PR NE",
+  "cls": "t",
+  "p": 0.7439906413212517,
+  "components": [
+   0.7439906413212517
+  ],
+  "established": false,
+  "level": 0.0500227783199764,
+  "note": "",
+  "holm": 1.0,
+  "after": "not established"
+ },
+ {
+  "row": 111,
+  "status": "PR not conclusive",
+  "cls": "none",
+  "p": 1.0,
+  "components": [
+   1.0
+  ],
+  "established": false,
+  "level": 0.05,
+  "note": "",
+  "holm": 1.0,
+  "after": "outside Holm (not a test)"
+ },
+ {
+  "row": 112,
+  "status": "PR E",
+  "cls": "t",
+  "p": 9.263771596851536e-06,
+  "components": [
+   9.263771596851536e-06
+  ],
+  "established": true,
+  "level": 0.0500227783199764,
+  "note": "",
+  "holm": 0.0012320816223812543,
+  "after": "stays established"
+ },
+ {
+  "row": 113,
+  "status": "PR E",
+  "cls": "t",
+  "p": 2.1487334928040818e-07,
+  "components": [
+   2.1487334928040818e-07,
+   1.1908554234164124e-08
+  ],
+  "established": true,
+  "level": 0.025009199750198,
+  "note": "",
+  "holm": 3.072688894709837e-05,
+  "after": "stays established"
+ },
+ {
+  "row": 114,
+  "status": "PR E",
+  "cls": "ci",
+  "p": 0.0006711263868738465,
+  "components": [
+   9.247205750929467e-05,
+   0.0006711263868738465
+  ],
+  "established": true,
+  "level": 0.025,
+  "note": "0.7 G from G = 10.72 and 17.10, recomputed on seeds 120-124",
+  "holm": 0.06308588036614157,
+  "after": "no longer established"
+ },
+ {
+  "row": 115,
+  "status": "PR E",
+  "cls": "t",
+  "p": 0.02653563816875601,
+  "components": [
+   0.02653563816875601
+  ],
+  "established": true,
+  "level": 0.0500227783199764,
+  "note": "",
+  "holm": 1.0,
+  "after": "no longer established"
+ },
+ {
+  "row": 116,
+  "status": "PR E",
+  "cls": "t",
+  "p": 6.860087247325014e-05,
+  "components": [
+   6.860087247325014e-05,
+   1.1890330818908095e-05
+  ],
+  "established": true,
+  "level": 0.025009199750198,
+  "note": "",
+  "holm": 0.008300705569263267,
+  "after": "stays established"
+ },
+ {
+  "row": 117,
+  "status": "PR E",
+  "cls": "t",
+  "p": 1.3980376589110244e-05,
+  "components": [
+   7.883465513875507e-06,
+   1.3980376589110244e-05
+  ],
+  "established": true,
+  "level": 0.025009199750198,
+  "note": "",
+  "holm": 0.001831429333173442,
+  "after": "stays established"
+ },
+ {
+  "row": 118,
+  "status": "PR E",
+  "cls": "t",
+  "p": 0.007543655791353494,
+  "components": [
+   0.007543655791353494
+  ],
+  "established": true,
+  "level": 0.0500227783199764,
+  "note": "",
+  "holm": 0.5355995611860981,
+  "after": "no longer established"
+ },
+ {
+  "row": 120,
+  "status": "PH E",
+  "cls": "t",
+  "p": 0.011422009620801834,
+  "components": [
+   0.011422009620801834,
+   0.004992143179210203
+  ],
+  "established": true,
+  "level": 0.025009199750198,
+  "note": "",
+  "holm": 0.68532057724811,
+  "after": "no longer established"
+ },
+ {
+  "row": 121,
+  "status": "PH E",
+  "cls": "cis",
+  "p": 1.5079440338183758e-05,
+  "components": [
+   0.0,
+   1.5079440338183758e-05,
+   7.691795816722191e-06
+  ],
+  "established": true,
+  "level": 0.05,
+  "note": "",
+  "holm": 0.0019452478036257048,
+  "after": "stays established"
+ },
+ {
+  "row": 122,
+  "status": "PH E",
+  "cls": "ci",
+  "p": 5.329283218280523e-06,
+  "components": [
+   5.329283218280523e-06
+  ],
+  "established": true,
+  "level": 0.05,
+  "note": "",
+  "holm": 0.0007194532344678706,
+  "after": "stays established"
+ },
+ {
+  "row": 123,
+  "status": "PH E",
+  "cls": "cis",
+  "p": 3.4690512551449615e-07,
+  "components": [
+   0.0,
+   3.4690512551449615e-07,
+   7.045768368740823e-08
+  ],
+  "established": true,
+  "level": 0.05,
+  "note": "",
+  "holm": 4.926052782305845e-05,
+  "after": "stays established"
+ },
+ {
+  "row": 124,
+  "status": "PH E",
+  "cls": "cis",
+  "p": 3.385544770528881e-06,
+  "components": [
+   0.0,
+   0.0,
+   3.385544770528881e-06
+  ],
+  "established": true,
+  "level": 0.05,
+  "note": "",
+  "holm": 0.0004672051783329856,
+  "after": "stays established"
+ },
+ {
+  "row": 125,
+  "status": "PH E / NE / E",
+  "cls": "cis",
+  "p": 3.810639419565831e-07,
+  "components": [
+   0.0,
+   0.18038572081802684,
+   3.810639419565831e-07
+  ],
+  "established": true,
+  "level": 0.05,
+  "note": "",
+  "holm": 5.373001581587822e-05,
+  "after": "stays established"
+ },
+ {
+  "row": 126,
+  "status": "PR E",
+  "cls": "conj",
+  "p": 0.0006942840366206113,
+  "components": [
+   0.0006942840366206113
+  ],
+  "established": true,
+  "level": 0.025,
+  "note": "",
+  "holm": 0.06456841540571685,
+  "after": "no longer established"
+ },
+ {
+  "row": 127,
+  "status": "PR E",
+  "cls": "conj",
+  "p": 4.5542263797000546e-05,
+  "components": [
+   4.5542263797000546e-05
+  ],
+  "established": true,
+  "level": 0.025,
+  "note": "",
+  "holm": 0.0056927829746250685,
+  "after": "stays established"
+ },
+ {
+  "row": 128,
+  "status": "PR E",
+  "cls": "t",
+  "p": 0.0006297578279834306,
+  "components": [
+   0.0006297578279834306,
+   0.0005325401622054724
+  ],
+  "established": true,
+  "level": 0.025009199750198,
+  "note": "",
+  "holm": 0.0617162671423762,
+  "after": "no longer established"
+ },
+ {
+  "row": 129,
+  "status": "PR E",
+  "cls": "t",
+  "p": 2.2742274811938803e-05,
+  "components": [
+   4.713349440679988e-06,
+   2.2742274811938803e-05
+  ],
+  "established": true,
+  "level": 0.025009199750198,
+  "note": "",
+  "holm": 0.002911011175928167,
+  "after": "stays established"
+ },
+ {
+  "row": 130,
+  "status": "PR E",
+  "cls": "ci",
+  "p": 0.013337566251345594,
+  "components": [
+   0.002778137545051971,
+   0.013337566251345594
+  ],
+  "established": true,
+  "level": 0.025,
+  "note": "0.7 G from G = 8.80 and 10.00 (tab:rankc)",
+  "holm": 0.7335661438240076,
+  "after": "no longer established"
+ },
+ {
+  "row": 131,
+  "status": "PR E / inconclusive",
+  "cls": "ci",
+  "p": 0.0121981457867927,
+  "components": [
+   0.0121981457867927,
+   0.03330079687698525
+  ],
+  "established": true,
+  "level": 0.025,
+  "note": "0.7 G from G = 5.52 and 8.88 (tab:rankc)",
+  "holm": 0.6968013089807553,
+  "after": "no longer established"
+ },
+ {
+  "row": 132,
+  "status": "PR E",
+  "cls": "t",
+  "p": 0.0014718089282839812,
+  "components": [
+   8.581066317168585e-07,
+   0.0014718089282839812
+  ],
+  "established": true,
+  "level": 0.025009199750198,
+  "note": "",
+  "holm": 0.12363194997585442,
+  "after": "no longer established"
+ },
+ {
+  "row": 133,
+  "status": "PR E",
+  "cls": "t",
+  "p": 4.41795888293842e-05,
+  "components": [
+   4.41795888293842e-05,
+   1.1370889965507157e-05
+  ],
+  "established": true,
+  "level": 0.025009199750198,
+  "note": "",
+  "holm": 0.0055666281925024095,
+  "after": "stays established"
+ },
+ {
+  "row": 134,
+  "status": "PR E",
+  "cls": "t",
+  "p": 0.00025097574104189664,
+  "components": [
+   0.00025097574104189664,
+   0.0001611752041010883
+  ],
+  "established": true,
+  "level": 0.025009199750198,
+  "note": "",
+  "holm": 0.027607331514608632,
+  "after": "stays established"
+ },
+ {
+  "row": 135,
+  "status": "PR E",
+  "cls": "t",
+  "p": 0.002111842236851733,
+  "components": [
+   0.0003507483078669008,
+   0.002111842236851733
+  ],
+  "established": true,
+  "level": 0.025009199750198,
+  "note": "",
+  "holm": 0.17317106342184213,
+  "after": "no longer established"
+ },
+ {
+  "row": 136,
+  "status": "PR below floor",
+  "cls": "none",
+  "p": 1.0,
+  "components": [
+   1.0
+  ],
+  "established": false,
+  "level": 0.05,
+  "note": "",
+  "holm": 1.0,
+  "after": "outside Holm (not a test)"
+ },
+ {
+  "row": 137,
+  "status": "PR E",
+  "cls": "t",
+  "p": 0.0003800359733148794,
+  "components": [
+   0.0003800359733148794
+  ],
+  "established": true,
+  "level": 0.0500227783199764,
+  "note": "",
+  "holm": 0.03900617847834018,
+  "after": "stays established"
+ },
+ {
+  "row": 138,
+  "status": "PR NE",
+  "cls": "t",
+  "p": 0.6628342253385556,
+  "components": [
+   0.6628342253385556
+  ],
+  "established": false,
+  "level": 0.0500227783199764,
+  "note": "",
+  "holm": 1.0,
+  "after": "not established"
+ },
+ {
+  "row": 139,
+  "status": "PR inconclusive",
+  "cls": "ci",
+  "p": 0.02894209168288536,
+  "components": [
+   0.2035482135009987,
+   0.02894209168288536
+  ],
+  "established": false,
+  "level": 0.025,
+  "note": "",
+  "holm": 1.0,
+  "after": "not established"
+ },
+ {
+  "row": 140,
+  "status": "PR E",
+  "cls": "t",
+  "p": 0.0068385070701093825,
+  "components": [
+   0.0068385070701093825,
+   0.005258768174456283
+  ],
+  "established": true,
+  "level": 0.025009199750198,
+  "note": "",
+  "holm": 0.5019870363436473,
+  "after": "no longer established"
+ },
+ {
+  "row": 141,
+  "status": "PR E",
+  "cls": "t",
+  "p": 0.015604004217894278,
+  "components": [
+   0.015604004217894278,
+   0.0027616521931905893
+  ],
+  "established": true,
+  "level": 0.025009199750198,
+  "note": "",
+  "holm": 0.7802002108947139,
+  "after": "no longer established"
+ },
+ {
+  "row": 142,
+  "status": "PR NE",
+  "cls": "t",
+  "p": 0.13328121846510127,
+  "components": [
+   0.13328121846510127
+  ],
+  "established": false,
+  "level": 0.0500227783199764,
+  "note": "",
+  "holm": 1.0,
+  "after": "not established"
+ },
+ {
+  "row": 143,
+  "status": "PR E (marginal)",
+  "cls": "t",
+  "p": 0.038780549581899644,
+  "components": [
+   0.038780549581899644
+  ],
+  "established": true,
+  "level": 0.0500227783199764,
+  "note": "",
+  "holm": 1.0,
+  "after": "no longer established"
+ },
+ {
+  "row": 144,
+  "status": "PR E",
+  "cls": "conj",
+  "p": 0.00019291063724913868,
+  "components": [
+   0.00019291063724913868
+  ],
+  "established": true,
+  "level": 0.025,
+  "note": "",
+  "holm": 0.022184723283650946,
+  "after": "stays established"
+ },
+ {
+  "row": 145,
+  "status": "PR does not suffice",
+  "cls": "ci",
+  "p": 7.805642623697216e-05,
+  "components": [
+   7.805642623697216e-05
+  ],
+  "established": true,
+  "level": 0.025,
+  "note": "reading 'does not suffice': upper bound of P below 0.3, tested one-sided",
+  "holm": 0.009288714722199687,
+  "after": "stays established"
+ },
+ {
+  "row": 146,
+  "status": "PR does not suffice",
+  "cls": "ci",
+  "p": 0.019184790981003633,
+  "components": [
+   0.019184790981003633
+  ],
+  "established": true,
+  "level": 0.025,
+  "note": "reading 'does not suffice': upper bound of P below 0.3, tested one-sided",
+  "holm": 0.8596648076492733,
+  "after": "no longer established"
+ },
+ {
+  "row": 147,
+  "status": "PR does not suffice",
+  "cls": "ci",
+  "p": 7.396215362756673e-05,
+  "components": [
+   7.396215362756673e-05
+  ],
+  "established": true,
+  "level": 0.025,
+  "note": "reading 'does not suffice': upper bound of P below 0.3, tested one-sided",
+  "holm": 0.008875458435308008,
+  "after": "stays established"
+ },
+ {
+  "row": 148,
+  "status": "PR inconclusive",
+  "cls": "ci2",
+  "p": 0.0579507658572402,
+  "components": [
+   0.0579507658572402
+  ],
+  "established": false,
+  "level": 0.025,
+  "note": "",
+  "holm": 1.0,
+  "after": "not established"
+ },
+ {
+  "row": 149,
+  "status": "PR E (gain) / part of the gap",
+  "cls": "t",
+  "p": 4.814489670308502e-05,
+  "components": [
+   4.814489670308502e-05
+  ],
+  "established": true,
+  "level": 0.05,
+  "note": "",
+  "holm": 0.0059699671911825425,
+  "after": "stays established"
+ },
+ {
+  "row": 150,
+  "status": "PR E (gain) / inconclusive",
+  "cls": "t",
+  "p": 0.0006554504359146123,
+  "components": [
+   0.0006554504359146123
+  ],
+  "established": true,
+  "level": 0.05,
+  "note": "",
+  "holm": 0.062267791411888165,
+  "after": "no longer established"
+ },
+ {
+  "row": 151,
+  "status": "PR E",
+  "cls": "t",
+  "p": 0.0013493725953659277,
+  "components": [
+   0.0013493725953659277,
+   0.0004094772627875875
+  ],
+  "established": true,
+  "level": 0.025009199750198,
+  "note": "",
+  "holm": 0.11604604320146979,
+  "after": "no longer established"
+ }
+]

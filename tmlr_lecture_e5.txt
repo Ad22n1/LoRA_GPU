@@ -1,0 +1,12 @@
+==================== E5 : le prechauffage sur deux graines de direction de plus (graines 2 a 6 ; 4 tests, Bonferroni, t = 4.315) ====================
+  obqa warm5 : graine 0 : P = 0.13 ; graine 301 : P = -0.01 [-0.26, 0.24] ; graine 302 : P = -0.00 [-0.33, 0.32]
+  obqa warm10 graine 301 : warm10 - top = +4.12, t = 11.63 -> ETABLI ; P = 0.51 [0.32, 0.70] -> LECTURE FIXEE : non concluant
+  obqa warm10 graine 302 : warm10 - top = +4.44, t = 11.97 -> ETABLI ; P = 0.55 [0.35, 0.75] -> LECTURE FIXEE : non concluant
+  obqa warm10 : graine 0 : P = 0.58 ; graine 301 : P = 0.51 [0.32, 0.70] ; graine 302 : P = 0.55 [0.35, 0.75]
+  obqa warm25 : graine 0 : P = 0.78 ; graine 301 : P = 0.70 [0.58, 0.82] ; graine 302 : P = 0.81 [0.67, 0.94]
+  fmt warm5 : graine 0 : P = 0.40 ; graine 301 : P = 0.45 [0.12, 0.78] ; graine 302 : P = 0.23 [0.08, 0.39]
+  fmt warm10 graine 301 : warm10 - top = +6.78, t = 6.62 -> ETABLI ; P = 0.55 [0.19, 0.90] -> LECTURE FIXEE : non concluant
+  fmt warm10 graine 302 : warm10 - top = +6.09, t = 8.72 -> ETABLI ; P = 0.49 [0.25, 0.73] -> LECTURE FIXEE : non concluant
+  fmt warm10 : graine 0 : P = 0.63 ; graine 301 : P = 0.55 [0.19, 0.90] ; graine 302 : P = 0.49 [0.25, 0.73]
+  fmt warm25 : graine 0 : P = 0.93 ; graine 301 : P = 0.90 [0.75, 1.05] ; graine 302 : P = 1.07 [0.76, 1.38]
+  calcul : 64 runs termines, 6.0 PARTITION-heures

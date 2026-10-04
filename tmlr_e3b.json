@@ -1,0 +1,16 @@
+{
+ "free_r7_ref_rate": 0.002,
+ "recipe": {
+  "mode": "mica_peft",
+  "lr": 0.0005,
+  "epochs": 4.0,
+  "target_tokens": null,
+  "max_steps": null,
+  "batch_size": 4,
+  "grad_accum": 1,
+  "warmup_ratio": 0.1,
+  "weight_decay": 0.01,
+  "max_grad_norm": 0.3,
+  "lora_dropout": 0.05
+ }
+}

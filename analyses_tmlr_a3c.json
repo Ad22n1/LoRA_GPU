@@ -1,0 +1,3632 @@
+{
+ "cells": [
+  {
+   "value": 0.6443,
+   "tables": [
+    "tab:central",
+    "tab:mechreps",
+    "tab:placements"
+   ],
+   "task": "format",
+   "model": "Llama-3.2-1B",
+   "mode": "top",
+   "rank": 2,
+   "lr": 0.01,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 4000 Ada": 2,
+    "(none)": 3
+   },
+   "run_sets": 1,
+   "runs": [
+    "25078871572f",
+    "5ee98e84b69d",
+    "199af6be21b2",
+    "f745e2681d95",
+    "ca5bfc6a0282"
+   ],
+   "no_gpu": [
+    "199af6be21b2",
+    "f745e2681d95",
+    "ca5bfc6a0282"
+   ],
+   "resolved_by": "unique"
+  },
+  {
+   "value": 0.5922,
+   "tables": [
+    "tab:central",
+    "tab:placements"
+   ],
+   "task": "format",
+   "model": "Llama-3.2-1B",
+   "mode": "bottom",
+   "rank": 2,
+   "lr": 0.005,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX A5000": 1,
+    "(none)": 3,
+    "RTX 4000 Ada": 1
+   },
+   "run_sets": 1,
+   "runs": [
+    "903bab1e0e80",
+    "1884fded62c3",
+    "eefa005f4484",
+    "47400b425207",
+    "fcb6a3e1e5f6"
+   ],
+   "no_gpu": [
+    "1884fded62c3",
+    "eefa005f4484",
+    "fcb6a3e1e5f6"
+   ],
+   "resolved_by": "unique"
+  },
+  {
+   "value": 0.8293,
+   "tables": [
+    "tab:latescores"
+   ],
+   "task": "format",
+   "model": "Llama-3.2-1B",
+   "mode": "free",
+   "rank": 4,
+   "lr": 0.002,
+   "seeds": "42-46",
+   "gpus": {
+    "RTX 4000 Ada": 3,
+    "RTX A5000": 1,
+    "GeForce RTX 3090": 1
+   },
+   "run_sets": 1,
+   "runs": [
+    "1f865cf82d92",
+    "4b528bd2cb6c",
+    "5f576ec8f349",
+    "4b96defe5fe2",
+    "811d77d43a2b"
+   ],
+   "no_gpu": [],
+   "resolved_by": "unique"
+  },
+  {
+   "value": 0.6547,
+   "tables": [
+    "tab:possweep"
+   ],
+   "task": "format",
+   "model": "Llama-3.2-1B",
+   "mode": "band",
+   "rank": 2,
+   "lr": 0.01,
+   "seeds": "2-8",
+   "gpus": {
+    "RTX A4000": 2,
+    "RTX 2000 Ada": 2,
+    "RTX A5000": 2,
+    "RTX 4000 Ada": 1
+   },
+   "run_sets": 1,
+   "runs": [
+    "88ce42bfe8ff",
+    "519486de03f2",
+    "9956eb932693",
+    "6fe8ff47576d",
+    "650d70631dfd",
+    "9d049f741668",
+    "76ece8c2274f"
+   ],
+   "no_gpu": [],
+   "resolved_by": "unique"
+  },
+  {
+   "value": 0.6368,
+   "tables": [
+    "tab:possweep"
+   ],
+   "task": "format",
+   "model": "Llama-3.2-1B",
+   "mode": "band",
+   "rank": 2,
+   "lr": 0.01,
+   "seeds": "2-8",
+   "gpus": {
+    "RTX 4000 Ada": 6,
+    "RTX A5000": 1
+   },
+   "run_sets": 1,
+   "runs": [
+    "ff515f50107b",
+    "3b77a31838d6",
+    "2a468201026f",
+    "98c10b882e03",
+    "000dcd0f4cbf",
+    "74bfac0097d7",
+    "b01f1acee561"
+   ],
+   "no_gpu": [],
+   "resolved_by": "unique"
+  },
+  {
+   "value": 0.6768,
+   "tables": [
+    "tab:possweep"
+   ],
+   "task": "format",
+   "model": "Llama-3.2-1B",
+   "mode": "band",
+   "rank": 2,
+   "lr": 0.01,
+   "seeds": "2-8",
+   "gpus": {
+    "RTX 4000 Ada": 6,
+    "RTX A5000": 1
+   },
+   "run_sets": 1,
+   "runs": [
+    "c29f8271fdb3",
+    "c86df5da5508",
+    "2c9dd008d3de",
+    "4b6e04302e82",
+    "4280ca627fbe",
+    "3fcba6d2cbb0",
+    "b9a6d32841de"
+   ],
+   "no_gpu": [],
+   "resolved_by": "unique"
+  },
+  {
+   "value": 0.7505,
+   "tables": [
+    "tab:latescores"
+   ],
+   "task": "format",
+   "model": "Llama-3.2-1B",
+   "mode": "random_ortho",
+   "rank": 8,
+   "lr": 0.005,
+   "seeds": "42-46",
+   "gpus": {
+    "RTX 2000 Ada": 2,
+    "RTX A4000": 1,
+    "RTX 4000 Ada": 1,
+    "GeForce RTX 3090": 1
+   },
+   "run_sets": 1,
+   "runs": [
+    "f2de0363e665",
+    "00c6c0aa97c9",
+    "d963cccff089",
+    "4c7308f6d3ac",
+    "10acfdf7b91e"
+   ],
+   "no_gpu": [],
+   "resolved_by": "unique"
+  },
+  {
+   "value": 0.755,
+   "tables": [
+    "tab:latescores"
+   ],
+   "task": "format",
+   "model": "Llama-3.2-1B",
+   "mode": "random",
+   "rank": 8,
+   "lr": 0.005,
+   "seeds": "42-46",
+   "gpus": {
+    "RTX 4000 Ada": 4,
+    "GeForce RTX 3090": 1
+   },
+   "run_sets": 1,
+   "runs": [
+    "c0ffd9665e24",
+    "6ef9eade29f0",
+    "74bf38a488ac",
+    "2000f6e9d47c",
+    "adcce9e6a4df"
+   ],
+   "no_gpu": [],
+   "resolved_by": "unique"
+  },
+  {
+   "value": 0.6631,
+   "tables": [
+    "tab:gradacc",
+    "tab:warm"
+   ],
+   "task": "format",
+   "model": "Llama-3.2-1B",
+   "mode": "top_sigma",
+   "rank": 2,
+   "lr": 0.005,
+   "seeds": "50-64",
+   "gpus": {
+    "GeForce RTX 3090": 6,
+    "RTX 4000 Ada": 7,
+    "RTX A5000": 2
+   },
+   "run_sets": 1,
+   "runs": [
+    "b435f71a5509",
+    "33cc1d4f319e",
+    "d561757c2d91",
+    "ac24e0fd7ee3",
+    "0493903c1f56",
+    "457d74074e16",
+    "9c5e8be69f05",
+    "e647350deca8",
+    "2a3f9b73d0ab",
+    "09af5a11d887",
+    "470e85345853",
+    "8a386e0149ea",
+    "d4af3d7ed0c9",
+    "dc916a4a6c05",
+    "1ef1e42e7d1a"
+   ],
+   "no_gpu": [],
+   "resolved_by": "unique"
+  },
+  {
+   "value": 0.5616,
+   "tables": [
+    "tab:latescores",
+    "tab:rank16"
+   ],
+   "task": "commonsense",
+   "model": "Qwen2.5-1.5B",
+   "mode": "free",
+   "rank": 7,
+   "lr": 0.002,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 4000 Ada": 2,
+    "RTX A5000": 2,
+    "RTX 2000 Ada": 1
+   },
+   "run_sets": 1,
+   "runs": [
+    "29a14f64f067",
+    "418147460108",
+    "b91b2ea220e6",
+    "995325082dca",
+    "64d602f2824f"
+   ],
+   "no_gpu": [],
+   "resolved_by": "unique"
+  },
+  {
+   "value": 0.5408,
+   "tables": [
+    "tab:latescores",
+    "tab:rank16"
+   ],
+   "task": "commonsense",
+   "model": "Qwen2.5-1.5B",
+   "mode": "top",
+   "rank": 16,
+   "lr": 0.002,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 4000 Ada": 3,
+    "RTX 2000 Ada": 1,
+    "GeForce RTX 3090": 1
+   },
+   "run_sets": 1,
+   "runs": [
+    "9ec5c72a188b",
+    "1840eb368882",
+    "053eaa793625",
+    "b3314c039a00",
+    "424775cca5a6"
+   ],
+   "no_gpu": [],
+   "resolved_by": "unique"
+  },
+  {
+   "value": 0.497,
+   "tables": [
+    "tab:latescores",
+    "tab:rank16"
+   ],
+   "task": "commonsense",
+   "model": "Qwen2.5-1.5B",
+   "mode": "top",
+   "rank": 16,
+   "lr": 0.0005,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 4000 Ada": 3,
+    "GeForce RTX 3090": 1,
+    "RTX A4000": 1
+   },
+   "run_sets": 1,
+   "runs": [
+    "be5c6a2b44af",
+    "6fc6398db91b",
+    "e5474545c268",
+    "0686dd2f86b9",
+    "f8bd08741e3f"
+   ],
+   "no_gpu": [],
+   "resolved_by": "unique"
+  },
+  {
+   "value": 0.794,
+   "tables": [
+    "tab:latescores"
+   ],
+   "task": "commonsense",
+   "model": "Qwen2.5-1.5B",
+   "mode": "free",
+   "rank": 7,
+   "lr": 0.0001,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 4000 Ada": 4,
+    "RTX 2000 Ada": 1
+   },
+   "run_sets": 1,
+   "runs": [
+    "81de33f80114",
+    "7ea382c296c4",
+    "aa56a22f394e",
+    "52b66cc1f6f1",
+    "a5783ddb2501"
+   ],
+   "no_gpu": [],
+   "resolved_by": "unique"
+  },
+  {
+   "value": 0.4952,
+   "tables": [
+    "tab:latescores",
+    "tab:rank16"
+   ],
+   "task": "commonsense",
+   "model": "Qwen2.5-1.5B",
+   "mode": "free",
+   "rank": 7,
+   "lr": 0.0005,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 4000 Ada": 4,
+    "RTX A4000": 1
+   },
+   "run_sets": 1,
+   "runs": [
+    "73a05f42457f",
+    "52eb09b5d1de",
+    "aa530b349615",
+    "e2a431125a65",
+    "f2e33b06ca54"
+   ],
+   "no_gpu": [],
+   "resolved_by": "unique"
+  },
+  {
+   "value": 0.7792,
+   "tables": [
+    "tab:latescores"
+   ],
+   "task": "commonsense",
+   "model": "Qwen2.5-1.5B",
+   "mode": "bottom",
+   "rank": 16,
+   "lr": 0.0005,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX A4000": 2,
+    "RTX 4000 Ada": 3
+   },
+   "run_sets": 1,
+   "runs": [
+    "28238b21abb2",
+    "026c4086064c",
+    "6ef8b6042e49",
+    "db99d23e260a",
+    "f94df95f0758"
+   ],
+   "no_gpu": [],
+   "resolved_by": "unique"
+  },
+  {
+   "value": 0.4452,
+   "tables": [
+    "tab:latescores",
+    "tab:rank16"
+   ],
+   "task": "commonsense",
+   "model": "Qwen2.5-1.5B",
+   "mode": "bottom",
+   "rank": 16,
+   "lr": 0.001,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 4000 Ada": 2,
+    "GeForce RTX 3090": 1,
+    "RTX A4000": 1,
+    "RTX A5000": 1
+   },
+   "run_sets": 1,
+   "runs": [
+    "8bcda0e7c930",
+    "68261b5ec4f8",
+    "076ebe279ccb",
+    "c24754d1e9ef",
+    "56aac275340b"
+   ],
+   "no_gpu": [],
+   "resolved_by": "unique"
+  },
+  {
+   "value": 0.797,
+   "tables": [
+    "tab:latescores"
+   ],
+   "task": "commonsense",
+   "model": "Qwen2.5-1.5B",
+   "mode": "random_ortho",
+   "rank": 16,
+   "lr": 0.0005,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 4000 Ada": 5
+   },
+   "run_sets": 1,
+   "runs": [
+    "0e5c4581cc40",
+    "85f505d0a226",
+    "c59dce6e6307",
+    "e62dfd05a663",
+    "30630f24a5f3"
+   ],
+   "no_gpu": [],
+   "resolved_by": "unique"
+  },
+  {
+   "value": 0.486,
+   "tables": [
+    "tab:latescores"
+   ],
+   "task": "commonsense",
+   "model": "Qwen2.5-1.5B",
+   "mode": "random_ortho",
+   "rank": 16,
+   "lr": 0.001,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX A5000": 1,
+    "RTX A4000": 1,
+    "RTX 4000 Ada": 2,
+    "RTX 2000 Ada": 1
+   },
+   "run_sets": 1,
+   "runs": [
+    "fddba1360a19",
+    "139ae27704ac",
+    "22744c27cafd",
+    "f80bf37ca517",
+    "df8cf8491271"
+   ],
+   "no_gpu": [],
+   "resolved_by": "unique"
+  },
+  {
+   "value": 0.8205,
+   "tables": [
+    "tab:latescores",
+    "tab:rank16"
+   ],
+   "task": "format",
+   "model": "Llama-3.2-1B",
+   "mode": "free",
+   "rank": 8,
+   "lr": 0.002,
+   "seeds": "2-6",
+   "gpus": {
+    "GeForce RTX 3090": 2,
+    "RTX A5000": 1,
+    "RTX A4000": 1,
+    "RTX 4000 Ada": 1
+   },
+   "run_sets": 1,
+   "runs": [
+    "dc71b5fb328e",
+    "102eb0332502",
+    "ff33927b3fe3",
+    "f475b7a36e5e",
+    "c92aba7c2e83"
+   ],
+   "no_gpu": [],
+   "resolved_by": "unique"
+  },
+  {
+   "value": 0.7756,
+   "tables": [
+    "tab:latescores",
+    "tab:rank16"
+   ],
+   "task": "format",
+   "model": "Llama-3.2-1B",
+   "mode": "top",
+   "rank": 16,
+   "lr": 0.002,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 4000 Ada": 4,
+    "RTX A4000": 1
+   },
+   "run_sets": 1,
+   "runs": [
+    "a5d16f564c7e",
+    "8941aba796eb",
+    "c7c459ef2a2a",
+    "68b27a47ae20",
+    "4da5e224b319"
+   ],
+   "no_gpu": [],
+   "resolved_by": "unique"
+  },
+  {
+   "value": 0.7554,
+   "tables": [
+    "tab:latescores",
+    "tab:rank16"
+   ],
+   "task": "format",
+   "model": "Llama-3.2-1B",
+   "mode": "bottom",
+   "rank": 16,
+   "lr": 0.0005,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 4000 Ada": 1,
+    "GeForce RTX 3090": 1,
+    "RTX 2000 Ada": 2,
+    "RTX A5000": 1
+   },
+   "run_sets": 1,
+   "runs": [
+    "44785c541e70",
+    "e85a87014316",
+    "46a515e3cfbb",
+    "baffef0943a2",
+    "b789b0ff706d"
+   ],
+   "no_gpu": [],
+   "resolved_by": "unique"
+  },
+  {
+   "value": 0.77,
+   "tables": [
+    "tab:latescores"
+   ],
+   "task": "format",
+   "model": "Llama-3.2-1B",
+   "mode": "random",
+   "rank": 16,
+   "lr": 0.001,
+   "seeds": "2-6",
+   "gpus": {
+    "GeForce RTX 3090": 1,
+    "RTX 2000 Ada": 1,
+    "RTX 4000 Ada": 2,
+    "RTX A5000": 1
+   },
+   "run_sets": 1,
+   "runs": [
+    "aa004426beda",
+    "d6c3846c640f",
+    "051be675d13a",
+    "7bf61f48c743",
+    "9da98f486925"
+   ],
+   "no_gpu": [],
+   "resolved_by": "unique"
+  },
+  {
+   "value": 0.7795,
+   "tables": [
+    "tab:latescores"
+   ],
+   "task": "format",
+   "model": "Llama-3.2-1B",
+   "mode": "random_ortho",
+   "rank": 16,
+   "lr": 0.001,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX A4000": 1,
+    "RTX 4000 Ada": 3,
+    "RTX 2000 Ada": 1
+   },
+   "run_sets": 1,
+   "runs": [
+    "bb0c127cc9fc",
+    "4794694b57a6",
+    "c23a3139690c",
+    "95f464022bb7",
+    "79d3f1571e89"
+   ],
+   "no_gpu": [],
+   "resolved_by": "unique"
+  },
+  {
+   "value": 0.422,
+   "tables": [
+    "tab:answeronly",
+    "tab:central",
+    "tab:latescores",
+    "tab:placements"
+   ],
+   "task": "commonsense",
+   "model": "Qwen2.5-1.5B",
+   "mode": "bottom",
+   "rank": 2,
+   "lr": 0.002,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 4000 Ada": 3,
+    "GeForce RTX 3090": 2
+   },
+   "run_sets": 1,
+   "runs": [
+    "9c00031162f1",
+    "86b49c13c51e",
+    "ec9c87dcdd64",
+    "fad5d95267d3",
+    "a0ef5dc8e22a"
+   ],
+   "no_gpu": [],
+   "resolved_by": "unique"
+  },
+  {
+   "value": 0.4592,
+   "tables": [
+    "tab:latescores",
+    "tab:placements"
+   ],
+   "task": "commonsense",
+   "model": "Qwen2.5-1.5B",
+   "mode": "random_ortho",
+   "rank": 2,
+   "lr": 0.02,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 4000 Ada": 5
+   },
+   "run_sets": 1,
+   "runs": [
+    "c4451d7ac104",
+    "ecee88ca4661",
+    "be6ebeedb076",
+    "7bcac3587fe3",
+    "6ef0b212af7d"
+   ],
+   "no_gpu": [],
+   "resolved_by": "unique"
+  },
+  {
+   "value": 0.6967,
+   "tables": [
+    "tab:latescores"
+   ],
+   "task": "format",
+   "model": "Llama-3.2-1B",
+   "mode": "top",
+   "rank": 2,
+   "lr": 0.01,
+   "seeds": "2-6",
+   "gpus": {
+    "GeForce RTX 3090": 1,
+    "RTX 4000 Ada": 3,
+    "RTX 2000 Ada": 1
+   },
+   "run_sets": 1,
+   "runs": [
+    "c7c501d38d54",
+    "d8a57450e2ed",
+    "bbaf6444433b",
+    "bb1e4a43cfd1",
+    "7e1ccaab82b2"
+   ],
+   "no_gpu": [],
+   "resolved_by": "unique"
+  },
+  {
+   "value": 0.6313,
+   "tables": [
+    "tab:latescores"
+   ],
+   "task": "format",
+   "model": "Llama-3.2-1B",
+   "mode": "bottom",
+   "rank": 2,
+   "lr": 0.005,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 4000 Ada": 5
+   },
+   "run_sets": 1,
+   "runs": [
+    "33afd71d5817",
+    "da93591c82c8",
+    "a4c54edad371",
+    "2aa1e5bf9597",
+    "a9cf6c445f7a"
+   ],
+   "no_gpu": [],
+   "resolved_by": "unique"
+  },
+  {
+   "value": 0.6935,
+   "tables": [
+    "tab:latescores"
+   ],
+   "task": "format",
+   "model": "Llama-3.2-1B",
+   "mode": "random",
+   "rank": 2,
+   "lr": 0.01,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 2000 Ada": 3,
+    "RTX A5000": 1,
+    "RTX 4000 Ada": 1
+   },
+   "run_sets": 1,
+   "runs": [
+    "777d6a7b7983",
+    "7638c11a082b",
+    "112cb3f5a630",
+    "635398ac6f24",
+    "f504bfae5ac3"
+   ],
+   "no_gpu": [],
+   "resolved_by": "unique"
+  },
+  {
+   "value": 0.5044,
+   "tables": [
+    "tab:latescores"
+   ],
+   "task": "commonsense",
+   "model": "Qwen2.5-1.5B",
+   "mode": "free",
+   "rank": 1,
+   "lr": 0.001,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 4000 Ada": 4,
+    "RTX A5000": 1
+   },
+   "run_sets": 1,
+   "runs": [
+    "cbc7fe635842",
+    "5e1fb77c6a1b",
+    "02419e753c5d",
+    "302d2a63898e",
+    "789a2bae124d"
+   ],
+   "no_gpu": [],
+   "resolved_by": "unique"
+  },
+  {
+   "value": 0.8072,
+   "tables": [
+    "tab:central"
+   ],
+   "task": "format",
+   "model": "Llama-3.2-1B",
+   "mode": "bottom_unfrozen",
+   "rank": 2,
+   "lr": 0.002,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 4000 Ada": 4,
+    "RTX 2000 Ada": 1
+   },
+   "run_sets": 1,
+   "runs": [
+    "0acd926f4d49",
+    "8b456dd87cce",
+    "70b6784050ef",
+    "b08774f46ff6",
+    "347e03dc04b6"
+   ],
+   "no_gpu": [],
+   "resolved_by": "unique"
+  },
+  {
+   "value": 0.8,
+   "tables": [
+    "tab:central"
+   ],
+   "task": "format",
+   "model": "Llama-3.2-1B",
+   "mode": "top_unfrozen",
+   "rank": 2,
+   "lr": 0.005,
+   "seeds": "2-6",
+   "gpus": {
+    "GeForce RTX 3090": 1,
+    "RTX 4000 Ada": 4
+   },
+   "run_sets": 1,
+   "runs": [
+    "fc8450575d46",
+    "813302ed9023",
+    "aaba46483ba1",
+    "df172b59dfbb",
+    "9c428f09a418"
+   ],
+   "no_gpu": [],
+   "resolved_by": "unique"
+  },
+  {
+   "value": 0.7928,
+   "tables": [
+    "tab:central"
+   ],
+   "task": "format",
+   "model": "Llama-3.2-1B",
+   "mode": "top_unfrozen",
+   "rank": 1,
+   "lr": 0.005,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX A4000": 1,
+    "RTX 4000 Ada": 3,
+    "GeForce RTX 3090": 1
+   },
+   "run_sets": 1,
+   "runs": [
+    "e76b857b4987",
+    "761bcf2db1f4",
+    "463f0f5b01cb",
+    "a50c1b2f7bab",
+    "bf10ed496564"
+   ],
+   "no_gpu": [],
+   "resolved_by": "unique"
+  },
+  {
+   "value": 0.4842,
+   "tables": [
+    "tab:latescores"
+   ],
+   "task": "commonsense",
+   "model": "Qwen2.5-1.5B",
+   "mode": "top",
+   "rank": 2,
+   "lr": 0.005,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 4000 Ada": 3,
+    "RTX 2000 Ada": 1,
+    "GeForce RTX 3090": 1
+   },
+   "run_sets": 1,
+   "runs": [
+    "c39acc3f90a6",
+    "b33e93edd70d",
+    "059fd7a16b5c",
+    "dc89227b50e6",
+    "c60955d7e01a"
+   ],
+   "no_gpu": [],
+   "resolved_by": "unique"
+  },
+  {
+   "value": 0.7954,
+   "tables": [
+    "tab:central"
+   ],
+   "task": "format",
+   "model": "Llama-3.2-1B",
+   "mode": "bottom_unfrozen",
+   "rank": 1,
+   "lr": 0.005,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 4000 Ada": 4,
+    "GeForce RTX 3090": 1
+   },
+   "run_sets": 1,
+   "runs": [
+    "e787bee0ddd6",
+    "3420839dcefa",
+    "6440e7fdcd33",
+    "9456f9ae5e9e",
+    "c98a06a1cb66"
+   ],
+   "no_gpu": [],
+   "resolved_by": "unique"
+  },
+  {
+   "value": 0.4758,
+   "tables": [
+    "tab:latescores"
+   ],
+   "task": "commonsense",
+   "model": "Qwen2.5-1.5B",
+   "mode": "bottom",
+   "rank": 32,
+   "lr": 0.0002,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 4000 Ada": 2,
+    "RTX A5000": 1,
+    "RTX A4000": 2
+   },
+   "run_sets": 1,
+   "runs": [
+    "c393608c78a3",
+    "a906b5572c96",
+    "6896dc600b88",
+    "fdf687b61e84",
+    "73007c9ca3fa"
+   ],
+   "no_gpu": [],
+   "resolved_by": "unique"
+  },
+  {
+   "value": 0.7739,
+   "tables": [
+    "tab:central"
+   ],
+   "task": "format",
+   "model": "Llama-3.2-1B",
+   "mode": "dual_top",
+   "rank": 2,
+   "lr": 0.01,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 4000 Ada": 5
+   },
+   "run_sets": 1,
+   "runs": [
+    "0d0c348f99a6",
+    "2e13545ca726",
+    "7aeffcfc310b",
+    "be10be39a77a",
+    "764353c04b9a"
+   ],
+   "no_gpu": [],
+   "resolved_by": "unique"
+  },
+  {
+   "value": 0.5496,
+   "tables": [
+    "tab:central"
+   ],
+   "task": "commonsense",
+   "model": "Qwen2.5-1.5B",
+   "mode": "bottom_unfrozen",
+   "rank": 1,
+   "lr": 0.002,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX A4000": 1,
+    "RTX 4000 Ada": 4
+   },
+   "run_sets": 1,
+   "runs": [
+    "d2580c36dac8",
+    "a5d964a4148a",
+    "f8fc6322f50e",
+    "b747f5dfdce9",
+    "f46b5d6bd570"
+   ],
+   "no_gpu": [],
+   "resolved_by": "unique"
+  },
+  {
+   "value": 0.5576,
+   "tables": [
+    "tab:central"
+   ],
+   "task": "commonsense",
+   "model": "Qwen2.5-1.5B",
+   "mode": "top_unfrozen",
+   "rank": 2,
+   "lr": 0.002,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 4000 Ada": 2,
+    "RTX A5000": 1,
+    "RTX A4000": 1,
+    "RTX 2000 Ada": 1
+   },
+   "run_sets": 1,
+   "runs": [
+    "60502d9954a5",
+    "c8f783e29ec5",
+    "4cc74788ee01",
+    "690b33940370",
+    "be4911c54e75"
+   ],
+   "no_gpu": [],
+   "resolved_by": "unique"
+  },
+  {
+   "value": 0.5308,
+   "tables": [
+    "tab:answeronly",
+    "tab:central",
+    "tab:v2budget"
+   ],
+   "task": "commonsense",
+   "model": "Qwen2.5-1.5B",
+   "mode": "dual_top",
+   "rank": 2,
+   "lr": 0.005,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 4000 Ada": 5
+   },
+   "run_sets": 1,
+   "runs": [
+    "c738f39f34fc",
+    "4c9f3993f1ea",
+    "1f560eaffe44",
+    "a2b6f35ed85c",
+    "e4e8d9dd3866"
+   ],
+   "no_gpu": [],
+   "resolved_by": "unique"
+  },
+  {
+   "value": 0.5248,
+   "tables": [
+    "tab:answeronly",
+    "tab:central",
+    "tab:v2budget"
+   ],
+   "task": "commonsense",
+   "model": "Qwen2.5-1.5B",
+   "mode": "dual_bottom",
+   "rank": 2,
+   "lr": 0.01,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 4000 Ada": 5
+   },
+   "run_sets": 1,
+   "runs": [
+    "ee2eeb37d484",
+    "5ae3cedbe4e0",
+    "88d17ecf450a",
+    "1838fce276a4",
+    "e934b2ac6ae6"
+   ],
+   "no_gpu": [],
+   "resolved_by": "unique"
+  },
+  {
+   "value": 0.7879,
+   "tables": [
+    "tab:central",
+    "tab:latescores"
+   ],
+   "task": "format",
+   "model": "Qwen2.5-1.5B",
+   "mode": "free",
+   "rank": 1,
+   "lr": 0.005,
+   "seeds": "22-26",
+   "gpus": {
+    "RTX 4000 Ada": 5
+   },
+   "run_sets": 1,
+   "runs": [
+    "95c953bd9521",
+    "2cb639dccbbf",
+    "887c49e5b62f",
+    "ff40de728fc0",
+    "ccab4fd0f379"
+   ],
+   "no_gpu": [],
+   "resolved_by": "unique"
+  },
+  {
+   "value": 0.743,
+   "tables": [
+    "tab:latescores"
+   ],
+   "task": "format",
+   "model": "Qwen2.5-1.5B",
+   "mode": "top",
+   "rank": 16,
+   "lr": 0.002,
+   "seeds": "22-26",
+   "gpus": {
+    "RTX 4000 Ada": 5
+   },
+   "run_sets": 1,
+   "runs": [
+    "bcc97a54327b",
+    "0d703ad5bb22",
+    "22a30ca3a808",
+    "c6fcfc5b237a",
+    "651f3f11af54"
+   ],
+   "no_gpu": [],
+   "resolved_by": "unique"
+  },
+  {
+   "value": 0.6391,
+   "tables": [
+    "tab:central",
+    "tab:latescores"
+   ],
+   "task": "format",
+   "model": "Qwen2.5-1.5B",
+   "mode": "bottom",
+   "rank": 2,
+   "lr": 0.005,
+   "seeds": "22-26",
+   "gpus": {
+    "RTX 4000 Ada": 5
+   },
+   "run_sets": 1,
+   "runs": [
+    "609ba5ff8d5b",
+    "9944c529d46c",
+    "98e662748a7d",
+    "08f9bd9689c0",
+    "31a3aa7235cd"
+   ],
+   "no_gpu": [],
+   "resolved_by": "unique"
+  },
+  {
+   "value": 0.7521,
+   "tables": [
+    "tab:latescores"
+   ],
+   "task": "format",
+   "model": "Qwen2.5-1.5B",
+   "mode": "random_ortho",
+   "rank": 16,
+   "lr": 0.005,
+   "seeds": "22-26",
+   "gpus": {
+    "RTX 4000 Ada": 5
+   },
+   "run_sets": 1,
+   "runs": [
+    "dcb95f0037ec",
+    "dd08fb49e9f3",
+    "211ebf8b325d",
+    "3ab782a90607",
+    "41f4c550d573"
+   ],
+   "no_gpu": [],
+   "resolved_by": "unique"
+  },
+  {
+   "value": 0.6238,
+   "tables": [
+    "tab:latescores"
+   ],
+   "task": "format",
+   "model": "Qwen2.5-1.5B",
+   "mode": "random_ortho",
+   "rank": 2,
+   "lr": 0.02,
+   "seeds": "22-26",
+   "gpus": {
+    "RTX 4000 Ada": 5
+   },
+   "run_sets": 1,
+   "runs": [
+    "bea347e7441a",
+    "1b6bcc9b99e1",
+    "f555178d4f6c",
+    "57ff3fccfe37",
+    "ee69ad8e6c08"
+   ],
+   "no_gpu": [],
+   "resolved_by": "unique"
+  },
+  {
+   "value": 0.5316,
+   "tables": [
+    "tab:central"
+   ],
+   "task": "commonsense",
+   "model": "Qwen2.5-7B",
+   "mode": "top",
+   "rank": 2,
+   "lr": 0.005,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 4000 Ada": 5
+   },
+   "run_sets": 1,
+   "runs": [
+    "a8afe8c971a4",
+    "b445d1990bd4",
+    "ad267e76caed",
+    "a08c5aad2f3d",
+    "f34f6b9b5dd6"
+   ],
+   "no_gpu": [],
+   "resolved_by": "unique"
+  },
+  {
+   "value": 0.6292,
+   "tables": [
+    "tab:central"
+   ],
+   "task": "commonsense",
+   "model": "Qwen2.5-7B",
+   "mode": "top_unfrozen",
+   "rank": 2,
+   "lr": 0.001,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 4000 Ada": 5
+   },
+   "run_sets": 1,
+   "runs": [
+    "050b7ccbd649",
+    "e7388070f325",
+    "45d9808f5924",
+    "b4adc53ab896",
+    "af7db2539b30"
+   ],
+   "no_gpu": [],
+   "resolved_by": "unique"
+  },
+  {
+   "value": 0.6312,
+   "tables": [
+    "tab:central"
+   ],
+   "task": "commonsense",
+   "model": "Qwen2.5-7B",
+   "mode": "bottom_unfrozen",
+   "rank": 2,
+   "lr": 0.001,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 4000 Ada": 5
+   },
+   "run_sets": 1,
+   "runs": [
+    "6ef0af3892ff",
+    "6e4a0aa24f90",
+    "f94e9d8bd6d4",
+    "f989aef83b9b",
+    "03a18f003d3a"
+   ],
+   "no_gpu": [],
+   "resolved_by": "unique"
+  },
+  {
+   "value": 0.6364,
+   "tables": [
+    "tab:central",
+    "tab:v2budget"
+   ],
+   "task": "commonsense",
+   "model": "Qwen2.5-7B",
+   "mode": "dual_top",
+   "rank": 2,
+   "lr": 0.002,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 4000 Ada": 5
+   },
+   "run_sets": 1,
+   "runs": [
+    "7b2447fd35ed",
+    "a84d9f3b067c",
+    "bf26a29a5c3b",
+    "6a6c78ebc627",
+    "3dd3e5cdf568"
+   ],
+   "no_gpu": [],
+   "resolved_by": "unique"
+  },
+  {
+   "value": 0.6148,
+   "tables": [
+    "tab:central",
+    "tab:v2budget"
+   ],
+   "task": "commonsense",
+   "model": "Qwen2.5-7B",
+   "mode": "dual_bottom",
+   "rank": 2,
+   "lr": 0.002,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 4000 Ada": 5
+   },
+   "run_sets": 1,
+   "runs": [
+    "dcee1054cda2",
+    "1d6563847aa6",
+    "092032121c80",
+    "7cbe6839d93a",
+    "cdd558774684"
+   ],
+   "no_gpu": [],
+   "resolved_by": "unique"
+  },
+  {
+   "value": 0.6284,
+   "tables": [
+    "tab:central"
+   ],
+   "task": "commonsense",
+   "model": "Qwen2.5-7B",
+   "mode": "free",
+   "rank": 1,
+   "lr": 0.002,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 4000 Ada": 5
+   },
+   "run_sets": 1,
+   "runs": [
+    "9adf3867dab8",
+    "34577f1a8e6a",
+    "2fe4d93a2eaf",
+    "ab1b77a17e6f",
+    "4974fd5fdc36"
+   ],
+   "no_gpu": [],
+   "resolved_by": "unique"
+  },
+  {
+   "value": 0.7775,
+   "tables": [
+    "tab:central"
+   ],
+   "task": "format",
+   "model": "Qwen2.5-1.5B",
+   "mode": "top_unfrozen",
+   "rank": 2,
+   "lr": 0.005,
+   "seeds": "22-26",
+   "gpus": {
+    "RTX 4000 Ada": 5
+   },
+   "run_sets": 1,
+   "runs": [
+    "5305d45981ea",
+    "a7ee24025c75",
+    "7e6b172be72f",
+    "98a8129333a8",
+    "bf2b2920863d"
+   ],
+   "no_gpu": [],
+   "resolved_by": "unique"
+  },
+  {
+   "value": 0.7857,
+   "tables": [
+    "tab:central"
+   ],
+   "task": "format",
+   "model": "Qwen2.5-1.5B",
+   "mode": "bottom_unfrozen",
+   "rank": 2,
+   "lr": 0.005,
+   "seeds": "22-26",
+   "gpus": {
+    "RTX 4000 Ada": 5
+   },
+   "run_sets": 1,
+   "runs": [
+    "2ebb42e77417",
+    "86ae962e6f10",
+    "fe46c087d503",
+    "2b1312b1c59d",
+    "316b89791748"
+   ],
+   "no_gpu": [],
+   "resolved_by": "unique"
+  },
+  {
+   "value": 0.4776,
+   "tables": [
+    "tab:central"
+   ],
+   "task": "commonsense",
+   "model": "Mistral-7B-v0.3",
+   "mode": "bottom",
+   "rank": 2,
+   "lr": 0.001,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 4000 Ada": 5
+   },
+   "run_sets": 1,
+   "runs": [
+    "795b11d1c606",
+    "8c4294aef6be",
+    "9ed2700e209b",
+    "762579c19372",
+    "0fad72ed8239"
+   ],
+   "no_gpu": [],
+   "resolved_by": "unique"
+  },
+  {
+   "value": 0.5988,
+   "tables": [
+    "tab:central"
+   ],
+   "task": "commonsense",
+   "model": "Mistral-7B-v0.3",
+   "mode": "top_unfrozen",
+   "rank": 2,
+   "lr": 0.001,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 4000 Ada": 5
+   },
+   "run_sets": 1,
+   "runs": [
+    "c99dcc5abd47",
+    "5d8cc8853824",
+    "ee46d7723f93",
+    "7b82cbdc6904",
+    "2551e56d89c3"
+   ],
+   "no_gpu": [],
+   "resolved_by": "unique"
+  },
+  {
+   "value": 0.6048,
+   "tables": [
+    "tab:central"
+   ],
+   "task": "commonsense",
+   "model": "Mistral-7B-v0.3",
+   "mode": "bottom_unfrozen",
+   "rank": 2,
+   "lr": 0.001,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 4000 Ada": 5
+   },
+   "run_sets": 1,
+   "runs": [
+    "443cc0f29e5f",
+    "92560318c2b8",
+    "dd77764e130c",
+    "590f4c0be61f",
+    "2ac168706e50"
+   ],
+   "no_gpu": [],
+   "resolved_by": "unique"
+  },
+  {
+   "value": 0.6076,
+   "tables": [
+    "tab:central"
+   ],
+   "task": "commonsense",
+   "model": "Mistral-7B-v0.3",
+   "mode": "dual_top",
+   "rank": 2,
+   "lr": 0.0005,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 4000 Ada": 5
+   },
+   "run_sets": 1,
+   "runs": [
+    "fb6913158060",
+    "a4ad77f03a17",
+    "800a8640fa65",
+    "0b8cb85bef41",
+    "d23e23faa5ed"
+   ],
+   "no_gpu": [],
+   "resolved_by": "unique"
+  },
+  {
+   "value": 0.586,
+   "tables": [
+    "tab:central"
+   ],
+   "task": "commonsense",
+   "model": "Mistral-7B-v0.3",
+   "mode": "dual_bottom",
+   "rank": 2,
+   "lr": 0.001,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 4000 Ada": 5
+   },
+   "run_sets": 1,
+   "runs": [
+    "99aff4c34143",
+    "c966e4627038",
+    "9f78ce889a17",
+    "69f923a8dafd",
+    "7352ff7d4fab"
+   ],
+   "no_gpu": [],
+   "resolved_by": "unique"
+  },
+  {
+   "value": 0.6012,
+   "tables": [
+    "tab:central"
+   ],
+   "task": "commonsense",
+   "model": "Mistral-7B-v0.3",
+   "mode": "free",
+   "rank": 1,
+   "lr": 0.001,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 4000 Ada": 5
+   },
+   "run_sets": 1,
+   "runs": [
+    "2a84e8d992e4",
+    "13298ffa6271",
+    "2099d0df5453",
+    "0cd20bc6721e",
+    "6c3f14ec0361"
+   ],
+   "no_gpu": [],
+   "resolved_by": "unique"
+  },
+  {
+   "value": 0.6232,
+   "tables": [
+    "tab:central"
+   ],
+   "task": "commonsense",
+   "model": "Qwen2.5-7B",
+   "mode": "top_unfrozen",
+   "rank": 1,
+   "lr": 0.002,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 4000 Ada": 5
+   },
+   "run_sets": 1,
+   "runs": [
+    "4e8db5a61f5f",
+    "07c78c114b66",
+    "b439a7bf7ecb",
+    "a76904bd17e1",
+    "c8327f4c720f"
+   ],
+   "no_gpu": [],
+   "resolved_by": "unique"
+  },
+  {
+   "value": 0.6264,
+   "tables": [
+    "tab:central"
+   ],
+   "task": "commonsense",
+   "model": "Qwen2.5-7B",
+   "mode": "bottom_unfrozen",
+   "rank": 1,
+   "lr": 0.002,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 4000 Ada": 5
+   },
+   "run_sets": 1,
+   "runs": [
+    "92dc3867c0f1",
+    "43bf50842d82",
+    "eb56c0af7d27",
+    "a66b9632c90a",
+    "19aeee3c4a04"
+   ],
+   "no_gpu": [],
+   "resolved_by": "unique"
+  },
+  {
+   "value": 0.4328,
+   "tables": [
+    "tab:v2budget"
+   ],
+   "task": "commonsense",
+   "model": "Qwen2.5-1.5B",
+   "mode": "bottom",
+   "rank": 3,
+   "lr": 0.002,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 4000 Ada": 5
+   },
+   "run_sets": 1,
+   "runs": [
+    "13823d007493",
+    "2c69d3cf6756",
+    "40fae990c4ca",
+    "772d8a4ff5ee",
+    "e3e82f585dde"
+   ],
+   "no_gpu": [],
+   "resolved_by": "unique"
+  },
+  {
+   "value": 0.468,
+   "tables": [
+    "tab:v2budget"
+   ],
+   "task": "commonsense",
+   "model": "Qwen2.5-1.5B",
+   "mode": "top",
+   "rank": 3,
+   "lr": 0.005,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 4000 Ada": 5
+   },
+   "run_sets": 1,
+   "runs": [
+    "4db203f8b82e",
+    "e732ba5de527",
+    "7ec3b26713a0",
+    "70b1c2ea24e1",
+    "eb15f382420c"
+   ],
+   "no_gpu": [],
+   "resolved_by": "unique"
+  },
+  {
+   "value": 0.4524,
+   "tables": [
+    "tab:v2budget",
+    "tab:v2trend"
+   ],
+   "task": "commonsense",
+   "model": "Qwen2.5-1.5B",
+   "mode": "bottom",
+   "rank": 4,
+   "lr": 0.002,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 4000 Ada": 5
+   },
+   "run_sets": 1,
+   "runs": [
+    "c59e1442f5c2",
+    "e51e8fee9017",
+    "2e7bc140661a",
+    "6bb99fd1570c",
+    "ecf32bca0aa6"
+   ],
+   "no_gpu": [],
+   "resolved_by": "unique"
+  },
+  {
+   "value": 0.4924,
+   "tables": [
+    "tab:v2budget"
+   ],
+   "task": "commonsense",
+   "model": "Qwen2.5-7B",
+   "mode": "bottom",
+   "rank": 3,
+   "lr": 0.0005,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 4000 Ada": 5
+   },
+   "run_sets": 1,
+   "runs": [
+    "1415cc673144",
+    "572e3339cb16",
+    "c9febdb44a25",
+    "eef63de05ba7",
+    "b78c938158fa"
+   ],
+   "no_gpu": [],
+   "resolved_by": "unique"
+  },
+  {
+   "value": 0.5136,
+   "tables": [
+    "tab:v2budget"
+   ],
+   "task": "commonsense",
+   "model": "Qwen2.5-7B",
+   "mode": "bottom",
+   "rank": 4,
+   "lr": 0.001,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 4000 Ada": 5
+   },
+   "run_sets": 1,
+   "runs": [
+    "630982d257e9",
+    "e55a30409c0a",
+    "89dd77303873",
+    "6def8d24e5b2",
+    "55d4684306e7"
+   ],
+   "no_gpu": [],
+   "resolved_by": "unique"
+  },
+  {
+   "value": 0.552,
+   "tables": [
+    "tab:v2trend"
+   ],
+   "task": "commonsense",
+   "model": "Qwen2.5-1.5B",
+   "mode": "bottom_unfrozen",
+   "rank": 2,
+   "lr": 0.002,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 4000 Ada": 5
+   },
+   "run_sets": 1,
+   "runs": [
+    "faf186e0fef7",
+    "683243820ccd",
+    "89111beac03a",
+    "7b1ce32cd620",
+    "820e22bbd045"
+   ],
+   "no_gpu": [],
+   "resolved_by": "unique"
+  },
+  {
+   "value": 0.542,
+   "tables": [
+    "tab:v2trend"
+   ],
+   "task": "commonsense",
+   "model": "Qwen2.5-1.5B",
+   "mode": "bottom_unfrozen",
+   "rank": 4,
+   "lr": 0.002,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 4000 Ada": 5
+   },
+   "run_sets": 1,
+   "runs": [
+    "7b325f9ccfd6",
+    "84653c86be5c",
+    "8b4ecd1f0664",
+    "83d7e6f8079a",
+    "1ac821856709"
+   ],
+   "no_gpu": [],
+   "resolved_by": "unique"
+  },
+  {
+   "value": 0.5556,
+   "tables": [
+    "tab:v2trend"
+   ],
+   "task": "commonsense",
+   "model": "Qwen2.5-1.5B",
+   "mode": "bottom_unfrozen",
+   "rank": 8,
+   "lr": 0.001,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 4000 Ada": 5
+   },
+   "run_sets": 1,
+   "runs": [
+    "d9b251f7f5d3",
+    "fb394778aefb",
+    "5c49e0be88a9",
+    "9383b917abca",
+    "0ef98e742381"
+   ],
+   "no_gpu": [],
+   "resolved_by": "unique"
+  },
+  {
+   "value": 0.5388,
+   "tables": [
+    "tab:v2trend"
+   ],
+   "task": "commonsense",
+   "model": "Qwen2.5-1.5B",
+   "mode": "dual_bottom",
+   "rank": 4,
+   "lr": 0.002,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 4000 Ada": 5
+   },
+   "run_sets": 1,
+   "runs": [
+    "90bc14ea1c77",
+    "ff64b22d76e7",
+    "91efbf5da669",
+    "0f7a27aa0cd5",
+    "c4dffcb48e07"
+   ],
+   "no_gpu": [],
+   "resolved_by": "unique"
+  },
+  {
+   "value": 0.5628,
+   "tables": [
+    "tab:v2trend"
+   ],
+   "task": "commonsense",
+   "model": "Qwen2.5-1.5B",
+   "mode": "dual_top",
+   "rank": 8,
+   "lr": 0.002,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 4000 Ada": 5
+   },
+   "run_sets": 1,
+   "runs": [
+    "4c32eaf1eda5",
+    "4f53c48942a6",
+    "97d36ca1c17a",
+    "1eb5810bce2e",
+    "bce29be91145"
+   ],
+   "no_gpu": [],
+   "resolved_by": "unique"
+  },
+  {
+   "value": 0.4992,
+   "tables": [
+    "tab:v2trend"
+   ],
+   "task": "commonsense",
+   "model": "Qwen2.5-1.5B",
+   "mode": "top",
+   "rank": 8,
+   "lr": 0.005,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 4000 Ada": 5
+   },
+   "run_sets": 1,
+   "runs": [
+    "c78dd097f00c",
+    "476c960cacfe",
+    "e701dd4d2e41",
+    "d05234c2affa",
+    "04842ac62627"
+   ],
+   "no_gpu": [],
+   "resolved_by": "unique"
+  },
+  {
+   "value": 0.554,
+   "tables": [
+    "tab:v2trend"
+   ],
+   "task": "commonsense",
+   "model": "Qwen2.5-1.5B",
+   "mode": "top_unfrozen",
+   "rank": 2,
+   "lr": 0.002,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 4000 Ada": 5
+   },
+   "run_sets": 1,
+   "runs": [
+    "a4b1cbb0fbd1",
+    "713d7dfb770f",
+    "88476405ad03",
+    "a29b7c5ca855",
+    "bfacce0300c7"
+   ],
+   "no_gpu": [],
+   "resolved_by": "unique"
+  },
+  {
+   "value": 0.5504,
+   "tables": [
+    "tab:v2trend"
+   ],
+   "task": "commonsense",
+   "model": "Qwen2.5-1.5B",
+   "mode": "top_unfrozen",
+   "rank": 4,
+   "lr": 0.001,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 4000 Ada": 5
+   },
+   "run_sets": 1,
+   "runs": [
+    "0d31d44fbc80",
+    "2aa5b599b734",
+    "836fa0db8ec5",
+    "867298f08c0a",
+    "9a2102f2137a"
+   ],
+   "no_gpu": [],
+   "resolved_by": "unique"
+  },
+  {
+   "value": 0.5636,
+   "tables": [
+    "tab:v2trend"
+   ],
+   "task": "commonsense",
+   "model": "Qwen2.5-1.5B",
+   "mode": "top_unfrozen",
+   "rank": 8,
+   "lr": 0.001,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 4000 Ada": 5
+   },
+   "run_sets": 1,
+   "runs": [
+    "4bbe83923392",
+    "40c8aad25d48",
+    "f0d85536f506",
+    "d94997d9763a",
+    "cd420723f4c8"
+   ],
+   "no_gpu": [],
+   "resolved_by": "unique"
+  },
+  {
+   "value": 0.5676,
+   "tables": [
+    "tab:v2trend"
+   ],
+   "task": "commonsense",
+   "model": "Qwen2.5-7B",
+   "mode": "bottom",
+   "rank": 16,
+   "lr": 0.0005,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 4000 Ada": 5
+   },
+   "run_sets": 1,
+   "runs": [
+    "8e5a5e43f756",
+    "02a6176457d0",
+    "34a5f04716f9",
+    "f44dd6c10be9",
+    "6654b7bcf7ab"
+   ],
+   "no_gpu": [],
+   "resolved_by": "unique"
+  },
+  {
+   "value": 0.632,
+   "tables": [
+    "tab:v2trend"
+   ],
+   "task": "commonsense",
+   "model": "Qwen2.5-7B",
+   "mode": "free",
+   "rank": 7,
+   "lr": 0.0005,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 4000 Ada": 5
+   },
+   "run_sets": 1,
+   "runs": [
+    "0b9cfeff542f",
+    "dd606f8adfd4",
+    "fe12a47d2285",
+    "b97a09ba20d3",
+    "e8922c8e400b"
+   ],
+   "no_gpu": [],
+   "resolved_by": "unique"
+  },
+  {
+   "value": 0.602,
+   "tables": [
+    "tab:v2trend"
+   ],
+   "task": "commonsense",
+   "model": "Qwen2.5-7B",
+   "mode": "top",
+   "rank": 16,
+   "lr": 0.001,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 4000 Ada": 5
+   },
+   "run_sets": 1,
+   "runs": [
+    "5bb732456d51",
+    "93b28dd6f607",
+    "fd5144efcaf1",
+    "fa811d025500",
+    "a38f0191ce6d"
+   ],
+   "no_gpu": [],
+   "resolved_by": "unique"
+  },
+  {
+   "value": 0.5588,
+   "tables": [
+    "tab:mechreps",
+    "tab:placements"
+   ],
+   "task": "commonsense",
+   "model": "Qwen2.5-1.5B",
+   "mode": "learned",
+   "rank": 2,
+   "lr": 0.002,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 4000 Ada": 5
+   },
+   "run_sets": 1,
+   "runs": [
+    "ffc7a800159a",
+    "bab7ea591cc3",
+    "61b840095125",
+    "14abc6d7974e",
+    "3a91190f23a0"
+   ],
+   "no_gpu": [],
+   "resolved_by": "unique"
+  },
+  {
+   "value": 0.62,
+   "tables": [
+    "tab:v2trend"
+   ],
+   "task": "commonsense",
+   "model": "Qwen2.5-7B",
+   "mode": "bottom_unfrozen",
+   "rank": 16,
+   "lr": 0.0005,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 4000 Ada": 5
+   },
+   "run_sets": 1,
+   "runs": [
+    "b1ddee74e53e",
+    "d8986cdc04a2",
+    "298ba355f4fc",
+    "b99f8fbe9d01",
+    "3d30f066282c"
+   ],
+   "no_gpu": [],
+   "resolved_by": "unique"
+  },
+  {
+   "value": 0.6276,
+   "tables": [
+    "tab:v2trend"
+   ],
+   "task": "commonsense",
+   "model": "Qwen2.5-7B",
+   "mode": "bottom_unfrozen",
+   "rank": 7,
+   "lr": 0.0005,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 4000 Ada": 5
+   },
+   "run_sets": 1,
+   "runs": [
+    "0c3fe8fa9dd4",
+    "416d63123a0e",
+    "d367852997fc",
+    "94ec43a3565f",
+    "4c71896c4a15"
+   ],
+   "no_gpu": [],
+   "resolved_by": "unique"
+  },
+  {
+   "value": 0.6256,
+   "tables": [
+    "tab:v2trend"
+   ],
+   "task": "commonsense",
+   "model": "Qwen2.5-7B",
+   "mode": "dual_bottom",
+   "rank": 16,
+   "lr": 0.0005,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 4000 Ada": 5
+   },
+   "run_sets": 1,
+   "runs": [
+    "68060773c7b9",
+    "97478dfbf48f",
+    "96e54d3a9f11",
+    "ad61976a2b39",
+    "a1b22268e637"
+   ],
+   "no_gpu": [],
+   "resolved_by": "unique"
+  },
+  {
+   "value": 0.624,
+   "tables": [
+    "tab:v2trend"
+   ],
+   "task": "commonsense",
+   "model": "Qwen2.5-7B",
+   "mode": "dual_top",
+   "rank": 16,
+   "lr": 0.001,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 4000 Ada": 5
+   },
+   "run_sets": 1,
+   "runs": [
+    "b664880b6119",
+    "bd0b913e57d2",
+    "88d303abb9d5",
+    "ef2303ca7b22",
+    "e3b2c68aaea2"
+   ],
+   "no_gpu": [],
+   "resolved_by": "unique"
+  },
+  {
+   "value": 0.6248,
+   "tables": [
+    "tab:v2trend"
+   ],
+   "task": "commonsense",
+   "model": "Qwen2.5-7B",
+   "mode": "top_unfrozen",
+   "rank": 7,
+   "lr": 0.0005,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 4000 Ada": 5
+   },
+   "run_sets": 1,
+   "runs": [
+    "9abb27aad23f",
+    "2eb0c4425000",
+    "05ba889f3425",
+    "9fc4b29c488c",
+    "e8ec4e27404b"
+   ],
+   "no_gpu": [],
+   "resolved_by": "unique"
+  },
+  {
+   "value": 0.4272,
+   "tables": [
+    "tab:grad",
+    "tab:placements"
+   ],
+   "task": "commonsense",
+   "model": "Qwen2.5-1.5B",
+   "mode": "learned",
+   "rank": 2,
+   "lr": 0.002,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 4000 Ada": 5
+   },
+   "run_sets": 1,
+   "runs": [
+    "d358a5c9a44a",
+    "703c37611cb0",
+    "82c7cd866157",
+    "6541bcdfe46d",
+    "7dd8bfb0cd7e"
+   ],
+   "no_gpu": [],
+   "resolved_by": "unique"
+  },
+  {
+   "value": 0.4304,
+   "tables": [
+    "tab:gradacc"
+   ],
+   "task": "commonsense",
+   "model": "Qwen2.5-1.5B",
+   "mode": "learned",
+   "rank": 2,
+   "lr": 0.002,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 4000 Ada": 5
+   },
+   "run_sets": 1,
+   "runs": [
+    "ea8bf513e2c8",
+    "9220c7122788",
+    "bc6886bd88e7",
+    "0859a783a125",
+    "aefd6eeaf3e3"
+   ],
+   "no_gpu": [],
+   "resolved_by": "unique"
+  },
+  {
+   "value": 0.6622,
+   "tables": [
+    "tab:gradacc"
+   ],
+   "task": "format",
+   "model": "Llama-3.2-1B",
+   "mode": "learned",
+   "rank": 2,
+   "lr": 0.005,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 4000 Ada": 5
+   },
+   "run_sets": 1,
+   "runs": [
+    "4e5534d9b717",
+    "cc42813a11eb",
+    "1bec4b0ef2e2",
+    "e24e8a5889f7",
+    "4a908d84a558"
+   ],
+   "no_gpu": [],
+   "resolved_by": "unique"
+  },
+  {
+   "value": 0.7221,
+   "tables": [
+    "tab:warm"
+   ],
+   "task": "format",
+   "model": "Llama-3.2-1B",
+   "mode": "learned",
+   "rank": 2,
+   "lr": 0.005,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 4000 Ada": 5
+   },
+   "run_sets": 1,
+   "runs": [
+    "8bc9e2445ba3",
+    "18e5fad0bcf3",
+    "e021af379999",
+    "29b68f420d00",
+    "ecd34b822f86"
+   ],
+   "no_gpu": [],
+   "resolved_by": "unique"
+  },
+  {
+   "value": 0.4576,
+   "tables": [
+    "tab:answeronly"
+   ],
+   "task": "commonsense",
+   "model": "Qwen2.5-1.5B",
+   "mode": "bottom",
+   "rank": 2,
+   "lr": 0.001,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 4000 Ada": 5
+   },
+   "run_sets": 1,
+   "runs": [
+    "7cf21478b588",
+    "99d5a81a857c",
+    "1fcd5ccb8cf8",
+    "8be0729364dc",
+    "5b3ee93f64e2"
+   ],
+   "no_gpu": [],
+   "resolved_by": "unique"
+  },
+  {
+   "value": 0.4836,
+   "tables": [
+    "tab:answeronly"
+   ],
+   "task": "commonsense",
+   "model": "Qwen2.5-1.5B",
+   "mode": "top",
+   "rank": 2,
+   "lr": 0.005,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 4000 Ada": 5
+   },
+   "run_sets": 1,
+   "runs": [
+    "8117bae8e2e1",
+    "65d496121e8e",
+    "7fca34da7d8a",
+    "fe4e2158d236",
+    "eea6e3b63c80"
+   ],
+   "no_gpu": [],
+   "resolved_by": "unique"
+  },
+  {
+   "value": 0.5548,
+   "tables": [
+    "tab:answeronly"
+   ],
+   "task": "commonsense",
+   "model": "Qwen2.5-1.5B",
+   "mode": "dual_bottom",
+   "rank": 2,
+   "lr": 0.01,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 4000 Ada": 5
+   },
+   "run_sets": 1,
+   "runs": [
+    "4a1a14b69f71",
+    "390d766d44a8",
+    "981eb4878169",
+    "c19aafc70a4e",
+    "03430146d5df"
+   ],
+   "no_gpu": [],
+   "resolved_by": "unique"
+  },
+  {
+   "value": 0.5484,
+   "tables": [
+    "tab:gradacc",
+    "tab:mechreps",
+    "tab:warm"
+   ],
+   "task": "commonsense",
+   "model": "Qwen2.5-1.5B",
+   "mode": "free",
+   "rank": 1,
+   "lr": 0.002,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 4000 Ada": 5
+   },
+   "run_sets": 1,
+   "runs": [
+    "0a6ad6c94ed1",
+    "e6b02aaae98e",
+    "d226813f6b2c",
+    "38da025802ac",
+    "f5fa991cac6e"
+   ],
+   "no_gpu": [],
+   "resolved_by": "unique"
+  },
+  {
+   "value": 0.4276,
+   "tables": [
+    "tab:gradacc",
+    "tab:mechreps",
+    "tab:warm"
+   ],
+   "task": "commonsense",
+   "model": "Qwen2.5-1.5B",
+   "mode": "bottom",
+   "rank": 2,
+   "lr": 0.002,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 4000 Ada": 5
+   },
+   "run_sets": 1,
+   "runs": [
+    "689f07af5419",
+    "9b2c34e09f3c",
+    "9f09c5c4d47a",
+    "29b5e7ef50eb",
+    "a28f2748328f"
+   ],
+   "no_gpu": [],
+   "resolved_by": "unique"
+  },
+  {
+   "value": 0.7687,
+   "tables": [
+    "tab:gradacc",
+    "tab:mechreps",
+    "tab:warm"
+   ],
+   "task": "format",
+   "model": "Llama-3.2-1B",
+   "mode": "free",
+   "rank": 1,
+   "lr": 0.001,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 4000 Ada": 5
+   },
+   "run_sets": 1,
+   "runs": [
+    "9bd8ca1adba5",
+    "ef14a82641a7",
+    "6a88aa1a1489",
+    "3598429df29d",
+    "da90f2c0bafd"
+   ],
+   "no_gpu": [],
+   "resolved_by": "unique"
+  },
+  {
+   "value": 0.643,
+   "tables": [
+    "tab:grad",
+    "tab:mechreps"
+   ],
+   "task": "format",
+   "model": "Llama-3.2-1B",
+   "mode": "top",
+   "rank": 2,
+   "lr": 0.01,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 4000 Ada": 5
+   },
+   "run_sets": 1,
+   "runs": [
+    "ac47f7be77d1",
+    "a8950a4e8514",
+    "32a811ec492e",
+    "dbe39ce30847",
+    "d46e3d6b9e29"
+   ],
+   "no_gpu": [],
+   "resolved_by": "unique"
+  },
+  {
+   "value": 0.4644,
+   "tables": [
+    "tab:v2budget",
+    "tab:v2trend"
+   ],
+   "task": "commonsense",
+   "model": "Qwen2.5-1.5B",
+   "mode": "top",
+   "rank": 4,
+   "lr": 0.005,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 4000 Ada": 5
+   },
+   "run_sets": 1,
+   "runs": [
+    "6009d0a4e777",
+    "f94a253b579a",
+    "055b8a2f826a",
+    "a8c2e967a3d1",
+    "e803cb768b63"
+   ],
+   "no_gpu": [],
+   "resolved_by": "table, row and column (tab:v2budget)"
+  },
+  {
+   "value": 0.4652,
+   "tables": [
+    "tab:answeronly",
+    "tab:central",
+    "tab:latescores",
+    "tab:placements"
+   ],
+   "task": "commonsense",
+   "model": "Qwen2.5-1.5B",
+   "mode": "top",
+   "rank": 2,
+   "lr": 0.005,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 4000 Ada": 5
+   },
+   "run_sets": 1,
+   "runs": [
+    "e4c2059f46fd",
+    "7150f178a36c",
+    "bb1fb2323e3e",
+    "bdc84ef041ca",
+    "1298500e3d27"
+   ],
+   "no_gpu": [],
+   "resolved_by": "table, row and column (tab:answeronly)"
+  },
+  {
+   "value": 0.4656,
+   "tables": [
+    "tab:v2trend"
+   ],
+   "task": "commonsense",
+   "model": "Qwen2.5-1.5B",
+   "mode": "bottom",
+   "rank": 8,
+   "lr": 0.001,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 4000 Ada": 5
+   },
+   "run_sets": 1,
+   "runs": [
+    "454083c1366e",
+    "08c82be02456",
+    "83b190eab881",
+    "496c0d5d08a7",
+    "9cf198b6ace2"
+   ],
+   "no_gpu": [],
+   "resolved_by": "table, row and column (tab:v2trend)"
+  },
+  {
+   "value": 0.4668,
+   "tables": [
+    "tab:latescores"
+   ],
+   "task": "commonsense",
+   "model": "Qwen2.5-1.5B",
+   "mode": "bottom",
+   "rank": 2,
+   "lr": 0.002,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 4000 Ada": 4,
+    "GeForce RTX 3090": 1
+   },
+   "run_sets": 1,
+   "runs": [
+    "1330809280c5",
+    "5e18ab0c2169",
+    "6a4fa7ae8446",
+    "cf3b9656b24a",
+    "b40e2de6d522"
+   ],
+   "no_gpu": [],
+   "resolved_by": "table, row and column (tab:latescores)"
+  },
+  {
+   "value": 0.4692,
+   "tables": [
+    "tab:latescores"
+   ],
+   "task": "commonsense",
+   "model": "Qwen2.5-1.5B",
+   "mode": "random_ortho",
+   "rank": 2,
+   "lr": 0.005,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 2000 Ada": 1,
+    "RTX 4000 Ada": 4
+   },
+   "run_sets": 1,
+   "runs": [
+    "2e7ce52ff2ec",
+    "e62233a2d902",
+    "5d773d44eff0",
+    "7d0983ef0c3e",
+    "00656930ebb3"
+   ],
+   "no_gpu": [],
+   "resolved_by": "table, row and column (tab:latescores)"
+  },
+  {
+   "value": 0.4764,
+   "tables": [
+    "tab:central"
+   ],
+   "task": "commonsense",
+   "model": "Mistral-7B-v0.3",
+   "mode": "top",
+   "rank": 2,
+   "lr": 0.001,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 4000 Ada": 5
+   },
+   "run_sets": 1,
+   "runs": [
+    "2f64876fc3a1",
+    "28eeea14f86a",
+    "d05587958f1f",
+    "3dfe42443322",
+    "c97beec21c17"
+   ],
+   "no_gpu": [],
+   "resolved_by": "table, row and column (tab:central)"
+  },
+  {
+   "value": 0.4824,
+   "tables": [
+    "tab:latescores"
+   ],
+   "task": "commonsense",
+   "model": "Qwen2.5-1.5B",
+   "mode": "top",
+   "rank": 32,
+   "lr": 0.0005,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX A5000": 1,
+    "RTX 4000 Ada": 3,
+    "GeForce RTX 3090": 1
+   },
+   "run_sets": 1,
+   "runs": [
+    "c43360c0797d",
+    "0c0afff64c72",
+    "9459f2a8ab86",
+    "7c23a322ecba",
+    "fd91d1a114bf"
+   ],
+   "no_gpu": [],
+   "resolved_by": "table, row and column (tab:latescores)"
+  },
+  {
+   "value": 0.484,
+   "tables": [
+    "tab:central"
+   ],
+   "task": "commonsense",
+   "model": "Qwen2.5-7B",
+   "mode": "bottom",
+   "rank": 2,
+   "lr": 0.0005,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 4000 Ada": 5
+   },
+   "run_sets": 1,
+   "runs": [
+    "0f80fdfbb876",
+    "2852b8896cd6",
+    "e76e3238df27",
+    "f66f96147bfa",
+    "da853c25b5d2"
+   ],
+   "no_gpu": [],
+   "resolved_by": "table, row and column (tab:central)"
+  },
+  {
+   "value": 0.4888,
+   "tables": [
+    "tab:latescores"
+   ],
+   "task": "commonsense",
+   "model": "Qwen2.5-1.5B",
+   "mode": "free",
+   "rank": 14,
+   "lr": 0.0005,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 4000 Ada": 4,
+    "RTX A5000": 1
+   },
+   "run_sets": 1,
+   "runs": [
+    "4284c42a94a9",
+    "7933c68e292d",
+    "d102bc24d99a",
+    "2ec0b89b8aee",
+    "54458a84d2de"
+   ],
+   "no_gpu": [],
+   "resolved_by": "table, row and column (tab:latescores)"
+  },
+  {
+   "value": 0.496,
+   "tables": [
+    "tab:latescores"
+   ],
+   "task": "commonsense",
+   "model": "Qwen2.5-1.5B",
+   "mode": "random_ortho",
+   "rank": 32,
+   "lr": 0.0005,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 4000 Ada": 3,
+    "GeForce RTX 3090": 2
+   },
+   "run_sets": 1,
+   "runs": [
+    "e8f998054385",
+    "9780aed35407",
+    "1f9ff35c0cba",
+    "2981814de608",
+    "1c3a47e340bf"
+   ],
+   "no_gpu": [],
+   "resolved_by": "table, row and column (tab:latescores)"
+  },
+  {
+   "value": 0.4984,
+   "tables": [
+    "tab:latescores",
+    "tab:rank16"
+   ],
+   "task": "commonsense",
+   "model": "Qwen2.5-1.5B",
+   "mode": "bottom",
+   "rank": 16,
+   "lr": 0.001,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 4000 Ada": 2,
+    "GeForce RTX 3090": 3
+   },
+   "run_sets": 1,
+   "runs": [
+    "f1f7f2d818ba",
+    "a3f70e758734",
+    "464c46d70022",
+    "a8f369bad91a",
+    "a2de745bf143"
+   ],
+   "no_gpu": [],
+   "resolved_by": "table, row and column (tab:latescores)"
+  },
+  {
+   "value": 0.5116,
+   "tables": [
+    "tab:warm"
+   ],
+   "task": "commonsense",
+   "model": "Qwen2.5-1.5B",
+   "mode": "learned",
+   "rank": 2,
+   "lr": 0.005,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 4000 Ada": 5
+   },
+   "run_sets": 1,
+   "runs": [
+    "45441ada824c",
+    "a1bb975affd5",
+    "1858bccbbf29",
+    "e0ce18e20b3b",
+    "1726d7242be9"
+   ],
+   "no_gpu": [],
+   "resolved_by": "table, row and column (tab:warm)"
+  },
+  {
+   "value": 0.5344,
+   "tables": [
+    "tab:v2trend"
+   ],
+   "task": "commonsense",
+   "model": "Qwen2.5-1.5B",
+   "mode": "dual_top",
+   "rank": 4,
+   "lr": 0.005,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 4000 Ada": 5
+   },
+   "run_sets": 1,
+   "runs": [
+    "0ef4f2d4d3fe",
+    "44f0ad19381e",
+    "323618030ae2",
+    "74e19529dbf3",
+    "9a615a9a78d1"
+   ],
+   "no_gpu": [],
+   "resolved_by": "table, row and column (tab:v2trend)"
+  },
+  {
+   "value": 0.5456,
+   "tables": [
+    "tab:answeronly",
+    "tab:central",
+    "tab:latescores",
+    "tab:placements"
+   ],
+   "task": "commonsense",
+   "model": "Qwen2.5-1.5B",
+   "mode": "free",
+   "rank": 1,
+   "lr": 0.002,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 4000 Ada": 1,
+    "GeForce RTX 3090": 2,
+    "RTX 2000 Ada": 1,
+    "RTX A5000": 1
+   },
+   "run_sets": 1,
+   "runs": [
+    "d5a9bb8a36db",
+    "3886b916f75c",
+    "cfc0f272bc20",
+    "b0050d240e16",
+    "0a1427ad1978"
+   ],
+   "no_gpu": [],
+   "resolved_by": "table, row and column (tab:answeronly)"
+  },
+  {
+   "value": 0.5464,
+   "tables": [
+    "tab:v2budget"
+   ],
+   "task": "commonsense",
+   "model": "Qwen2.5-7B",
+   "mode": "top",
+   "rank": 3,
+   "lr": 0.002,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 4000 Ada": 5
+   },
+   "run_sets": 1,
+   "runs": [
+    "09e00d54d40a",
+    "60dccde4efb7",
+    "7bfa79249131",
+    "a39f9eb67321",
+    "56407ed45c68"
+   ],
+   "no_gpu": [],
+   "resolved_by": "table, row and column (tab:v2budget)"
+  },
+  {
+   "value": 0.5524,
+   "tables": [
+    "tab:central",
+    "tab:v2trend"
+   ],
+   "task": "commonsense",
+   "model": "Qwen2.5-1.5B",
+   "mode": "top_unfrozen",
+   "rank": 1,
+   "lr": 0.002,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 4000 Ada": 5
+   },
+   "run_sets": 1,
+   "runs": [
+    "2f8a24b5151d",
+    "f9aae76ff9fd",
+    "9869b7f9ef87",
+    "005c1dd7e07d",
+    "b53cd7445c49"
+   ],
+   "no_gpu": [],
+   "resolved_by": "table, row and column (tab:central)"
+  },
+  {
+   "value": 0.5524,
+   "tables": [
+    "tab:central",
+    "tab:v2trend"
+   ],
+   "task": "commonsense",
+   "model": "Qwen2.5-1.5B",
+   "mode": "free",
+   "rank": 2,
+   "lr": 0.005,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 4000 Ada": 5
+   },
+   "run_sets": 1,
+   "runs": [
+    "139ca4d45d53",
+    "724568d78b2d",
+    "d4df157f267d",
+    "0a0ee7a6d8d7",
+    "efec44742a8f"
+   ],
+   "no_gpu": [],
+   "resolved_by": "table, row and column (tab:v2trend)"
+  },
+  {
+   "value": 0.5528,
+   "tables": [
+    "tab:central",
+    "tab:mechreps",
+    "tab:placements"
+   ],
+   "task": "commonsense",
+   "model": "Qwen2.5-1.5B",
+   "mode": "bottom_unfrozen",
+   "rank": 2,
+   "lr": 0.002,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX A5000": 2,
+    "RTX 2000 Ada": 1,
+    "RTX 4000 Ada": 2
+   },
+   "run_sets": 1,
+   "runs": [
+    "3288b4d9d975",
+    "1e833a88fd8e",
+    "c9f057771997",
+    "eada8015ebf4",
+    "0102a67cc611"
+   ],
+   "no_gpu": [],
+   "resolved_by": "table, row and column (tab:central)"
+  },
+  {
+   "value": 0.5528,
+   "tables": [
+    "tab:central",
+    "tab:mechreps",
+    "tab:placements"
+   ],
+   "task": "commonsense",
+   "model": "Qwen2.5-1.5B",
+   "mode": "learned",
+   "rank": 2,
+   "lr": 0.005,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 4000 Ada": 5
+   },
+   "run_sets": 1,
+   "runs": [
+    "a18ff3d87138",
+    "3332cc877aea",
+    "7a04b585f661",
+    "4d847d2c5905",
+    "97eb1f398fe0"
+   ],
+   "no_gpu": [],
+   "resolved_by": "table, row and column (tab:mechreps)"
+  },
+  {
+   "value": 0.5544,
+   "tables": [
+    "tab:v2trend"
+   ],
+   "task": "commonsense",
+   "model": "Qwen2.5-1.5B",
+   "mode": "free",
+   "rank": 4,
+   "lr": 0.002,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 4000 Ada": 5
+   },
+   "run_sets": 1,
+   "runs": [
+    "2e7f28a343c5",
+    "fb3c315a44f8",
+    "de017f34e11d",
+    "40c501de56e6",
+    "b035e0b57d20"
+   ],
+   "no_gpu": [],
+   "resolved_by": "table, row and column (tab:v2trend)"
+  },
+  {
+   "value": 0.5552,
+   "tables": [
+    "tab:answeronly"
+   ],
+   "task": "commonsense",
+   "model": "Qwen2.5-1.5B",
+   "mode": "dual_top",
+   "rank": 2,
+   "lr": 0.005,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 4000 Ada": 5
+   },
+   "run_sets": 1,
+   "runs": [
+    "9e34ffc95468",
+    "e3c0f18d2968",
+    "b326f584e816",
+    "0c98db526dbd",
+    "a2ff16f59fc4"
+   ],
+   "no_gpu": [],
+   "resolved_by": "table, row and column (tab:answeronly)"
+  },
+  {
+   "value": 0.5572,
+   "tables": [
+    "tab:answeronly"
+   ],
+   "task": "commonsense",
+   "model": "Qwen2.5-1.5B",
+   "mode": "free",
+   "rank": 1,
+   "lr": 0.002,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 4000 Ada": 5
+   },
+   "run_sets": 1,
+   "runs": [
+    "53095bf1924f",
+    "5346a7275203",
+    "06a1585f2f03",
+    "448998bab762",
+    "76d6045ea306"
+   ],
+   "no_gpu": [],
+   "resolved_by": "table, row and column (tab:answeronly)"
+  },
+  {
+   "value": 0.5924,
+   "tables": [
+    "tab:central"
+   ],
+   "task": "commonsense",
+   "model": "Mistral-7B-v0.3",
+   "mode": "top_unfrozen",
+   "rank": 1,
+   "lr": 0.002,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 4000 Ada": 5
+   },
+   "run_sets": 1,
+   "runs": [
+    "577b3816c537",
+    "07c774e5c090",
+    "79cc42d9cf5a",
+    "78f9617f1a7b",
+    "067772e7f0f9"
+   ],
+   "no_gpu": [],
+   "resolved_by": "table, row and column (tab:central)"
+  },
+  {
+   "value": 0.5924,
+   "tables": [
+    "tab:central"
+   ],
+   "task": "commonsense",
+   "model": "Mistral-7B-v0.3",
+   "mode": "bottom_unfrozen",
+   "rank": 1,
+   "lr": 0.002,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 4000 Ada": 5
+   },
+   "run_sets": 1,
+   "runs": [
+    "0070ecbb14f2",
+    "c7465b4bf393",
+    "d843c9aa7406",
+    "d901d04874d7",
+    "badb01ec7b29"
+   ],
+   "no_gpu": [],
+   "resolved_by": "table, row and column (tab:central)"
+  },
+  {
+   "value": 0.5928,
+   "tables": [
+    "tab:possweep"
+   ],
+   "task": "format",
+   "model": "Llama-3.2-1B",
+   "mode": "band",
+   "rank": 2,
+   "lr": 0.005,
+   "seeds": "2-8",
+   "gpus": {
+    "RTX 4000 Ada": 5,
+    "RTX 2000 Ada": 2
+   },
+   "run_sets": 1,
+   "runs": [
+    "d4b756d59122",
+    "ba083d81797b",
+    "d90e4a45726d",
+    "520bf329ed8f",
+    "bf10d3cf36c8",
+    "fb9c83bf7a0f",
+    "186a2e27063a"
+   ],
+   "no_gpu": [],
+   "resolved_by": "table, row and column (tab:possweep)"
+  },
+  {
+   "value": 0.6257,
+   "tables": [
+    "tab:central",
+    "tab:latescores"
+   ],
+   "task": "format",
+   "model": "Qwen2.5-1.5B",
+   "mode": "top",
+   "rank": 2,
+   "lr": 0.01,
+   "seeds": "22-26",
+   "gpus": {
+    "RTX 4000 Ada": 5
+   },
+   "run_sets": 1,
+   "runs": [
+    "ed173975d22f",
+    "53b3a2707c9f",
+    "f0ed9239cbf9",
+    "1ce7e73fe486",
+    "02b796b0b48f"
+   ],
+   "no_gpu": [],
+   "resolved_by": "table, row and column (tab:central)"
+  },
+  {
+   "value": 0.6332,
+   "tables": [
+    "tab:v2trend"
+   ],
+   "task": "commonsense",
+   "model": "Qwen2.5-7B",
+   "mode": "top_unfrozen",
+   "rank": 16,
+   "lr": 0.0005,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 4000 Ada": 5
+   },
+   "run_sets": 1,
+   "runs": [
+    "83d2d1698e74",
+    "6e9b73e796a9",
+    "87176c593960",
+    "1cb97e210ebf",
+    "f3f658a3102a"
+   ],
+   "no_gpu": [],
+   "resolved_by": "table, row and column (tab:v2trend)"
+  },
+  {
+   "value": 0.6534,
+   "tables": [
+    "tab:placements"
+   ],
+   "task": "format",
+   "model": "Llama-3.2-1B",
+   "mode": "random_ortho",
+   "rank": 2,
+   "lr": 0.01,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX A4000": 2,
+    "RTX 4000 Ada": 2,
+    "GeForce RTX 3090": 1
+   },
+   "run_sets": 1,
+   "runs": [
+    "798cc56b4307",
+    "26ba26dc72aa",
+    "97ddb1cf9bad",
+    "b8e16f501ae4",
+    "471c785cfe07"
+   ],
+   "no_gpu": [],
+   "resolved_by": "table, row and column (tab:placements)"
+  },
+  {
+   "value": 0.6658,
+   "tables": [
+    "tab:grad",
+    "tab:placements"
+   ],
+   "task": "format",
+   "model": "Llama-3.2-1B",
+   "mode": "learned",
+   "rank": 2,
+   "lr": 0.005,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 4000 Ada": 5
+   },
+   "run_sets": 1,
+   "runs": [
+    "d6175d6b2b1c",
+    "13da134357bf",
+    "1a266da4f368",
+    "bec461d6bed1",
+    "63439d7aa9b8"
+   ],
+   "no_gpu": [],
+   "resolved_by": "table, row and column (tab:grad)"
+  },
+  {
+   "value": 0.6671,
+   "tables": [
+    "tab:possweep"
+   ],
+   "task": "format",
+   "model": "Llama-3.2-1B",
+   "mode": "band",
+   "rank": 2,
+   "lr": 0.01,
+   "seeds": "2-8",
+   "gpus": {
+    "RTX A4000": 3,
+    "GeForce RTX 3090": 1,
+    "RTX A5000": 1,
+    "RTX 2000 Ada": 1,
+    "RTX 4000 Ada": 1
+   },
+   "run_sets": 1,
+   "runs": [
+    "0c0a932bbdb5",
+    "9b59a74063c3",
+    "b59c75605b28",
+    "372c260b60e7",
+    "077e8dc5066f",
+    "6deef3b5e83d",
+    "bcf79f499bad"
+   ],
+   "no_gpu": [],
+   "resolved_by": "table, row and column (tab:possweep)"
+  },
+  {
+   "value": 0.6896,
+   "tables": [
+    "tab:latescores"
+   ],
+   "task": "format",
+   "model": "Llama-3.2-1B",
+   "mode": "random_ortho",
+   "rank": 2,
+   "lr": 0.01,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 4000 Ada": 3,
+    "RTX A5000": 1,
+    "RTX 2000 Ada": 1
+   },
+   "run_sets": 1,
+   "runs": [
+    "82b7a9750ded",
+    "acd73c2b1067",
+    "19333c59414b",
+    "d8c8167606a0",
+    "6cde7537f124"
+   ],
+   "no_gpu": [],
+   "resolved_by": "table, row and column (tab:latescores)"
+  },
+  {
+   "value": 0.745,
+   "tables": [
+    "tab:latescores"
+   ],
+   "task": "format",
+   "model": "Llama-3.2-1B",
+   "mode": "top",
+   "rank": 8,
+   "lr": 0.002,
+   "seeds": "42-46",
+   "gpus": {
+    "RTX 2000 Ada": 1,
+    "RTX 4000 Ada": 3,
+    "GeForce RTX 3090": 1
+   },
+   "run_sets": 1,
+   "runs": [
+    "65bc9b31017f",
+    "1a2ec7755ab8",
+    "588fa288acc3",
+    "322655807c20",
+    "2f8bc2e9c677"
+   ],
+   "no_gpu": [],
+   "resolved_by": "table, row and column (tab:latescores)"
+  },
+  {
+   "value": 0.745,
+   "tables": [
+    "tab:latescores"
+   ],
+   "task": "format",
+   "model": "Llama-3.2-1B",
+   "mode": "bottom",
+   "rank": 8,
+   "lr": 0.002,
+   "seeds": "42-46",
+   "gpus": {
+    "RTX 4000 Ada": 5
+   },
+   "run_sets": 1,
+   "runs": [
+    "8c6f81e809b6",
+    "1bafaccd0f11",
+    "a12ac5218c5f",
+    "79874ac5fed7",
+    "16dad372bf66"
+   ],
+   "no_gpu": [],
+   "resolved_by": "table, row and column (tab:latescores)"
+  },
+  {
+   "value": 0.7524,
+   "tables": [
+    "tab:latescores"
+   ],
+   "task": "format",
+   "model": "Qwen2.5-1.5B",
+   "mode": "bottom",
+   "rank": 16,
+   "lr": 0.001,
+   "seeds": "22-26",
+   "gpus": {
+    "RTX 4000 Ada": 5
+   },
+   "run_sets": 1,
+   "runs": [
+    "74502ddc72d0",
+    "288fecef63db",
+    "14716dd8727d",
+    "aa5fad2aeb56",
+    "e6e36b810876"
+   ],
+   "no_gpu": [],
+   "resolved_by": "table, row and column (tab:latescores)"
+  },
+  {
+   "value": 0.7684,
+   "tables": [
+    "tab:central",
+    "tab:mechreps",
+    "tab:placements"
+   ],
+   "task": "format",
+   "model": "Llama-3.2-1B",
+   "mode": "free",
+   "rank": 1,
+   "lr": 0.001,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 4000 Ada": 1,
+    "GeForce RTX 3090": 3,
+    "RTX 2000 Ada": 1
+   },
+   "run_sets": 1,
+   "runs": [
+    "15ea1f19ff5b",
+    "e54c3172e8bb",
+    "720658ec81f7",
+    "132c27b47845",
+    "80a585e8340a"
+   ],
+   "no_gpu": [],
+   "resolved_by": "table, row and column (tab:central)"
+  },
+  {
+   "value": 0.7811,
+   "tables": [
+    "tab:central"
+   ],
+   "task": "format",
+   "model": "Qwen2.5-1.5B",
+   "mode": "bottom_unfrozen",
+   "rank": 1,
+   "lr": 0.005,
+   "seeds": "22-26",
+   "gpus": {
+    "RTX 4000 Ada": 5
+   },
+   "run_sets": 1,
+   "runs": [
+    "e0b1a71b8e66",
+    "456e46eb3283",
+    "3c62dd21ac86",
+    "5aac280b39e4",
+    "0d205230d2bf"
+   ],
+   "no_gpu": [],
+   "resolved_by": "table, row and column (tab:central)"
+  },
+  {
+   "value": 0.7818,
+   "tables": [
+    "tab:central"
+   ],
+   "task": "format",
+   "model": "Llama-3.2-1B",
+   "mode": "dual_bottom",
+   "rank": 2,
+   "lr": 0.01,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 2000 Ada": 2,
+    "RTX A4000": 1,
+    "GeForce RTX 3090": 1,
+    "RTX 4000 Ada": 1
+   },
+   "run_sets": 1,
+   "runs": [
+    "94442f8e9a41",
+    "5cd7c13ce75f",
+    "46c02247fa65",
+    "db2f9706e4da",
+    "560834379468"
+   ],
+   "no_gpu": [],
+   "resolved_by": "table, row and column (tab:central)"
+  },
+  {
+   "value": 0.7896,
+   "tables": [
+    "tab:central"
+   ],
+   "task": "format",
+   "model": "Qwen2.5-1.5B",
+   "mode": "top_unfrozen",
+   "rank": 1,
+   "lr": 0.005,
+   "seeds": "22-26",
+   "gpus": {
+    "RTX 4000 Ada": 5
+   },
+   "run_sets": 1,
+   "runs": [
+    "12af2119132a",
+    "17a1d1aeff15",
+    "f3101d28703e",
+    "a2775e4e8db5",
+    "a609dd28dc7a"
+   ],
+   "no_gpu": [],
+   "resolved_by": "table, row and column (tab:central)"
+  },
+  {
+   "value": 0.7948,
+   "tables": [
+    "tab:latescores"
+   ],
+   "task": "commonsense",
+   "model": "Qwen2.5-1.5B",
+   "mode": "top",
+   "rank": 16,
+   "lr": 0.0001,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 2000 Ada": 2,
+    "RTX A5000": 1,
+    "RTX 4000 Ada": 2
+   },
+   "run_sets": 1,
+   "runs": [
+    "2544331b3f45",
+    "dc4680d0aca3",
+    "c0f29aea876d",
+    "95e475b79806",
+    "4baeb22e828f"
+   ],
+   "no_gpu": [],
+   "resolved_by": "table, row and column (tab:latescores)"
+  },
+  {
+   "value": 0.7984,
+   "tables": [
+    "tab:latescores"
+   ],
+   "task": "format",
+   "model": "Llama-3.2-1B",
+   "mode": "free",
+   "rank": 1,
+   "lr": 0.001,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 4000 Ada": 4,
+    "RTX 2000 Ada": 1
+   },
+   "run_sets": 1,
+   "runs": [
+    "7c0cdd30712c",
+    "0db64ba44f98",
+    "7d9a613f15e3",
+    "e141dfb8e818",
+    "0c1da4a29aec"
+   ],
+   "no_gpu": [],
+   "resolved_by": "table, row and column (tab:latescores)"
+  },
+  {
+   "value": 0.8078,
+   "tables": [
+    "tab:latescores"
+   ],
+   "task": "format",
+   "model": "Qwen2.5-1.5B",
+   "mode": "free",
+   "rank": 7,
+   "lr": 0.002,
+   "seeds": "22-26",
+   "gpus": {
+    "RTX 4000 Ada": 5
+   },
+   "run_sets": 1,
+   "runs": [
+    "cf7a9981892a",
+    "eab0d2b4c0a6",
+    "614d20a049b1",
+    "068a94c7c965",
+    "e21450259079"
+   ],
+   "no_gpu": [],
+   "resolved_by": "table, row and column (tab:latescores)"
+  },
+  {
+   "value": 0.8081,
+   "tables": [
+    "tab:mechreps",
+    "tab:placements"
+   ],
+   "task": "format",
+   "model": "Llama-3.2-1B",
+   "mode": "learned",
+   "rank": 2,
+   "lr": 0.005,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 4000 Ada": 5
+   },
+   "run_sets": 1,
+   "runs": [
+    "a14ffc9de6af",
+    "3941e9e5aea0",
+    "85b454fe45cf",
+    "71d493c7e153",
+    "ef200fbe135e"
+   ],
+   "no_gpu": [],
+   "resolved_by": "table, row and column (tab:mechreps)"
+  }
+ ],
+ "problems": [],
+ "runs_by_model": {
+  "RTX 4000 Ada": 577,
+  "(none)": 6,
+  "RTX A5000": 27,
+  "GeForce RTX 3090": 39,
+  "RTX A4000": 23,
+  "RTX 2000 Ada": 33
+ },
+ "compositions": {
+  "(none) + RTX 4000 Ada": 1,
+  "(none) + RTX 4000 Ada + RTX A5000": 1,
+  "GeForce RTX 3090 + RTX 4000 Ada + RTX A5000": 3,
+  "RTX 2000 Ada + RTX 4000 Ada + RTX A4000 + RTX A5000": 3,
+  "RTX 4000 Ada + RTX A5000": 4,
+  "GeForce RTX 3090 + RTX 2000 Ada + RTX 4000 Ada + RTX A4000": 2,
+  "GeForce RTX 3090 + RTX 4000 Ada": 7,
+  "RTX 2000 Ada + RTX 4000 Ada + RTX A5000": 5,
+  "GeForce RTX 3090 + RTX 2000 Ada + RTX 4000 Ada": 5,
+  "GeForce RTX 3090 + RTX 4000 Ada + RTX A4000": 3,
+  "RTX 2000 Ada + RTX 4000 Ada": 5,
+  "RTX 4000 Ada + RTX A4000": 4,
+  "GeForce RTX 3090 + RTX 4000 Ada + RTX A4000 + RTX A5000": 2,
+  "RTX 4000 Ada": 86,
+  "GeForce RTX 3090 + RTX 2000 Ada + RTX 4000 Ada + RTX A5000": 3,
+  "RTX 2000 Ada + RTX 4000 Ada + RTX A4000": 1,
+  "RTX 4000 Ada + RTX A4000 + RTX A5000": 1,
+  "GeForce RTX 3090 + RTX 2000 Ada + RTX 4000 Ada + RTX A4000 + RTX A5000": 1
+ }
+}

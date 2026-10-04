@@ -1,0 +1,46 @@
+{
+ "arms": {
+  "top_r2": {
+   "mode": "top",
+   "rank": 2,
+   "rate": 0.01,
+   "published": 0.6443
+  },
+  "bottom_r2": {
+   "mode": "bottom",
+   "rank": 2,
+   "rate": 0.005,
+   "published": 0.5922
+  },
+  "dual_top_r2": {
+   "mode": "dual_top",
+   "rank": 2,
+   "rate": 0.01,
+   "published": 0.7739
+  },
+  "dual_bottom_r2": {
+   "mode": "dual_bottom",
+   "rank": 2,
+   "rate": 0.01,
+   "published": 0.7818
+  },
+  "free_r1": {
+   "mode": "free",
+   "rank": 1,
+   "rate": 0.001,
+   "published": 0.7684
+  },
+  "top_unfrozen_r1": {
+   "mode": "top_unfrozen",
+   "rank": 1,
+   "rate": 0.005,
+   "published": 0.7928
+  },
+  "bottom_unfrozen_r1": {
+   "mode": "bottom_unfrozen",
+   "rank": 1,
+   "rate": 0.005,
+   "published": 0.7954
+  }
+ }
+}

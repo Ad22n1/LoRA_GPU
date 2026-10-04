@@ -1,0 +1,16 @@
+==================== E2 : rang 2 sur un seul modele de PARTITION (RTX 4000 Ada ; Llama-3.2-1B, tache de format ; graines 2 a 6) ====================
+  top_r2             a 0.01    : 0.6423 (publie 0.6443, ecart -0.20)
+  bottom_r2          a 0.005   : 0.5831 (publie 0.5922, ecart -0.91)
+  dual_top_r2        a 0.01    : 0.7739 (publie 0.7739, ecart +0.00)
+  dual_bottom_r2     a 0.01    : 0.7798 (publie 0.7818, ecart -0.20)
+  free_r1            a 0.001   : 0.7697 (publie 0.7684, ecart +0.13)
+  top_unfrozen_r1    a 0.005   : 0.8036 (publie 0.7928, ecart +1.08)
+  bottom_unfrozen_r1 a 0.005   : 0.7967 (publie 0.7954, ecart +0.13)
+  top: G = +12.74, t = 11.39 -> ETABLI (publie +12.41, etabli)
+  top: A gele - B gele = +13.16, t = 11.49 -> ETABLI (publie +12.96, etabli)
+  top: R = +16.12 [+13.20, +19.04] contre 0,7 G = 8.92 -> l essentiel (etabli) (publie +14.85)
+  bottom: G = +18.66, t = 13.86 -> ETABLI (publie +17.62, etabli)
+  bottom: A gele - B gele = +19.67, t = 14.36 -> ETABLI (publie +18.96, etabli)
+  bottom: R = +21.37 [+19.09, +23.64] contre 0,7 G = 13.07 -> l essentiel (etabli) (publie +20.32)
+  TOUS LES RESULTATS ETABLIS DU PAPIER LE RESTENT : OUI
+  calcul : 35 runs termines, 5.0 PARTITION-heures

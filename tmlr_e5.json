@@ -1,0 +1,170 @@
+{
+ "pairs": {
+  "obqa": {
+   "base_ref": {
+    "attn_implementation": null,
+    "batch_size": 2,
+    "data_dir": "~/lora-shared/data/openbookqa",
+    "data_fingerprint": "dc05f4d847f9",
+    "dtype": "bfloat16",
+    "epochs": 3.0,
+    "eval_forgetting": false,
+    "eval_forgetting_limit": 1000,
+    "eval_limit": 6000,
+    "grad_accum": 16,
+    "gradient_checkpointing": true,
+    "log_every": 10,
+    "max_grad_norm": 1.0,
+    "max_len": 384,
+    "max_new_tokens": 128,
+    "max_steps": null,
+    "model": "Qwen/Qwen2.5-1.5B",
+    "notes": "",
+    "num_workers": 2,
+    "out_dir": "~/lora-runs",
+    "per_module": null,
+    "save_factor_steps": [],
+    "save_full_delta": false,
+    "sigma_rel_tol": null,
+    "subspace_salted": true,
+    "subspace_seed": null,
+    "svd_cache": "/tmp/lora-USER/svd",
+    "target_modules": [
+     "q_proj",
+     "k_proj",
+     "v_proj",
+     "o_proj",
+     "gate_proj",
+     "up_proj",
+     "down_proj"
+    ],
+    "target_tokens": 600000,
+    "task": "commonsense",
+    "tiny_model_config": null,
+    "token_weighted_loss": false,
+    "warmup_ratio": 0.05,
+    "weight_decay": 0.0
+   },
+   "rates": {
+    "5": 0.005,
+    "10": 0.005,
+    "25": 0.002
+   },
+   "bases": {
+    "warm5_d301": {
+     "file": "bases/learned_warm5_obqa_d301_r2.safetensors",
+     "md5": "0ebf2f90734177117d91e238205a3f5b",
+     "step": 3
+    },
+    "warm10_d301": {
+     "file": "bases/learned_warm10_obqa_d301_r2.safetensors",
+     "md5": "caf9718add138fdd170034d38c8da4c2",
+     "step": 5
+    },
+    "warm25_d301": {
+     "file": "bases/learned_warm25_obqa_d301_r2.safetensors",
+     "md5": "437f90a8ed610122f2b1f2185c7f2889",
+     "step": 13
+    },
+    "warm5_d302": {
+     "file": "bases/learned_warm5_obqa_d302_r2.safetensors",
+     "md5": "061e9e8797a7d78c522a3925337006d2",
+     "step": 3
+    },
+    "warm10_d302": {
+     "file": "bases/learned_warm10_obqa_d302_r2.safetensors",
+     "md5": "b7f243e9d3b288eabc5cb117c989a0be",
+     "step": 5
+    },
+    "warm25_d302": {
+     "file": "bases/learned_warm25_obqa_d302_r2.safetensors",
+     "md5": "a887ea8788b45dcf76c9a5a37e370504",
+     "step": 13
+    }
+   }
+  },
+  "fmt": {
+   "base_ref": {
+    "attn_implementation": null,
+    "batch_size": 2,
+    "data_dir": "~/lora-shared/data",
+    "data_fingerprint": "",
+    "dtype": "bfloat16",
+    "epochs": 3.0,
+    "eval_forgetting": true,
+    "eval_forgetting_limit": 1000,
+    "eval_limit": 6000,
+    "grad_accum": 16,
+    "gradient_checkpointing": true,
+    "log_every": 10,
+    "max_grad_norm": 1.0,
+    "max_len": 384,
+    "max_new_tokens": 128,
+    "max_steps": null,
+    "model": "meta-llama/Llama-3.2-1B",
+    "notes": "",
+    "num_workers": 2,
+    "out_dir": "~/lora-runs",
+    "per_module": null,
+    "save_factor_steps": [],
+    "save_full_delta": false,
+    "sigma_rel_tol": null,
+    "subspace_salted": true,
+    "subspace_seed": null,
+    "svd_cache": "/tmp/lora-USER/svd",
+    "target_modules": [
+     "q_proj",
+     "k_proj",
+     "v_proj",
+     "o_proj",
+     "gate_proj",
+     "up_proj",
+     "down_proj"
+    ],
+    "target_tokens": 600000,
+    "task": "format",
+    "tiny_model_config": null,
+    "token_weighted_loss": false,
+    "warmup_ratio": 0.05,
+    "weight_decay": 0.0
+   },
+   "rates": {
+    "5": 0.005,
+    "10": 0.005,
+    "25": 0.005
+   },
+   "bases": {
+    "warm5_d301": {
+     "file": "bases/learned_warm5_fmt_d301_r2.safetensors",
+     "md5": "4249039bf1c5ced2e8b500549fabb918",
+     "step": 14
+    },
+    "warm10_d301": {
+     "file": "bases/learned_warm10_fmt_d301_r2.safetensors",
+     "md5": "29f19c3ecd4b66d52c524dcd981ca3b2",
+     "step": 28
+    },
+    "warm25_d301": {
+     "file": "bases/learned_warm25_fmt_d301_r2.safetensors",
+     "md5": "3396f6ee0ea06e07095b903576bd6670",
+     "step": 69
+    },
+    "warm5_d302": {
+     "file": "bases/learned_warm5_fmt_d302_r2.safetensors",
+     "md5": "6976660a4f712409e2893842c7471204",
+     "step": 14
+    },
+    "warm10_d302": {
+     "file": "bases/learned_warm10_fmt_d302_r2.safetensors",
+     "md5": "c618b1d6e33e3dc84149bf918643442c",
+     "step": 28
+    },
+    "warm25_d302": {
+     "file": "bases/learned_warm25_fmt_d302_r2.safetensors",
+     "md5": "e125a05178079346090159e56ce4151f",
+     "step": 69
+    }
+   }
+  }
+ }
+}

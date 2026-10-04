@@ -1,0 +1,20 @@
+==================== E6 : A gele sur une base orthonormee aleatoire (graines 2 a 6 ; PARTITION ['RTX 4000 Ada']) ====================
+  fmt_r2 : taux 0.02 (grille prolongee d'un cran) ; validation {'0.0005': 0.508, '0.001': 0.62, '0.002': 0.7, '0.005': 0.731, '0.01': 0.762, '0.02': 0.783, '0.05': 0.0} ; parametres 753,664
+    par graine : 2: 0.7752, 3: 0.7818, 4: 0.7769, 5: 0.7671, 6: 0.7704 ; moyenne 0.7743
+    dual_random_ortho - random_ortho r=2 (publie 0.6534, a 0.01) = +12.08 [+10.62, +13.55], t = 22.86 -> P1 ETABLI (seuil 3,495)
+    dual_random_ortho - dual_top r=2 (publie 0.7739, a 0.01) = +0.03 [-2.13, +2.20]
+    dual_random_ortho - dual_bottom r=2 (publie 0.7818, a 0.01) = -0.75 [-1.92, +0.42]
+    dual_random_ortho - free r=1 (publie 0.7684, a 0.001) = +0.59 [-1.99, +3.17]
+  obqa_r2 : taux 0.01 ; validation {'0.0005': 0.3775, '0.001': 0.4, '0.002': 0.42, '0.005': 0.45125000000000004, '0.01': 0.49624999999999997, '0.02': 0.4675} ; parametres 1,290,240
+    par graine : 2: 0.5520, 3: 0.5500, 4: 0.5380, 5: 0.5560, 6: 0.5320 ; moyenne 0.5456
+    dual_random_ortho - random_ortho r=2 (publie 0.4592, a 0.02) = +8.64 [+7.44, +9.84], t = 20.06 -> P1 ETABLI (seuil 3,495)
+    dual_random_ortho - dual_top r=2 (publie 0.5308, a 0.005) = +1.48 [-0.21, +3.17]
+    dual_random_ortho - dual_bottom r=2 (publie 0.5248, a 0.01) = +2.08 [+0.75, +3.41]
+    dual_random_ortho - free r=1 (publie 0.5456, a 0.002) = +0.00 [-2.86, +2.86]
+  obqa_r16 : taux 0.002 ; validation {'0.0005': 0.44125000000000003, '0.001': 0.46375, '0.002': 0.49749999999999994, '0.005': 0.48749999999999993, '0.01': 0.4425, '0.02': 0.28500000000000003} ; parametres 10,321,920
+    par graine : 2: 0.5620, 3: 0.5620, 4: 0.5620, 5: 0.5580, 6: 0.5780 ; moyenne 0.5644
+    dual_random_ortho - dual_top r=16 (publie 0.5544, a 0.002) = +1.00 [+0.21, +1.79]
+    dual_random_ortho - dual_bottom r=16 (publie 0.5364, a 0.001) = +2.80 [+1.96, +3.64]
+    dual_random_ortho - free r=7 (publie 0.5616, a 0.002) = +0.28 [-1.63, +2.19]
+  LECTURE FIXEE : l'avantage de geler A sur geler B ne depend pas d'un placement spectral de A
+  calcul : 53 runs termines, 5.2 PARTITION-heures

@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "lorasub"
+version = "0.1.0"
+description = "Major vs minor singular subspaces for LoRA: format vs facts"
+requires-python = ">=3.10"
+dependencies = [
+  "torch>=2.3",
+  "transformers>=4.45",
+  "datasets>=2.20",
+  "safetensors>=0.4",
+  "accelerate>=0.33",
+  "pyyaml>=6",
+  "pandas>=2",
+  "matplotlib>=3.8",
+]
+
+[project.optional-dependencies]
+cluster = ["bitsandbytes>=0.43", "lm_eval>=0.4.4", "flash-attn>=2.5"]
+dev = ["pytest>=8", "peft>=0.12", "ruff", "black"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+lorasub = ["data/templates_*.yaml"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

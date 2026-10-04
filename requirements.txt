@@ -1,0 +1,14 @@
+torch>=2.3
+transformers>=4.45    # tested with 4.45 and 5.x (modeling.py handles the dtype kwarg rename)
+datasets>=2.20        # >=4.0 removed loading scripts and trust_remote_code:
+                      # data/format.py uses the Parquet mirror tomaarsen/conll2003 by default,
+                      # and falls back to script repos only when datasets<4 is installed
+safetensors>=0.4
+accelerate>=0.33
+pyyaml>=6
+pandas>=2
+matplotlib>=3.8
+pytest>=8
+peft>=0.12          # tests only (equivalence check)
+bitsandbytes>=0.43  # full FT reference (8-bit AdamW); optional
+lm_eval>=0.4.4      # forgetting metrics; optional

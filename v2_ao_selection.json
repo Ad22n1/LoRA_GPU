@@ -1,0 +1,7 @@
+{
+ "top_r2": 0.005,
+ "bottom_r2": 0.001,
+ "dual_top_r2": 0.005,
+ "dual_bottom_r2": 0.01,
+ "free_r1": 0.002
+}

@@ -1,0 +1,2965 @@
+{
+ "cells": [
+  {
+   "value": 0.422,
+   "tables": [
+    "tab:answeronly",
+    "tab:central",
+    "tab:latescores",
+    "tab:placements"
+   ],
+   "task": "commonsense",
+   "model": "Qwen2.5-1.5B",
+   "mode": "bottom",
+   "rank": 2,
+   "lr": 0.002,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 4000 Ada": 3,
+    "GeForce RTX 3090": 2
+   },
+   "no_gpu": []
+  },
+  {
+   "value": 0.4576,
+   "tables": [
+    "tab:answeronly"
+   ],
+   "task": "commonsense",
+   "model": "Qwen2.5-1.5B",
+   "mode": "bottom",
+   "rank": 2,
+   "lr": 0.001,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 4000 Ada": 5
+   },
+   "no_gpu": []
+  },
+  {
+   "value": 0.5552,
+   "tables": [
+    "tab:answeronly"
+   ],
+   "task": "commonsense",
+   "model": "Qwen2.5-1.5B",
+   "mode": "bottom_unfrozen",
+   "rank": 7,
+   "lr": 0.001,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 4000 Ada": 5
+   },
+   "no_gpu": []
+  },
+  {
+   "value": 0.5456,
+   "tables": [
+    "tab:answeronly",
+    "tab:central",
+    "tab:latescores",
+    "tab:placements"
+   ],
+   "task": "commonsense",
+   "model": "Qwen2.5-1.5B",
+   "mode": "bottom_unfrozen",
+   "rank": 7,
+   "lr": 0.002,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 4000 Ada": 5
+   },
+   "no_gpu": []
+  },
+  {
+   "value": 0.5248,
+   "tables": [
+    "tab:answeronly",
+    "tab:central",
+    "tab:v2budget"
+   ],
+   "task": "commonsense",
+   "model": "Qwen2.5-1.5B",
+   "mode": "dual_bottom",
+   "rank": 2,
+   "lr": 0.01,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 4000 Ada": 5
+   },
+   "no_gpu": []
+  },
+  {
+   "value": 0.5548,
+   "tables": [
+    "tab:answeronly"
+   ],
+   "task": "commonsense",
+   "model": "Qwen2.5-1.5B",
+   "mode": "dual_bottom",
+   "rank": 2,
+   "lr": 0.01,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 4000 Ada": 5
+   },
+   "no_gpu": []
+  },
+  {
+   "value": 0.5308,
+   "tables": [
+    "tab:answeronly",
+    "tab:central",
+    "tab:v2budget"
+   ],
+   "task": "commonsense",
+   "model": "Qwen2.5-1.5B",
+   "mode": "dual_top",
+   "rank": 2,
+   "lr": 0.005,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 4000 Ada": 5
+   },
+   "no_gpu": []
+  },
+  {
+   "value": 0.5552,
+   "tables": [
+    "tab:answeronly"
+   ],
+   "task": "commonsense",
+   "model": "Qwen2.5-1.5B",
+   "mode": "dual_top",
+   "rank": 2,
+   "lr": 0.005,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 4000 Ada": 5
+   },
+   "no_gpu": []
+  },
+  {
+   "value": 0.5456,
+   "tables": [
+    "tab:answeronly",
+    "tab:central",
+    "tab:latescores",
+    "tab:placements"
+   ],
+   "task": "commonsense",
+   "model": "Qwen2.5-1.5B",
+   "mode": "free",
+   "rank": 1,
+   "lr": 0.002,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 4000 Ada": 1,
+    "GeForce RTX 3090": 2,
+    "RTX 2000 Ada": 1,
+    "RTX A5000": 1
+   },
+   "no_gpu": []
+  },
+  {
+   "value": 0.5572,
+   "tables": [
+    "tab:answeronly"
+   ],
+   "task": "commonsense",
+   "model": "Qwen2.5-1.5B",
+   "mode": "free",
+   "rank": 1,
+   "lr": 0.002,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 4000 Ada": 5
+   },
+   "no_gpu": []
+  },
+  {
+   "value": 0.4652,
+   "tables": [
+    "tab:answeronly",
+    "tab:central",
+    "tab:latescores",
+    "tab:placements"
+   ],
+   "task": "commonsense",
+   "model": "Qwen2.5-1.5B",
+   "mode": "random",
+   "rank": 2,
+   "lr": 0.005,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 4000 Ada": 1,
+    "RTX A4000": 1,
+    "GeForce RTX 3090": 3
+   },
+   "no_gpu": []
+  },
+  {
+   "value": 0.4652,
+   "tables": [
+    "tab:answeronly",
+    "tab:central",
+    "tab:latescores",
+    "tab:placements"
+   ],
+   "task": "commonsense",
+   "model": "Qwen2.5-1.5B",
+   "mode": "top",
+   "rank": 2,
+   "lr": 0.005,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 4000 Ada": 5
+   },
+   "no_gpu": []
+  },
+  {
+   "value": 0.4836,
+   "tables": [
+    "tab:answeronly"
+   ],
+   "task": "commonsense",
+   "model": "Qwen2.5-1.5B",
+   "mode": "top",
+   "rank": 2,
+   "lr": 0.005,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 4000 Ada": 5
+   },
+   "no_gpu": []
+  },
+  {
+   "value": 0.5552,
+   "tables": [
+    "tab:answeronly"
+   ],
+   "task": "commonsense",
+   "model": "Qwen2.5-1.5B",
+   "mode": "top_unfrozen",
+   "rank": 7,
+   "lr": 0.001,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 4000 Ada": 5
+   },
+   "no_gpu": []
+  },
+  {
+   "value": 0.5572,
+   "tables": [
+    "tab:answeronly"
+   ],
+   "task": "commonsense",
+   "model": "Qwen2.5-1.5B",
+   "mode": "top_unfrozen",
+   "rank": 7,
+   "lr": 0.002,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 4000 Ada": 5
+   },
+   "no_gpu": []
+  },
+  {
+   "value": 0.4776,
+   "tables": [
+    "tab:central"
+   ],
+   "task": "commonsense",
+   "model": "Mistral-7B-v0.3",
+   "mode": "bottom",
+   "rank": 2,
+   "lr": 0.001,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 4000 Ada": 5
+   },
+   "no_gpu": []
+  },
+  {
+   "value": 0.5924,
+   "tables": [
+    "tab:central"
+   ],
+   "task": "commonsense",
+   "model": "Mistral-7B-v0.3",
+   "mode": "bottom_unfrozen",
+   "rank": 1,
+   "lr": 0.002,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 4000 Ada": 5
+   },
+   "no_gpu": []
+  },
+  {
+   "value": 0.6048,
+   "tables": [
+    "tab:central"
+   ],
+   "task": "commonsense",
+   "model": "Mistral-7B-v0.3",
+   "mode": "bottom_unfrozen",
+   "rank": 2,
+   "lr": 0.001,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 4000 Ada": 5
+   },
+   "no_gpu": []
+  },
+  {
+   "value": 0.586,
+   "tables": [
+    "tab:central"
+   ],
+   "task": "commonsense",
+   "model": "Mistral-7B-v0.3",
+   "mode": "dual_bottom",
+   "rank": 2,
+   "lr": 0.001,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 4000 Ada": 5
+   },
+   "no_gpu": []
+  },
+  {
+   "value": 0.6076,
+   "tables": [
+    "tab:central"
+   ],
+   "task": "commonsense",
+   "model": "Mistral-7B-v0.3",
+   "mode": "dual_top",
+   "rank": 2,
+   "lr": 0.0005,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 4000 Ada": 5
+   },
+   "no_gpu": []
+  },
+  {
+   "value": 0.6012,
+   "tables": [
+    "tab:central"
+   ],
+   "task": "commonsense",
+   "model": "Mistral-7B-v0.3",
+   "mode": "free",
+   "rank": 1,
+   "lr": 0.001,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 4000 Ada": 5
+   },
+   "no_gpu": []
+  },
+  {
+   "value": 0.4764,
+   "tables": [
+    "tab:central"
+   ],
+   "task": "commonsense",
+   "model": "Mistral-7B-v0.3",
+   "mode": "top",
+   "rank": 2,
+   "lr": 0.001,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 4000 Ada": 5
+   },
+   "no_gpu": []
+  },
+  {
+   "value": 0.5924,
+   "tables": [
+    "tab:central"
+   ],
+   "task": "commonsense",
+   "model": "Mistral-7B-v0.3",
+   "mode": "top_unfrozen",
+   "rank": 1,
+   "lr": 0.002,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 4000 Ada": 5
+   },
+   "no_gpu": []
+  },
+  {
+   "value": 0.5988,
+   "tables": [
+    "tab:central"
+   ],
+   "task": "commonsense",
+   "model": "Mistral-7B-v0.3",
+   "mode": "top_unfrozen",
+   "rank": 2,
+   "lr": 0.001,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 4000 Ada": 5
+   },
+   "no_gpu": []
+  },
+  {
+   "value": 0.4764,
+   "tables": [
+    "tab:central"
+   ],
+   "task": "commonsense",
+   "model": "Qwen2.5-1.5B",
+   "mode": "bottom",
+   "rank": 2,
+   "lr": 0.0002,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 4000 Ada": 4,
+    "RTX A5000": 1
+   },
+   "no_gpu": []
+  },
+  {
+   "value": 0.5496,
+   "tables": [
+    "tab:central"
+   ],
+   "task": "commonsense",
+   "model": "Qwen2.5-1.5B",
+   "mode": "bottom_unfrozen",
+   "rank": 1,
+   "lr": 0.002,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX A4000": 1,
+    "RTX 4000 Ada": 4
+   },
+   "no_gpu": []
+  },
+  {
+   "value": 0.5528,
+   "tables": [
+    "tab:central",
+    "tab:mechreps",
+    "tab:placements"
+   ],
+   "task": "commonsense",
+   "model": "Qwen2.5-1.5B",
+   "mode": "bottom_unfrozen",
+   "rank": 2,
+   "lr": 0.002,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX A5000": 2,
+    "RTX 2000 Ada": 1,
+    "RTX 4000 Ada": 2
+   },
+   "no_gpu": []
+  },
+  {
+   "value": 0.5528,
+   "tables": [
+    "tab:central",
+    "tab:mechreps",
+    "tab:placements"
+   ],
+   "task": "commonsense",
+   "model": "Qwen2.5-1.5B",
+   "mode": "bottom_unfrozen",
+   "rank": 16,
+   "lr": 0.001,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 4000 Ada": 5
+   },
+   "no_gpu": []
+  },
+  {
+   "value": 0.5524,
+   "tables": [
+    "tab:central",
+    "tab:v2trend"
+   ],
+   "task": "commonsense",
+   "model": "Qwen2.5-1.5B",
+   "mode": "free",
+   "rank": 2,
+   "lr": 0.005,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 4000 Ada": 5
+   },
+   "no_gpu": []
+  },
+  {
+   "value": 0.5528,
+   "tables": [
+    "tab:central",
+    "tab:mechreps",
+    "tab:placements"
+   ],
+   "task": "commonsense",
+   "model": "Qwen2.5-1.5B",
+   "mode": "learned",
+   "rank": 2,
+   "lr": 0.005,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 4000 Ada": 5
+   },
+   "no_gpu": []
+  },
+  {
+   "value": 0.5524,
+   "tables": [
+    "tab:central",
+    "tab:v2trend"
+   ],
+   "task": "commonsense",
+   "model": "Qwen2.5-1.5B",
+   "mode": "top_unfrozen",
+   "rank": 1,
+   "lr": 0.002,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 4000 Ada": 5
+   },
+   "no_gpu": []
+  },
+  {
+   "value": 0.5576,
+   "tables": [
+    "tab:central"
+   ],
+   "task": "commonsense",
+   "model": "Qwen2.5-1.5B",
+   "mode": "top_unfrozen",
+   "rank": 2,
+   "lr": 0.002,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 4000 Ada": 2,
+    "RTX A5000": 1,
+    "RTX A4000": 1,
+    "RTX 2000 Ada": 1
+   },
+   "no_gpu": []
+  },
+  {
+   "value": 0.484,
+   "tables": [
+    "tab:central"
+   ],
+   "task": "commonsense",
+   "model": "Qwen2.5-1.5B",
+   "mode": "top_unfrozen",
+   "rank": 16,
+   "lr": 0.0001,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 4000 Ada": 5
+   },
+   "no_gpu": []
+  },
+  {
+   "value": 0.484,
+   "tables": [
+    "tab:central"
+   ],
+   "task": "commonsense",
+   "model": "Qwen2.5-7B",
+   "mode": "bottom",
+   "rank": 2,
+   "lr": 0.0005,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 4000 Ada": 5
+   },
+   "no_gpu": []
+  },
+  {
+   "value": 0.6264,
+   "tables": [
+    "tab:central"
+   ],
+   "task": "commonsense",
+   "model": "Qwen2.5-7B",
+   "mode": "bottom_unfrozen",
+   "rank": 1,
+   "lr": 0.002,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 4000 Ada": 5
+   },
+   "no_gpu": []
+  },
+  {
+   "value": 0.6312,
+   "tables": [
+    "tab:central"
+   ],
+   "task": "commonsense",
+   "model": "Qwen2.5-7B",
+   "mode": "bottom_unfrozen",
+   "rank": 2,
+   "lr": 0.001,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 4000 Ada": 5
+   },
+   "no_gpu": []
+  },
+  {
+   "value": 0.6148,
+   "tables": [
+    "tab:central",
+    "tab:v2budget"
+   ],
+   "task": "commonsense",
+   "model": "Qwen2.5-7B",
+   "mode": "dual_bottom",
+   "rank": 2,
+   "lr": 0.002,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 4000 Ada": 5
+   },
+   "no_gpu": []
+  },
+  {
+   "value": 0.6364,
+   "tables": [
+    "tab:central",
+    "tab:v2budget"
+   ],
+   "task": "commonsense",
+   "model": "Qwen2.5-7B",
+   "mode": "dual_top",
+   "rank": 2,
+   "lr": 0.002,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 4000 Ada": 5
+   },
+   "no_gpu": []
+  },
+  {
+   "value": 0.6284,
+   "tables": [
+    "tab:central"
+   ],
+   "task": "commonsense",
+   "model": "Qwen2.5-7B",
+   "mode": "free",
+   "rank": 1,
+   "lr": 0.002,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 4000 Ada": 5
+   },
+   "no_gpu": []
+  },
+  {
+   "value": 0.5316,
+   "tables": [
+    "tab:central"
+   ],
+   "task": "commonsense",
+   "model": "Qwen2.5-7B",
+   "mode": "top",
+   "rank": 2,
+   "lr": 0.005,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 4000 Ada": 5
+   },
+   "no_gpu": []
+  },
+  {
+   "value": 0.6232,
+   "tables": [
+    "tab:central"
+   ],
+   "task": "commonsense",
+   "model": "Qwen2.5-7B",
+   "mode": "top_unfrozen",
+   "rank": 1,
+   "lr": 0.002,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 4000 Ada": 5
+   },
+   "no_gpu": []
+  },
+  {
+   "value": 0.6292,
+   "tables": [
+    "tab:central"
+   ],
+   "task": "commonsense",
+   "model": "Qwen2.5-7B",
+   "mode": "top_unfrozen",
+   "rank": 2,
+   "lr": 0.001,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 4000 Ada": 5
+   },
+   "no_gpu": []
+  },
+  {
+   "value": 0.6257,
+   "tables": [
+    "tab:central",
+    "tab:latescores"
+   ],
+   "task": "format",
+   "model": "Llama-3.2-1B",
+   "mode": "bottom",
+   "rank": 2,
+   "lr": 0.005,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 4000 Ada": 5
+   },
+   "no_gpu": []
+  },
+  {
+   "value": 0.7954,
+   "tables": [
+    "tab:central"
+   ],
+   "task": "format",
+   "model": "Llama-3.2-1B",
+   "mode": "bottom_unfrozen",
+   "rank": 1,
+   "lr": 0.005,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 4000 Ada": 4,
+    "GeForce RTX 3090": 1
+   },
+   "no_gpu": []
+  },
+  {
+   "value": 0.8072,
+   "tables": [
+    "tab:central"
+   ],
+   "task": "format",
+   "model": "Llama-3.2-1B",
+   "mode": "bottom_unfrozen",
+   "rank": 2,
+   "lr": 0.002,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 4000 Ada": 4,
+    "RTX 2000 Ada": 1
+   },
+   "no_gpu": []
+  },
+  {
+   "value": 0.7896,
+   "tables": [
+    "tab:central"
+   ],
+   "task": "format",
+   "model": "Llama-3.2-1B",
+   "mode": "bottom_unfrozen",
+   "rank": 2,
+   "lr": 0.005,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX A4000": 1,
+    "RTX 2000 Ada": 2,
+    "RTX 4000 Ada": 1,
+    "RTX A5000": 1
+   },
+   "no_gpu": []
+  },
+  {
+   "value": 0.7896,
+   "tables": [
+    "tab:central"
+   ],
+   "task": "format",
+   "model": "Llama-3.2-1B",
+   "mode": "bottom_unfrozen",
+   "rank": 16,
+   "lr": 0.002,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 4000 Ada": 5
+   },
+   "no_gpu": []
+  },
+  {
+   "value": 0.7818,
+   "tables": [
+    "tab:central"
+   ],
+   "task": "format",
+   "model": "Llama-3.2-1B",
+   "mode": "dual_bottom",
+   "rank": 2,
+   "lr": 0.01,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 2000 Ada": 2,
+    "RTX A4000": 1,
+    "GeForce RTX 3090": 1,
+    "RTX 4000 Ada": 1
+   },
+   "no_gpu": []
+  },
+  {
+   "value": 0.7818,
+   "tables": [
+    "tab:central"
+   ],
+   "task": "format",
+   "model": "Llama-3.2-1B",
+   "mode": "dual_bottom",
+   "rank": 2,
+   "lr": 0.01,
+   "seeds": "120-124",
+   "gpus": {
+    "RTX 4000 Ada": 5
+   },
+   "no_gpu": []
+  },
+  {
+   "value": 0.7684,
+   "tables": [
+    "tab:central",
+    "tab:mechreps",
+    "tab:placements"
+   ],
+   "task": "format",
+   "model": "Llama-3.2-1B",
+   "mode": "dual_random_ortho",
+   "rank": 2,
+   "lr": 0.02,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 2000 Ada": 2,
+    "GeForce RTX 3090": 2,
+    "RTX A5000": 1
+   },
+   "no_gpu": []
+  },
+  {
+   "value": 0.7739,
+   "tables": [
+    "tab:central"
+   ],
+   "task": "format",
+   "model": "Llama-3.2-1B",
+   "mode": "dual_top",
+   "rank": 2,
+   "lr": 0.01,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 4000 Ada": 5
+   },
+   "no_gpu": []
+  },
+  {
+   "value": 0.7811,
+   "tables": [
+    "tab:central"
+   ],
+   "task": "format",
+   "model": "Llama-3.2-1B",
+   "mode": "free",
+   "rank": 1,
+   "lr": 0.002,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 4000 Ada": 5
+   },
+   "no_gpu": []
+  },
+  {
+   "value": 0.6257,
+   "tables": [
+    "tab:central",
+    "tab:latescores"
+   ],
+   "task": "format",
+   "model": "Llama-3.2-1B",
+   "mode": "random",
+   "rank": 2,
+   "lr": 0.002,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 4000 Ada": 4,
+    "GeForce RTX 3090": 1
+   },
+   "no_gpu": []
+  },
+  {
+   "value": 0.7928,
+   "tables": [
+    "tab:central"
+   ],
+   "task": "format",
+   "model": "Llama-3.2-1B",
+   "mode": "top_unfrozen",
+   "rank": 1,
+   "lr": 0.005,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX A4000": 1,
+    "RTX 4000 Ada": 3,
+    "GeForce RTX 3090": 1
+   },
+   "no_gpu": []
+  },
+  {
+   "value": 0.8,
+   "tables": [
+    "tab:central"
+   ],
+   "task": "format",
+   "model": "Llama-3.2-1B",
+   "mode": "top_unfrozen",
+   "rank": 2,
+   "lr": 0.005,
+   "seeds": "2-6",
+   "gpus": {
+    "GeForce RTX 3090": 1,
+    "RTX 4000 Ada": 4
+   },
+   "no_gpu": []
+  },
+  {
+   "value": 0.484,
+   "tables": [
+    "tab:central"
+   ],
+   "task": "format",
+   "model": "Qwen2.5-0.5B",
+   "mode": "bottom",
+   "rank": 2,
+   "lr": 0.002,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 2000 Ada": 2,
+    "RTX 4000 Ada": 2,
+    "RTX A5000": 1
+   },
+   "no_gpu": []
+  },
+  {
+   "value": 0.6391,
+   "tables": [
+    "tab:central",
+    "tab:latescores"
+   ],
+   "task": "format",
+   "model": "Qwen2.5-1.5B",
+   "mode": "bottom",
+   "rank": 2,
+   "lr": 0.005,
+   "seeds": "22-26",
+   "gpus": {
+    "RTX 4000 Ada": 5
+   },
+   "no_gpu": []
+  },
+  {
+   "value": 0.7811,
+   "tables": [
+    "tab:central"
+   ],
+   "task": "format",
+   "model": "Qwen2.5-1.5B",
+   "mode": "bottom_unfrozen",
+   "rank": 1,
+   "lr": 0.005,
+   "seeds": "22-26",
+   "gpus": {
+    "RTX 4000 Ada": 5
+   },
+   "no_gpu": []
+  },
+  {
+   "value": 0.7857,
+   "tables": [
+    "tab:central"
+   ],
+   "task": "format",
+   "model": "Qwen2.5-1.5B",
+   "mode": "bottom_unfrozen",
+   "rank": 2,
+   "lr": 0.005,
+   "seeds": "22-26",
+   "gpus": {
+    "RTX 4000 Ada": 5
+   },
+   "no_gpu": []
+  },
+  {
+   "value": 0.7879,
+   "tables": [
+    "tab:central",
+    "tab:latescores"
+   ],
+   "task": "format",
+   "model": "Qwen2.5-1.5B",
+   "mode": "free",
+   "rank": 1,
+   "lr": 0.005,
+   "seeds": "22-26",
+   "gpus": {
+    "RTX 4000 Ada": 5
+   },
+   "no_gpu": []
+  },
+  {
+   "value": 0.6257,
+   "tables": [
+    "tab:central",
+    "tab:latescores"
+   ],
+   "task": "format",
+   "model": "Qwen2.5-1.5B",
+   "mode": "top",
+   "rank": 2,
+   "lr": 0.01,
+   "seeds": "22-26",
+   "gpus": {
+    "RTX 4000 Ada": 5
+   },
+   "no_gpu": []
+  },
+  {
+   "value": 0.7896,
+   "tables": [
+    "tab:central"
+   ],
+   "task": "format",
+   "model": "Qwen2.5-1.5B",
+   "mode": "top_unfrozen",
+   "rank": 1,
+   "lr": 0.005,
+   "seeds": "22-26",
+   "gpus": {
+    "RTX 4000 Ada": 5
+   },
+   "no_gpu": []
+  },
+  {
+   "value": 0.7775,
+   "tables": [
+    "tab:central"
+   ],
+   "task": "format",
+   "model": "Qwen2.5-1.5B",
+   "mode": "top_unfrozen",
+   "rank": 2,
+   "lr": 0.005,
+   "seeds": "22-26",
+   "gpus": {
+    "RTX 4000 Ada": 5
+   },
+   "no_gpu": []
+  },
+  {
+   "value": 0.4272,
+   "tables": [
+    "tab:grad",
+    "tab:placements"
+   ],
+   "task": "commonsense",
+   "model": "Qwen2.5-1.5B",
+   "mode": "learned",
+   "rank": 2,
+   "lr": 0.002,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 4000 Ada": 5
+   },
+   "no_gpu": []
+  },
+  {
+   "value": 0.6658,
+   "tables": [
+    "tab:grad",
+    "tab:placements"
+   ],
+   "task": "format",
+   "model": "Llama-3.2-1B",
+   "mode": "learned",
+   "rank": 2,
+   "lr": 0.005,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 4000 Ada": 5
+   },
+   "no_gpu": []
+  },
+  {
+   "value": 0.643,
+   "tables": [
+    "tab:grad",
+    "tab:mechreps"
+   ],
+   "task": "format",
+   "model": "Llama-3.2-1B",
+   "mode": "top",
+   "rank": 2,
+   "lr": 0.01,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 4000 Ada": 5
+   },
+   "no_gpu": []
+  },
+  {
+   "value": 0.6658,
+   "tables": [
+    "tab:grad",
+    "tab:placements"
+   ],
+   "task": "format",
+   "model": "Llama-3.2-1B",
+   "mode": "top_scalar",
+   "rank": 2,
+   "lr": 0.005,
+   "seeds": "50-64",
+   "gpus": {
+    "RTX 4000 Ada": 9,
+    "RTX A5000": 1,
+    "GeForce RTX 3090": 3,
+    "RTX 2000 Ada": 1,
+    "RTX A4000": 1
+   },
+   "no_gpu": []
+  },
+  {
+   "value": 0.6658,
+   "tables": [
+    "tab:grad",
+    "tab:placements"
+   ],
+   "task": "format",
+   "model": "Llama-3.2-1B",
+   "mode": "top_scalar",
+   "rank": 2,
+   "lr": 0.005,
+   "seeds": "65-104",
+   "gpus": {
+    "RTX 4000 Ada": 13,
+    "RTX 2000 Ada": 4,
+    "GeForce RTX 3090": 18,
+    "RTX A4000": 5
+   },
+   "no_gpu": []
+  },
+  {
+   "value": 0.4276,
+   "tables": [
+    "tab:gradacc",
+    "tab:mechreps",
+    "tab:warm"
+   ],
+   "task": "commonsense",
+   "model": "Qwen2.5-1.5B",
+   "mode": "bottom",
+   "rank": 2,
+   "lr": 0.002,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 4000 Ada": 5
+   },
+   "no_gpu": []
+  },
+  {
+   "value": 0.5484,
+   "tables": [
+    "tab:gradacc",
+    "tab:mechreps",
+    "tab:warm"
+   ],
+   "task": "commonsense",
+   "model": "Qwen2.5-1.5B",
+   "mode": "free",
+   "rank": 1,
+   "lr": 0.002,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 4000 Ada": 5
+   },
+   "no_gpu": []
+  },
+  {
+   "value": 0.4304,
+   "tables": [
+    "tab:gradacc"
+   ],
+   "task": "commonsense",
+   "model": "Qwen2.5-1.5B",
+   "mode": "learned",
+   "rank": 2,
+   "lr": 0.002,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 4000 Ada": 5
+   },
+   "no_gpu": []
+  },
+  {
+   "value": 0.7687,
+   "tables": [
+    "tab:gradacc",
+    "tab:mechreps",
+    "tab:warm"
+   ],
+   "task": "format",
+   "model": "Llama-3.2-1B",
+   "mode": "free",
+   "rank": 1,
+   "lr": 0.001,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 4000 Ada": 5
+   },
+   "no_gpu": []
+  },
+  {
+   "value": 0.6622,
+   "tables": [
+    "tab:gradacc"
+   ],
+   "task": "format",
+   "model": "Llama-3.2-1B",
+   "mode": "learned",
+   "rank": 2,
+   "lr": 0.005,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 4000 Ada": 5
+   },
+   "no_gpu": []
+  },
+  {
+   "value": 0.6631,
+   "tables": [
+    "tab:gradacc",
+    "tab:warm"
+   ],
+   "task": "format",
+   "model": "Llama-3.2-1B",
+   "mode": "top_sigma",
+   "rank": 2,
+   "lr": 0.005,
+   "seeds": "50-64",
+   "gpus": {
+    "GeForce RTX 3090": 6,
+    "RTX 4000 Ada": 7,
+    "RTX A5000": 2
+   },
+   "no_gpu": []
+  },
+  {
+   "value": 0.4668,
+   "tables": [
+    "tab:latescores"
+   ],
+   "task": "commonsense",
+   "model": "Qwen2.5-1.5B",
+   "mode": "bottom",
+   "rank": 2,
+   "lr": 0.002,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 4000 Ada": 4,
+    "GeForce RTX 3090": 1
+   },
+   "no_gpu": []
+  },
+  {
+   "value": 0.4984,
+   "tables": [
+    "tab:latescores",
+    "tab:rank16"
+   ],
+   "task": "commonsense",
+   "model": "Qwen2.5-1.5B",
+   "mode": "bottom",
+   "rank": 16,
+   "lr": 0.001,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 4000 Ada": 2,
+    "GeForce RTX 3090": 3
+   },
+   "no_gpu": []
+  },
+  {
+   "value": 0.7792,
+   "tables": [
+    "tab:latescores"
+   ],
+   "task": "commonsense",
+   "model": "Qwen2.5-1.5B",
+   "mode": "bottom",
+   "rank": 16,
+   "lr": 0.0005,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX A4000": 2,
+    "RTX 4000 Ada": 3
+   },
+   "no_gpu": []
+  },
+  {
+   "value": 0.4452,
+   "tables": [
+    "tab:latescores",
+    "tab:rank16"
+   ],
+   "task": "commonsense",
+   "model": "Qwen2.5-1.5B",
+   "mode": "bottom",
+   "rank": 16,
+   "lr": 0.001,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 4000 Ada": 2,
+    "GeForce RTX 3090": 1,
+    "RTX A4000": 1,
+    "RTX A5000": 1
+   },
+   "no_gpu": []
+  },
+  {
+   "value": 0.4758,
+   "tables": [
+    "tab:latescores"
+   ],
+   "task": "commonsense",
+   "model": "Qwen2.5-1.5B",
+   "mode": "bottom",
+   "rank": 32,
+   "lr": 0.0002,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 4000 Ada": 2,
+    "RTX A5000": 1,
+    "RTX A4000": 2
+   },
+   "no_gpu": []
+  },
+  {
+   "value": 0.4692,
+   "tables": [
+    "tab:latescores"
+   ],
+   "task": "commonsense",
+   "model": "Qwen2.5-1.5B",
+   "mode": "bottom_unfrozen",
+   "rank": 16,
+   "lr": 0.0005,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 4000 Ada": 5
+   },
+   "no_gpu": []
+  },
+  {
+   "value": 0.496,
+   "tables": [
+    "tab:latescores"
+   ],
+   "task": "commonsense",
+   "model": "Qwen2.5-1.5B",
+   "mode": "free",
+   "rank": 1,
+   "lr": 0.0005,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX A4000": 1,
+    "RTX 4000 Ada": 4
+   },
+   "no_gpu": []
+  },
+  {
+   "value": 0.5044,
+   "tables": [
+    "tab:latescores"
+   ],
+   "task": "commonsense",
+   "model": "Qwen2.5-1.5B",
+   "mode": "free",
+   "rank": 1,
+   "lr": 0.001,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 4000 Ada": 4,
+    "RTX A5000": 1
+   },
+   "no_gpu": []
+  },
+  {
+   "value": 0.5616,
+   "tables": [
+    "tab:latescores",
+    "tab:rank16"
+   ],
+   "task": "commonsense",
+   "model": "Qwen2.5-1.5B",
+   "mode": "free",
+   "rank": 7,
+   "lr": 0.002,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 4000 Ada": 2,
+    "RTX A5000": 2,
+    "RTX 2000 Ada": 1
+   },
+   "no_gpu": []
+  },
+  {
+   "value": 0.794,
+   "tables": [
+    "tab:latescores"
+   ],
+   "task": "commonsense",
+   "model": "Qwen2.5-1.5B",
+   "mode": "free",
+   "rank": 7,
+   "lr": 0.0001,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 4000 Ada": 4,
+    "RTX 2000 Ada": 1
+   },
+   "no_gpu": []
+  },
+  {
+   "value": 0.4952,
+   "tables": [
+    "tab:latescores",
+    "tab:rank16"
+   ],
+   "task": "commonsense",
+   "model": "Qwen2.5-1.5B",
+   "mode": "free",
+   "rank": 7,
+   "lr": 0.0005,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 4000 Ada": 4,
+    "RTX A4000": 1
+   },
+   "no_gpu": []
+  },
+  {
+   "value": 0.4888,
+   "tables": [
+    "tab:latescores"
+   ],
+   "task": "commonsense",
+   "model": "Qwen2.5-1.5B",
+   "mode": "free",
+   "rank": 14,
+   "lr": 0.0005,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 4000 Ada": 4,
+    "RTX A5000": 1
+   },
+   "no_gpu": []
+  },
+  {
+   "value": 0.4592,
+   "tables": [
+    "tab:latescores",
+    "tab:placements"
+   ],
+   "task": "commonsense",
+   "model": "Qwen2.5-1.5B",
+   "mode": "random_ortho",
+   "rank": 2,
+   "lr": 0.02,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 4000 Ada": 5
+   },
+   "no_gpu": []
+  },
+  {
+   "value": 0.4692,
+   "tables": [
+    "tab:latescores"
+   ],
+   "task": "commonsense",
+   "model": "Qwen2.5-1.5B",
+   "mode": "random_ortho",
+   "rank": 2,
+   "lr": 0.005,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 2000 Ada": 1,
+    "RTX 4000 Ada": 4
+   },
+   "no_gpu": []
+  },
+  {
+   "value": 0.7948,
+   "tables": [
+    "tab:latescores"
+   ],
+   "task": "commonsense",
+   "model": "Qwen2.5-1.5B",
+   "mode": "random_ortho",
+   "rank": 16,
+   "lr": 0.0001,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 2000 Ada": 1,
+    "RTX 4000 Ada": 4
+   },
+   "no_gpu": []
+  },
+  {
+   "value": 0.797,
+   "tables": [
+    "tab:latescores"
+   ],
+   "task": "commonsense",
+   "model": "Qwen2.5-1.5B",
+   "mode": "random_ortho",
+   "rank": 16,
+   "lr": 0.0005,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 4000 Ada": 5
+   },
+   "no_gpu": []
+  },
+  {
+   "value": 0.486,
+   "tables": [
+    "tab:latescores"
+   ],
+   "task": "commonsense",
+   "model": "Qwen2.5-1.5B",
+   "mode": "random_ortho",
+   "rank": 16,
+   "lr": 0.001,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX A5000": 1,
+    "RTX A4000": 1,
+    "RTX 4000 Ada": 2,
+    "RTX 2000 Ada": 1
+   },
+   "no_gpu": []
+  },
+  {
+   "value": 0.496,
+   "tables": [
+    "tab:latescores"
+   ],
+   "task": "commonsense",
+   "model": "Qwen2.5-1.5B",
+   "mode": "random_ortho",
+   "rank": 32,
+   "lr": 0.0005,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 4000 Ada": 3,
+    "GeForce RTX 3090": 2
+   },
+   "no_gpu": []
+  },
+  {
+   "value": 0.4888,
+   "tables": [
+    "tab:latescores"
+   ],
+   "task": "commonsense",
+   "model": "Qwen2.5-1.5B",
+   "mode": "top",
+   "rank": 2,
+   "lr": 0.002,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 4000 Ada": 3,
+    "GeForce RTX 3090": 1,
+    "RTX A5000": 1
+   },
+   "no_gpu": []
+  },
+  {
+   "value": 0.4842,
+   "tables": [
+    "tab:latescores"
+   ],
+   "task": "commonsense",
+   "model": "Qwen2.5-1.5B",
+   "mode": "top",
+   "rank": 2,
+   "lr": 0.005,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 4000 Ada": 3,
+    "RTX 2000 Ada": 1,
+    "GeForce RTX 3090": 1
+   },
+   "no_gpu": []
+  },
+  {
+   "value": 0.5408,
+   "tables": [
+    "tab:latescores",
+    "tab:rank16"
+   ],
+   "task": "commonsense",
+   "model": "Qwen2.5-1.5B",
+   "mode": "top",
+   "rank": 16,
+   "lr": 0.002,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 4000 Ada": 3,
+    "RTX 2000 Ada": 1,
+    "GeForce RTX 3090": 1
+   },
+   "no_gpu": []
+  },
+  {
+   "value": 0.7948,
+   "tables": [
+    "tab:latescores"
+   ],
+   "task": "commonsense",
+   "model": "Qwen2.5-1.5B",
+   "mode": "top",
+   "rank": 16,
+   "lr": 0.0001,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 2000 Ada": 2,
+    "RTX A5000": 1,
+    "RTX 4000 Ada": 2
+   },
+   "no_gpu": []
+  },
+  {
+   "value": 0.497,
+   "tables": [
+    "tab:latescores",
+    "tab:rank16"
+   ],
+   "task": "commonsense",
+   "model": "Qwen2.5-1.5B",
+   "mode": "top",
+   "rank": 16,
+   "lr": 0.0005,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 4000 Ada": 3,
+    "GeForce RTX 3090": 1,
+    "RTX A4000": 1
+   },
+   "no_gpu": []
+  },
+  {
+   "value": 0.4824,
+   "tables": [
+    "tab:latescores"
+   ],
+   "task": "commonsense",
+   "model": "Qwen2.5-1.5B",
+   "mode": "top",
+   "rank": 32,
+   "lr": 0.0005,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX A5000": 1,
+    "RTX 4000 Ada": 3,
+    "GeForce RTX 3090": 1
+   },
+   "no_gpu": []
+  },
+  {
+   "value": 0.4824,
+   "tables": [
+    "tab:latescores"
+   ],
+   "task": "commonsense",
+   "model": "Qwen2.5-1.5B",
+   "mode": "top_unfrozen",
+   "rank": 2,
+   "lr": 0.01,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX A4000": 1,
+    "RTX 4000 Ada": 2,
+    "RTX 2000 Ada": 1,
+    "GeForce RTX 3090": 1
+   },
+   "no_gpu": []
+  },
+  {
+   "value": 0.6313,
+   "tables": [
+    "tab:latescores"
+   ],
+   "task": "format",
+   "model": "Llama-3.2-1B",
+   "mode": "bottom",
+   "rank": 2,
+   "lr": 0.005,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 4000 Ada": 5
+   },
+   "no_gpu": []
+  },
+  {
+   "value": 0.745,
+   "tables": [
+    "tab:latescores"
+   ],
+   "task": "format",
+   "model": "Llama-3.2-1B",
+   "mode": "bottom",
+   "rank": 8,
+   "lr": 0.002,
+   "seeds": "42-46",
+   "gpus": {
+    "RTX 4000 Ada": 5
+   },
+   "no_gpu": []
+  },
+  {
+   "value": 0.7554,
+   "tables": [
+    "tab:latescores",
+    "tab:rank16"
+   ],
+   "task": "format",
+   "model": "Llama-3.2-1B",
+   "mode": "bottom",
+   "rank": 16,
+   "lr": 0.0005,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 4000 Ada": 1,
+    "GeForce RTX 3090": 1,
+    "RTX 2000 Ada": 2,
+    "RTX A5000": 1
+   },
+   "no_gpu": []
+  },
+  {
+   "value": 0.6896,
+   "tables": [
+    "tab:latescores"
+   ],
+   "task": "format",
+   "model": "Llama-3.2-1B",
+   "mode": "bottom_unfrozen",
+   "rank": 16,
+   "lr": 0.0001,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 4000 Ada": 5
+   },
+   "no_gpu": []
+  },
+  {
+   "value": 0.7984,
+   "tables": [
+    "tab:latescores"
+   ],
+   "task": "format",
+   "model": "Llama-3.2-1B",
+   "mode": "free",
+   "rank": 1,
+   "lr": 0.001,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 4000 Ada": 4,
+    "RTX 2000 Ada": 1
+   },
+   "no_gpu": []
+  },
+  {
+   "value": 0.8293,
+   "tables": [
+    "tab:latescores"
+   ],
+   "task": "format",
+   "model": "Llama-3.2-1B",
+   "mode": "free",
+   "rank": 4,
+   "lr": 0.002,
+   "seeds": "42-46",
+   "gpus": {
+    "RTX 4000 Ada": 3,
+    "RTX A5000": 1,
+    "GeForce RTX 3090": 1
+   },
+   "no_gpu": []
+  },
+  {
+   "value": 0.8205,
+   "tables": [
+    "tab:latescores",
+    "tab:rank16"
+   ],
+   "task": "format",
+   "model": "Llama-3.2-1B",
+   "mode": "free",
+   "rank": 8,
+   "lr": 0.002,
+   "seeds": "2-6",
+   "gpus": {
+    "GeForce RTX 3090": 2,
+    "RTX A5000": 1,
+    "RTX A4000": 1,
+    "RTX 4000 Ada": 1
+   },
+   "no_gpu": []
+  },
+  {
+   "value": 0.6935,
+   "tables": [
+    "tab:latescores"
+   ],
+   "task": "format",
+   "model": "Llama-3.2-1B",
+   "mode": "random",
+   "rank": 2,
+   "lr": 0.01,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 2000 Ada": 3,
+    "RTX A5000": 1,
+    "RTX 4000 Ada": 1
+   },
+   "no_gpu": []
+  },
+  {
+   "value": 0.755,
+   "tables": [
+    "tab:latescores"
+   ],
+   "task": "format",
+   "model": "Llama-3.2-1B",
+   "mode": "random",
+   "rank": 8,
+   "lr": 0.005,
+   "seeds": "42-46",
+   "gpus": {
+    "RTX 4000 Ada": 4,
+    "GeForce RTX 3090": 1
+   },
+   "no_gpu": []
+  },
+  {
+   "value": 0.77,
+   "tables": [
+    "tab:latescores"
+   ],
+   "task": "format",
+   "model": "Llama-3.2-1B",
+   "mode": "random",
+   "rank": 16,
+   "lr": 0.001,
+   "seeds": "2-6",
+   "gpus": {
+    "GeForce RTX 3090": 1,
+    "RTX 2000 Ada": 1,
+    "RTX 4000 Ada": 2,
+    "RTX A5000": 1
+   },
+   "no_gpu": []
+  },
+  {
+   "value": 0.6896,
+   "tables": [
+    "tab:latescores"
+   ],
+   "task": "format",
+   "model": "Llama-3.2-1B",
+   "mode": "random_ortho",
+   "rank": 2,
+   "lr": 0.01,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 4000 Ada": 3,
+    "RTX A5000": 1,
+    "RTX 2000 Ada": 1
+   },
+   "no_gpu": []
+  },
+  {
+   "value": 0.7505,
+   "tables": [
+    "tab:latescores"
+   ],
+   "task": "format",
+   "model": "Llama-3.2-1B",
+   "mode": "random_ortho",
+   "rank": 8,
+   "lr": 0.005,
+   "seeds": "42-46",
+   "gpus": {
+    "RTX 2000 Ada": 2,
+    "RTX A4000": 1,
+    "RTX 4000 Ada": 1,
+    "GeForce RTX 3090": 1
+   },
+   "no_gpu": []
+  },
+  {
+   "value": 0.7795,
+   "tables": [
+    "tab:latescores"
+   ],
+   "task": "format",
+   "model": "Llama-3.2-1B",
+   "mode": "random_ortho",
+   "rank": 16,
+   "lr": 0.001,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX A4000": 1,
+    "RTX 4000 Ada": 3,
+    "RTX 2000 Ada": 1
+   },
+   "no_gpu": []
+  },
+  {
+   "value": 0.6967,
+   "tables": [
+    "tab:latescores"
+   ],
+   "task": "format",
+   "model": "Llama-3.2-1B",
+   "mode": "top",
+   "rank": 2,
+   "lr": 0.01,
+   "seeds": "2-6",
+   "gpus": {
+    "GeForce RTX 3090": 1,
+    "RTX 4000 Ada": 3,
+    "RTX 2000 Ada": 1
+   },
+   "no_gpu": []
+  },
+  {
+   "value": 0.6896,
+   "tables": [
+    "tab:latescores"
+   ],
+   "task": "format",
+   "model": "Llama-3.2-1B",
+   "mode": "top",
+   "rank": 4,
+   "lr": 0.01,
+   "seeds": "2-6",
+   "gpus": {
+    "GeForce RTX 3090": 1,
+    "RTX 2000 Ada": 1,
+    "RTX 4000 Ada": 2,
+    "RTX A5000": 1
+   },
+   "no_gpu": []
+  },
+  {
+   "value": 0.745,
+   "tables": [
+    "tab:latescores"
+   ],
+   "task": "format",
+   "model": "Llama-3.2-1B",
+   "mode": "top",
+   "rank": 8,
+   "lr": 0.002,
+   "seeds": "42-46",
+   "gpus": {
+    "RTX 2000 Ada": 1,
+    "RTX 4000 Ada": 3,
+    "GeForce RTX 3090": 1
+   },
+   "no_gpu": []
+  },
+  {
+   "value": 0.7756,
+   "tables": [
+    "tab:latescores",
+    "tab:rank16"
+   ],
+   "task": "format",
+   "model": "Llama-3.2-1B",
+   "mode": "top",
+   "rank": 16,
+   "lr": 0.002,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 4000 Ada": 4,
+    "RTX A4000": 1
+   },
+   "no_gpu": []
+  },
+  {
+   "value": 0.8078,
+   "tables": [
+    "tab:latescores"
+   ],
+   "task": "format",
+   "model": "Llama-3.2-1B",
+   "mode": "top_unfrozen",
+   "rank": 1,
+   "lr": 0.005,
+   "seeds": "120-124",
+   "gpus": {
+    "RTX 4000 Ada": 5
+   },
+   "no_gpu": []
+  },
+  {
+   "value": 0.7984,
+   "tables": [
+    "tab:latescores"
+   ],
+   "task": "format",
+   "model": "Llama-3.2-1B",
+   "mode": "top_unfrozen",
+   "rank": 16,
+   "lr": 0.0002,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 4000 Ada": 5
+   },
+   "no_gpu": []
+  },
+  {
+   "value": 0.7524,
+   "tables": [
+    "tab:latescores"
+   ],
+   "task": "format",
+   "model": "Qwen2.5-1.5B",
+   "mode": "bottom",
+   "rank": 16,
+   "lr": 0.001,
+   "seeds": "22-26",
+   "gpus": {
+    "RTX 4000 Ada": 5
+   },
+   "no_gpu": []
+  },
+  {
+   "value": 0.8078,
+   "tables": [
+    "tab:latescores"
+   ],
+   "task": "format",
+   "model": "Qwen2.5-1.5B",
+   "mode": "free",
+   "rank": 7,
+   "lr": 0.002,
+   "seeds": "22-26",
+   "gpus": {
+    "RTX 4000 Ada": 5
+   },
+   "no_gpu": []
+  },
+  {
+   "value": 0.6238,
+   "tables": [
+    "tab:latescores"
+   ],
+   "task": "format",
+   "model": "Qwen2.5-1.5B",
+   "mode": "random_ortho",
+   "rank": 2,
+   "lr": 0.02,
+   "seeds": "22-26",
+   "gpus": {
+    "RTX 4000 Ada": 5
+   },
+   "no_gpu": []
+  },
+  {
+   "value": 0.7521,
+   "tables": [
+    "tab:latescores"
+   ],
+   "task": "format",
+   "model": "Qwen2.5-1.5B",
+   "mode": "random_ortho",
+   "rank": 16,
+   "lr": 0.005,
+   "seeds": "22-26",
+   "gpus": {
+    "RTX 4000 Ada": 5
+   },
+   "no_gpu": []
+  },
+  {
+   "value": 0.743,
+   "tables": [
+    "tab:latescores"
+   ],
+   "task": "format",
+   "model": "Qwen2.5-1.5B",
+   "mode": "top",
+   "rank": 16,
+   "lr": 0.002,
+   "seeds": "22-26",
+   "gpus": {
+    "RTX 4000 Ada": 5
+   },
+   "no_gpu": []
+  },
+  {
+   "value": 0.5588,
+   "tables": [
+    "tab:mechreps",
+    "tab:placements"
+   ],
+   "task": "commonsense",
+   "model": "Qwen2.5-1.5B",
+   "mode": "learned",
+   "rank": 2,
+   "lr": 0.002,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 4000 Ada": 5
+   },
+   "no_gpu": []
+  },
+  {
+   "value": 0.8081,
+   "tables": [
+    "tab:mechreps",
+    "tab:placements"
+   ],
+   "task": "format",
+   "model": "Llama-3.2-1B",
+   "mode": "bottom_unfrozen",
+   "rank": 2,
+   "lr": 0.002,
+   "seeds": "120-124",
+   "gpus": {
+    "RTX 4000 Ada": 5
+   },
+   "no_gpu": []
+  },
+  {
+   "value": 0.8081,
+   "tables": [
+    "tab:mechreps",
+    "tab:placements"
+   ],
+   "task": "format",
+   "model": "Llama-3.2-1B",
+   "mode": "bottom_unfrozen",
+   "rank": 2,
+   "lr": 0.002,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 4000 Ada": 5
+   },
+   "no_gpu": []
+  },
+  {
+   "value": 0.8081,
+   "tables": [
+    "tab:mechreps",
+    "tab:placements"
+   ],
+   "task": "format",
+   "model": "Llama-3.2-1B",
+   "mode": "learned",
+   "rank": 2,
+   "lr": 0.005,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 4000 Ada": 5
+   },
+   "no_gpu": []
+  },
+  {
+   "value": 0.6534,
+   "tables": [
+    "tab:placements"
+   ],
+   "task": "format",
+   "model": "Llama-3.2-1B",
+   "mode": "bottom_unfrozen",
+   "rank": 8,
+   "lr": 0.005,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 4000 Ada": 5
+   },
+   "no_gpu": []
+  },
+  {
+   "value": 0.6534,
+   "tables": [
+    "tab:placements"
+   ],
+   "task": "format",
+   "model": "Llama-3.2-1B",
+   "mode": "random_ortho",
+   "rank": 2,
+   "lr": 0.01,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX A4000": 2,
+    "RTX 4000 Ada": 2,
+    "GeForce RTX 3090": 1
+   },
+   "no_gpu": []
+  },
+  {
+   "value": 0.6547,
+   "tables": [
+    "tab:possweep"
+   ],
+   "task": "format",
+   "model": "Llama-3.2-1B",
+   "mode": "band",
+   "rank": 2,
+   "lr": 0.01,
+   "seeds": "2-8",
+   "gpus": {
+    "RTX A4000": 2,
+    "RTX 2000 Ada": 2,
+    "RTX A5000": 2,
+    "RTX 4000 Ada": 1
+   },
+   "no_gpu": []
+  },
+  {
+   "value": 0.6368,
+   "tables": [
+    "tab:possweep"
+   ],
+   "task": "format",
+   "model": "Llama-3.2-1B",
+   "mode": "band",
+   "rank": 2,
+   "lr": 0.01,
+   "seeds": "2-8",
+   "gpus": {
+    "RTX 4000 Ada": 6,
+    "RTX A5000": 1
+   },
+   "no_gpu": []
+  },
+  {
+   "value": 0.5928,
+   "tables": [
+    "tab:possweep"
+   ],
+   "task": "format",
+   "model": "Llama-3.2-1B",
+   "mode": "band",
+   "rank": 2,
+   "lr": 0.005,
+   "seeds": "2-8",
+   "gpus": {
+    "RTX 4000 Ada": 5,
+    "RTX 2000 Ada": 2
+   },
+   "no_gpu": []
+  },
+  {
+   "value": 0.6671,
+   "tables": [
+    "tab:possweep"
+   ],
+   "task": "format",
+   "model": "Llama-3.2-1B",
+   "mode": "band",
+   "rank": 2,
+   "lr": 0.01,
+   "seeds": "2-8",
+   "gpus": {
+    "RTX A4000": 3,
+    "GeForce RTX 3090": 1,
+    "RTX A5000": 1,
+    "RTX 2000 Ada": 1,
+    "RTX 4000 Ada": 1
+   },
+   "no_gpu": []
+  },
+  {
+   "value": 0.6768,
+   "tables": [
+    "tab:possweep"
+   ],
+   "task": "format",
+   "model": "Llama-3.2-1B",
+   "mode": "band",
+   "rank": 2,
+   "lr": 0.01,
+   "seeds": "2-8",
+   "gpus": {
+    "RTX 4000 Ada": 6,
+    "RTX A5000": 1
+   },
+   "no_gpu": []
+  },
+  {
+   "value": 0.6671,
+   "tables": [
+    "tab:possweep"
+   ],
+   "task": "format",
+   "model": "Llama-3.2-1B",
+   "mode": "random",
+   "rank": 4,
+   "lr": 0.002,
+   "seeds": "2-6",
+   "gpus": {
+    "GeForce RTX 3090": 1,
+    "RTX A4000": 2,
+    "RTX A5000": 1,
+    "RTX 4000 Ada": 1
+   },
+   "no_gpu": []
+  },
+  {
+   "value": 0.5928,
+   "tables": [
+    "tab:possweep"
+   ],
+   "task": "format",
+   "model": "Qwen2.5-1.5B",
+   "mode": "top",
+   "rank": 16,
+   "lr": 0.01,
+   "seeds": "22-26",
+   "gpus": {
+    "RTX 4000 Ada": 5
+   },
+   "no_gpu": []
+  },
+  {
+   "value": 0.4328,
+   "tables": [
+    "tab:v2budget"
+   ],
+   "task": "commonsense",
+   "model": "Qwen2.5-1.5B",
+   "mode": "bottom",
+   "rank": 3,
+   "lr": 0.002,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 4000 Ada": 5
+   },
+   "no_gpu": []
+  },
+  {
+   "value": 0.4524,
+   "tables": [
+    "tab:v2budget",
+    "tab:v2trend"
+   ],
+   "task": "commonsense",
+   "model": "Qwen2.5-1.5B",
+   "mode": "bottom",
+   "rank": 4,
+   "lr": 0.002,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 4000 Ada": 5
+   },
+   "no_gpu": []
+  },
+  {
+   "value": 0.5464,
+   "tables": [
+    "tab:v2budget"
+   ],
+   "task": "commonsense",
+   "model": "Qwen2.5-1.5B",
+   "mode": "dual_random_ortho",
+   "rank": 2,
+   "lr": 0.01,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 4000 Ada": 5
+   },
+   "no_gpu": []
+  },
+  {
+   "value": 0.468,
+   "tables": [
+    "tab:v2budget"
+   ],
+   "task": "commonsense",
+   "model": "Qwen2.5-1.5B",
+   "mode": "top",
+   "rank": 3,
+   "lr": 0.005,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 4000 Ada": 5
+   },
+   "no_gpu": []
+  },
+  {
+   "value": 0.4644,
+   "tables": [
+    "tab:v2budget",
+    "tab:v2trend"
+   ],
+   "task": "commonsense",
+   "model": "Qwen2.5-1.5B",
+   "mode": "top",
+   "rank": 4,
+   "lr": 0.005,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 4000 Ada": 5
+   },
+   "no_gpu": []
+  },
+  {
+   "value": 0.4924,
+   "tables": [
+    "tab:v2budget"
+   ],
+   "task": "commonsense",
+   "model": "Qwen2.5-7B",
+   "mode": "bottom",
+   "rank": 3,
+   "lr": 0.0005,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 4000 Ada": 5
+   },
+   "no_gpu": []
+  },
+  {
+   "value": 0.5136,
+   "tables": [
+    "tab:v2budget"
+   ],
+   "task": "commonsense",
+   "model": "Qwen2.5-7B",
+   "mode": "bottom",
+   "rank": 4,
+   "lr": 0.001,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 4000 Ada": 5
+   },
+   "no_gpu": []
+  },
+  {
+   "value": 0.5464,
+   "tables": [
+    "tab:v2budget"
+   ],
+   "task": "commonsense",
+   "model": "Qwen2.5-7B",
+   "mode": "top",
+   "rank": 3,
+   "lr": 0.002,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 4000 Ada": 5
+   },
+   "no_gpu": []
+  },
+  {
+   "value": 0.5464,
+   "tables": [
+    "tab:v2budget"
+   ],
+   "task": "commonsense",
+   "model": "Qwen2.5-7B",
+   "mode": "top",
+   "rank": 4,
+   "lr": 0.005,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 4000 Ada": 5
+   },
+   "no_gpu": []
+  },
+  {
+   "value": 0.4644,
+   "tables": [
+    "tab:v2budget",
+    "tab:v2trend"
+   ],
+   "task": "format",
+   "model": "Qwen2.5-0.5B",
+   "mode": "band",
+   "rank": 2,
+   "lr": 0.01,
+   "seeds": "9-16",
+   "gpus": {
+    "RTX 2000 Ada": 1,
+    "RTX 4000 Ada": 6,
+    "RTX A4000": 1
+   },
+   "no_gpu": []
+  },
+  {
+   "value": 0.4656,
+   "tables": [
+    "tab:v2trend"
+   ],
+   "task": "commonsense",
+   "model": "Qwen2.5-1.5B",
+   "mode": "bottom",
+   "rank": 8,
+   "lr": 0.001,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 4000 Ada": 5
+   },
+   "no_gpu": []
+  },
+  {
+   "value": 0.552,
+   "tables": [
+    "tab:v2trend"
+   ],
+   "task": "commonsense",
+   "model": "Qwen2.5-1.5B",
+   "mode": "bottom_unfrozen",
+   "rank": 2,
+   "lr": 0.002,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 4000 Ada": 5
+   },
+   "no_gpu": []
+  },
+  {
+   "value": 0.542,
+   "tables": [
+    "tab:v2trend"
+   ],
+   "task": "commonsense",
+   "model": "Qwen2.5-1.5B",
+   "mode": "bottom_unfrozen",
+   "rank": 4,
+   "lr": 0.002,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 4000 Ada": 5
+   },
+   "no_gpu": []
+  },
+  {
+   "value": 0.5556,
+   "tables": [
+    "tab:v2trend"
+   ],
+   "task": "commonsense",
+   "model": "Qwen2.5-1.5B",
+   "mode": "bottom_unfrozen",
+   "rank": 8,
+   "lr": 0.001,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 4000 Ada": 5
+   },
+   "no_gpu": []
+  },
+  {
+   "value": 0.5388,
+   "tables": [
+    "tab:v2trend"
+   ],
+   "task": "commonsense",
+   "model": "Qwen2.5-1.5B",
+   "mode": "dual_bottom",
+   "rank": 4,
+   "lr": 0.002,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 4000 Ada": 5
+   },
+   "no_gpu": []
+  },
+  {
+   "value": 0.5344,
+   "tables": [
+    "tab:v2trend"
+   ],
+   "task": "commonsense",
+   "model": "Qwen2.5-1.5B",
+   "mode": "dual_bottom",
+   "rank": 8,
+   "lr": 0.002,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 4000 Ada": 5
+   },
+   "no_gpu": []
+  },
+  {
+   "value": 0.5344,
+   "tables": [
+    "tab:v2trend"
+   ],
+   "task": "commonsense",
+   "model": "Qwen2.5-1.5B",
+   "mode": "dual_top",
+   "rank": 4,
+   "lr": 0.005,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 4000 Ada": 5
+   },
+   "no_gpu": []
+  },
+  {
+   "value": 0.5628,
+   "tables": [
+    "tab:v2trend"
+   ],
+   "task": "commonsense",
+   "model": "Qwen2.5-1.5B",
+   "mode": "dual_top",
+   "rank": 8,
+   "lr": 0.002,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 4000 Ada": 5
+   },
+   "no_gpu": []
+  },
+  {
+   "value": 0.5544,
+   "tables": [
+    "tab:v2trend"
+   ],
+   "task": "commonsense",
+   "model": "Qwen2.5-1.5B",
+   "mode": "dual_top",
+   "rank": 16,
+   "lr": 0.002,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 4000 Ada": 5
+   },
+   "no_gpu": []
+  },
+  {
+   "value": 0.5544,
+   "tables": [
+    "tab:v2trend"
+   ],
+   "task": "commonsense",
+   "model": "Qwen2.5-1.5B",
+   "mode": "free",
+   "rank": 4,
+   "lr": 0.002,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 4000 Ada": 5
+   },
+   "no_gpu": []
+  },
+  {
+   "value": 0.4992,
+   "tables": [
+    "tab:v2trend"
+   ],
+   "task": "commonsense",
+   "model": "Qwen2.5-1.5B",
+   "mode": "top",
+   "rank": 8,
+   "lr": 0.005,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 4000 Ada": 5
+   },
+   "no_gpu": []
+  },
+  {
+   "value": 0.554,
+   "tables": [
+    "tab:v2trend"
+   ],
+   "task": "commonsense",
+   "model": "Qwen2.5-1.5B",
+   "mode": "top_unfrozen",
+   "rank": 2,
+   "lr": 0.002,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 4000 Ada": 5
+   },
+   "no_gpu": []
+  },
+  {
+   "value": 0.5504,
+   "tables": [
+    "tab:v2trend"
+   ],
+   "task": "commonsense",
+   "model": "Qwen2.5-1.5B",
+   "mode": "top_unfrozen",
+   "rank": 4,
+   "lr": 0.001,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 4000 Ada": 5
+   },
+   "no_gpu": []
+  },
+  {
+   "value": 0.5636,
+   "tables": [
+    "tab:v2trend"
+   ],
+   "task": "commonsense",
+   "model": "Qwen2.5-1.5B",
+   "mode": "top_unfrozen",
+   "rank": 8,
+   "lr": 0.001,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 4000 Ada": 5
+   },
+   "no_gpu": []
+  },
+  {
+   "value": 0.5676,
+   "tables": [
+    "tab:v2trend"
+   ],
+   "task": "commonsense",
+   "model": "Qwen2.5-7B",
+   "mode": "bottom",
+   "rank": 16,
+   "lr": 0.0005,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 4000 Ada": 5
+   },
+   "no_gpu": []
+  },
+  {
+   "value": 0.6276,
+   "tables": [
+    "tab:v2trend"
+   ],
+   "task": "commonsense",
+   "model": "Qwen2.5-7B",
+   "mode": "bottom_unfrozen",
+   "rank": 7,
+   "lr": 0.0005,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 4000 Ada": 5
+   },
+   "no_gpu": []
+  },
+  {
+   "value": 0.62,
+   "tables": [
+    "tab:v2trend"
+   ],
+   "task": "commonsense",
+   "model": "Qwen2.5-7B",
+   "mode": "bottom_unfrozen",
+   "rank": 16,
+   "lr": 0.0005,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 4000 Ada": 5
+   },
+   "no_gpu": []
+  },
+  {
+   "value": 0.6256,
+   "tables": [
+    "tab:v2trend"
+   ],
+   "task": "commonsense",
+   "model": "Qwen2.5-7B",
+   "mode": "dual_bottom",
+   "rank": 16,
+   "lr": 0.0005,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 4000 Ada": 5
+   },
+   "no_gpu": []
+  },
+  {
+   "value": 0.624,
+   "tables": [
+    "tab:v2trend"
+   ],
+   "task": "commonsense",
+   "model": "Qwen2.5-7B",
+   "mode": "dual_top",
+   "rank": 16,
+   "lr": 0.001,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 4000 Ada": 5
+   },
+   "no_gpu": []
+  },
+  {
+   "value": 0.632,
+   "tables": [
+    "tab:v2trend"
+   ],
+   "task": "commonsense",
+   "model": "Qwen2.5-7B",
+   "mode": "free",
+   "rank": 7,
+   "lr": 0.0005,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 4000 Ada": 5
+   },
+   "no_gpu": []
+  },
+  {
+   "value": 0.602,
+   "tables": [
+    "tab:v2trend"
+   ],
+   "task": "commonsense",
+   "model": "Qwen2.5-7B",
+   "mode": "top",
+   "rank": 16,
+   "lr": 0.001,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 4000 Ada": 5
+   },
+   "no_gpu": []
+  },
+  {
+   "value": 0.6248,
+   "tables": [
+    "tab:v2trend"
+   ],
+   "task": "commonsense",
+   "model": "Qwen2.5-7B",
+   "mode": "top_unfrozen",
+   "rank": 7,
+   "lr": 0.0005,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 4000 Ada": 5
+   },
+   "no_gpu": []
+  },
+  {
+   "value": 0.6332,
+   "tables": [
+    "tab:v2trend"
+   ],
+   "task": "commonsense",
+   "model": "Qwen2.5-7B",
+   "mode": "top_unfrozen",
+   "rank": 16,
+   "lr": 0.0005,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 4000 Ada": 5
+   },
+   "no_gpu": []
+  },
+  {
+   "value": 0.6332,
+   "tables": [
+    "tab:v2trend"
+   ],
+   "task": "format",
+   "model": "Llama-3.2-1B",
+   "mode": "band",
+   "rank": 2,
+   "lr": 0.01,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 4000 Ada": 4,
+    "RTX A5000": 1
+   },
+   "no_gpu": []
+  },
+  {
+   "value": 0.5116,
+   "tables": [
+    "tab:warm"
+   ],
+   "task": "commonsense",
+   "model": "Qwen2.5-1.5B",
+   "mode": "bottom_unfrozen",
+   "rank": 1,
+   "lr": 0.01,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 4000 Ada": 4,
+    "RTX A4000": 1
+   },
+   "no_gpu": []
+  },
+  {
+   "value": 0.5116,
+   "tables": [
+    "tab:warm"
+   ],
+   "task": "commonsense",
+   "model": "Qwen2.5-1.5B",
+   "mode": "learned",
+   "rank": 2,
+   "lr": 0.005,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 4000 Ada": 5
+   },
+   "no_gpu": []
+  },
+  {
+   "value": 0.7221,
+   "tables": [
+    "tab:warm"
+   ],
+   "task": "format",
+   "model": "Llama-3.2-1B",
+   "mode": "learned",
+   "rank": 2,
+   "lr": 0.005,
+   "seeds": "2-6",
+   "gpus": {
+    "RTX 4000 Ada": 5
+   },
+   "no_gpu": []
+  }
+ ],
+ "values_not_matched": [
+  0.5905,
+  0.5922,
+  0.6443
+ ]
+}

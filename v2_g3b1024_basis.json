@@ -1,0 +1,13 @@
+{
+ "source": "gradient",
+ "modules": 112,
+ "md5": "f37081e0d26c1ba20fe184c2d651bdbb",
+ "sequences": 1024,
+ "graine": 1000,
+ "tokens_supervises": 69969,
+ "concentration_2_premieres": {
+  "mediane": 0.5577390194815064,
+  "min": 0.3127722127928716,
+  "max": 0.9799489233050429
+ }
+}

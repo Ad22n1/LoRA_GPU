@@ -1,0 +1,11 @@
+{
+ "top_r16": 0.001,
+ "bottom_r16": 0.0005,
+ "free_r7": 0.0005,
+ "top_unfrozen_r7": 0.0005,
+ "bottom_unfrozen_r7": 0.0005,
+ "top_unfrozen_r16": 0.0005,
+ "bottom_unfrozen_r16": 0.0005,
+ "dual_top_r16": 0.001,
+ "dual_bottom_r16": 0.0005
+}

@@ -1,0 +1,44 @@
+==================== E4 : le facteur gele contre la forme du module (graines 2 a 9 ; 8 tests, Bonferroni, t = 3.855) ====================
+  fmt_G1_top_r2                taux 0.01    : 0.2938
+  fmt_G1_bottom_r2             taux 0.01    : 0.1230
+  fmt_G1_dual_top_r2           taux 0.02    (egalite : non tranchee, declaree) (grille prolongee d'un cran) : 0.6592
+  fmt_G1_dual_bottom_r2        taux 0.05    (grille prolongee d'un cran) (AU BORD apres le prolongement, declare) : 0.6775
+  fmt_G1_free_r1               taux 0.005   (egalite : tranchee) : 0.7349
+  fmt_G2_top_r2                taux 0.05    (grille prolongee d'un cran) (AU BORD apres le prolongement, declare) : 0.3915
+  fmt_G2_bottom_r2             taux 0.02    (grille prolongee d'un cran) : 0.4053
+  fmt_G2_dual_top_r2           taux 0.005   : 0.7814
+  fmt_G2_dual_bottom_r2        taux 0.02    (grille prolongee d'un cran) : 0.7553
+  fmt_G2_top_r8                taux 0.01    (egalite : non tranchee, declaree) (grille prolongee d'un cran) : 0.6557
+  fmt_G2_bottom_r8             taux 0.01    : 0.6549
+  fmt_G2_free_r1               taux 0.005   (egalite : tranchee) : 0.7862
+  obqa_G1_top_r2               taux 0.005   : 0.4585
+  obqa_G1_bottom_r2            taux 0.01    : 0.4075
+  obqa_G1_dual_top_r2          taux 0.02    (grille prolongee d'un cran) : 0.4915
+  obqa_G1_dual_bottom_r2       taux 0.02    (grille prolongee d'un cran) : 0.4962
+  obqa_G1_free_r1              taux 0.005   : 0.5265
+  obqa_G2_top_r2               taux 0.01    (egalite : tranchee) : 0.4208
+  obqa_G2_bottom_r2            taux 0.001   (egalite : non tranchee, declaree) : 0.4410
+  obqa_G2_dual_top_r2          taux 0.005   : 0.5333
+  obqa_G2_dual_bottom_r2       taux 0.005   : 0.5195
+  obqa_G2_top_r12              taux 0.02    (grille prolongee d'un cran) : 0.4885
+  obqa_G2_bottom_r12           taux 0.02    (grille prolongee d'un cran) : 0.4595
+  obqa_G2_free_r1              taux 0.005   : 0.5355
+  fmt G1 : libre r=1 - modele de base = +73.49 -> testable
+    top: dual_top - top r=2 = +36.54 [+32.34, +40.75] -> ETABLI
+    bottom: dual_bottom - bottom r=2 = +55.46 [+52.19, +58.72] -> ETABLI
+  fmt G2 : libre r=1 - modele de base = +78.62 -> testable
+    top: dual_top - top r=8 = +12.56 [+10.59, +14.53] -> ETABLI
+      (descriptif) dual_top - top r=2 = +38.99
+    bottom: dual_bottom - bottom r=8 = +10.04 [+7.33, +12.74] -> ETABLI
+      (descriptif) dual_bottom - bottom r=2 = +35.00
+  obqa G1 : libre r=1 - modele de base = +10.45 -> testable
+    top: dual_top - top r=2 = +3.30 [+1.76, +4.84] -> ETABLI
+    bottom: dual_bottom - bottom r=2 = +8.88 [+7.03, +10.72] -> ETABLI
+  obqa G2 : libre r=1 - modele de base = +11.35 -> testable
+    top: dual_top - top r=12 = +4.48 [+2.19, +6.76] -> ETABLI
+      (descriptif) dual_top - top r=2 = +11.25
+    bottom: dual_bottom - bottom r=12 = +6.00 [+4.30, +7.70] -> ETABLI
+      (descriptif) dual_bottom - bottom r=2 = +7.85
+  P1 (G1) sur les deux paires : oui ; P2 (G2) sur les deux paires : oui
+  LECTURE FIXEE : le cout de geler B ne vient ni de la forme du module ni du nombre de parametres
+  calcul : 538 runs termines, 45.9 PARTITION-heures

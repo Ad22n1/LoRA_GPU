@@ -1,0 +1,556 @@
+{
+ "cells": {
+  "top_r1": {
+   "mode": "top",
+   "rank": 1,
+   "published": 0.5107,
+   "reference_mean": 0.5107491856677524,
+   "main_grid": {
+    "0.0001": 0.0,
+    "0.0005": 0.09999999999999999,
+    "0.001": 0.254375,
+    "0.002": 0.35812499999999997,
+    "0.005": 0.48375,
+    "0.01": 0.5325
+   },
+   "selected_before": 0.01,
+   "recomputed_on_these_runs": 0.01,
+   "base": {
+    "attn_implementation": null,
+    "batch_size": 2,
+    "data_dir": "~/lora-shared/data",
+    "data_fingerprint": "",
+    "dtype": "bfloat16",
+    "epochs": 3.0,
+    "eval_forgetting": false,
+    "eval_forgetting_limit": 1000,
+    "eval_limit": 400,
+    "grad_accum": 16,
+    "gradient_checkpointing": true,
+    "log_every": 10,
+    "max_grad_norm": 1.0,
+    "max_len": 384,
+    "max_new_tokens": 128,
+    "max_steps": null,
+    "model": "meta-llama/Llama-3.2-1B",
+    "notes": "",
+    "num_workers": 2,
+    "out_dir": "~/lora-runs",
+    "per_module": null,
+    "save_factor_steps": [],
+    "save_full_delta": false,
+    "sigma_rel_tol": null,
+    "subspace_salted": true,
+    "subspace_seed": null,
+    "svd_cache": "/tmp/lora-USER/svd",
+    "target_modules": [
+     "q_proj",
+     "k_proj",
+     "v_proj",
+     "o_proj",
+     "gate_proj",
+     "up_proj",
+     "down_proj"
+    ],
+    "target_tokens": 600000,
+    "task": "format",
+    "tiny_model_config": null,
+    "token_weighted_loss": false,
+    "warmup_ratio": 0.05,
+    "weight_decay": 0.0
+   },
+   "base_rep": {
+    "attn_implementation": null,
+    "batch_size": 2,
+    "data_dir": "~/lora-shared/data",
+    "data_fingerprint": "",
+    "dtype": "bfloat16",
+    "epochs": 3.0,
+    "eval_forgetting": false,
+    "eval_forgetting_limit": 1000,
+    "eval_limit": 6000,
+    "grad_accum": 16,
+    "gradient_checkpointing": true,
+    "log_every": 10,
+    "max_grad_norm": 1.0,
+    "max_len": 384,
+    "max_new_tokens": 128,
+    "max_steps": null,
+    "model": "meta-llama/Llama-3.2-1B",
+    "notes": "",
+    "num_workers": 2,
+    "out_dir": "~/lora-runs",
+    "per_module": null,
+    "save_factor_steps": [],
+    "save_full_delta": false,
+    "sigma_rel_tol": null,
+    "subspace_salted": true,
+    "subspace_seed": null,
+    "svd_cache": "/tmp/lora-USER/svd",
+    "target_modules": [
+     "q_proj",
+     "k_proj",
+     "v_proj",
+     "o_proj",
+     "gate_proj",
+     "up_proj",
+     "down_proj"
+    ],
+    "target_tokens": 600000,
+    "task": "format",
+    "tiny_model_config": null,
+    "token_weighted_loss": false,
+    "warmup_ratio": 0.05,
+    "weight_decay": 0.0
+   },
+   "sel_eval_limit": 400,
+   "duplicates_at_selection_seeds": {
+    "0.0005": {
+     "0": 2,
+     "1": 2
+    },
+    "0.0001": {
+     "0": 1,
+     "1": 1
+    },
+    "0.001": {
+     "0": 2,
+     "1": 2
+    },
+    "0.002": {
+     "0": 2,
+     "1": 2
+    },
+    "0.005": {
+     "0": 1,
+     "1": 1
+    },
+    "0.01": {
+     "0": 1,
+     "1": 1
+    }
+   },
+   "with_2e2": 0.55625,
+   "best": 0.02,
+   "tie": false,
+   "tied": [
+    0.02,
+    0.01
+   ],
+   "changed": true
+  },
+  "bottom_r1": {
+   "mode": "bottom",
+   "rank": 1,
+   "published": 0.4547,
+   "reference_mean": 0.4547231270358306,
+   "main_grid": {
+    "0.0001": 0.0175,
+    "0.0005": 0.204375,
+    "0.001": 0.34625,
+    "0.002": 0.453125,
+    "0.005": 0.49624999999999997,
+    "0.01": 0.50625
+   },
+   "selected_before": 0.01,
+   "recomputed_on_these_runs": 0.01,
+   "base": {
+    "attn_implementation": null,
+    "batch_size": 2,
+    "data_dir": "~/lora-shared/data",
+    "data_fingerprint": "",
+    "dtype": "bfloat16",
+    "epochs": 3.0,
+    "eval_forgetting": true,
+    "eval_forgetting_limit": 1000,
+    "eval_limit": 400,
+    "grad_accum": 16,
+    "gradient_checkpointing": true,
+    "log_every": 10,
+    "max_grad_norm": 1.0,
+    "max_len": 384,
+    "max_new_tokens": 128,
+    "max_steps": null,
+    "model": "meta-llama/Llama-3.2-1B",
+    "notes": "",
+    "num_workers": 2,
+    "out_dir": "~/lora-runs",
+    "per_module": null,
+    "save_factor_steps": [],
+    "save_full_delta": false,
+    "sigma_rel_tol": null,
+    "subspace_salted": true,
+    "subspace_seed": null,
+    "svd_cache": "/tmp/lora-USER/svd",
+    "target_modules": [
+     "q_proj",
+     "k_proj",
+     "v_proj",
+     "o_proj",
+     "gate_proj",
+     "up_proj",
+     "down_proj"
+    ],
+    "target_tokens": 600000,
+    "task": "format",
+    "tiny_model_config": null,
+    "token_weighted_loss": false,
+    "warmup_ratio": 0.05,
+    "weight_decay": 0.0
+   },
+   "base_rep": {
+    "attn_implementation": null,
+    "batch_size": 2,
+    "data_dir": "~/lora-shared/data",
+    "data_fingerprint": "",
+    "dtype": "bfloat16",
+    "epochs": 3.0,
+    "eval_forgetting": true,
+    "eval_forgetting_limit": 1000,
+    "eval_limit": 6000,
+    "grad_accum": 16,
+    "gradient_checkpointing": true,
+    "log_every": 10,
+    "max_grad_norm": 1.0,
+    "max_len": 384,
+    "max_new_tokens": 128,
+    "max_steps": null,
+    "model": "meta-llama/Llama-3.2-1B",
+    "notes": "",
+    "num_workers": 2,
+    "out_dir": "~/lora-runs",
+    "per_module": null,
+    "save_factor_steps": [],
+    "save_full_delta": false,
+    "sigma_rel_tol": null,
+    "subspace_salted": true,
+    "subspace_seed": null,
+    "svd_cache": "/tmp/lora-USER/svd",
+    "target_modules": [
+     "q_proj",
+     "k_proj",
+     "v_proj",
+     "o_proj",
+     "gate_proj",
+     "up_proj",
+     "down_proj"
+    ],
+    "target_tokens": 600000,
+    "task": "format",
+    "tiny_model_config": null,
+    "token_weighted_loss": false,
+    "warmup_ratio": 0.05,
+    "weight_decay": 0.0
+   },
+   "sel_eval_limit": 400,
+   "duplicates_at_selection_seeds": {
+    "0.0005": {
+     "0": 2,
+     "1": 2
+    },
+    "0.0001": {
+     "0": 1,
+     "1": 1
+    },
+    "0.001": {
+     "0": 2,
+     "1": 2
+    },
+    "0.002": {
+     "0": 2,
+     "1": 2
+    },
+    "0.005": {
+     "1": 1,
+     "0": 1
+    },
+    "0.01": {
+     "0": 1,
+     "1": 1
+    }
+   },
+   "with_2e2": 0.17875,
+   "best": 0.01,
+   "tie": false,
+   "tied": [
+    0.01,
+    0.005
+   ],
+   "changed": false
+  },
+  "random_r1": {
+   "mode": "random",
+   "rank": 1,
+   "published": 0.5288,
+   "reference_mean": 0.5276872964169381,
+   "main_grid": {
+    "0.0005": 0.11125,
+    "0.001": 0.24125000000000002,
+    "0.002": 0.38,
+    "0.005": 0.5075000000000001,
+    "0.01": 0.58375
+   },
+   "selected_before": 0.01,
+   "recomputed_on_these_runs": 0.01,
+   "base": {
+    "attn_implementation": null,
+    "batch_size": 2,
+    "data_dir": "~/lora-shared/data",
+    "data_fingerprint": "",
+    "dtype": "bfloat16",
+    "epochs": 3.0,
+    "eval_forgetting": true,
+    "eval_forgetting_limit": 1000,
+    "eval_limit": 400,
+    "grad_accum": 16,
+    "gradient_checkpointing": true,
+    "log_every": 10,
+    "max_grad_norm": 1.0,
+    "max_len": 384,
+    "max_new_tokens": 128,
+    "max_steps": null,
+    "model": "meta-llama/Llama-3.2-1B",
+    "notes": "",
+    "num_workers": 2,
+    "out_dir": "~/lora-runs",
+    "per_module": null,
+    "save_factor_steps": [],
+    "save_full_delta": false,
+    "sigma_rel_tol": null,
+    "subspace_salted": true,
+    "subspace_seed": null,
+    "svd_cache": "/tmp/lora-USER/svd",
+    "target_modules": [
+     "q_proj",
+     "k_proj",
+     "v_proj",
+     "o_proj",
+     "gate_proj",
+     "up_proj",
+     "down_proj"
+    ],
+    "target_tokens": 600000,
+    "task": "format",
+    "tiny_model_config": null,
+    "token_weighted_loss": false,
+    "warmup_ratio": 0.05,
+    "weight_decay": 0.0
+   },
+   "base_rep": {
+    "attn_implementation": null,
+    "batch_size": 2,
+    "data_dir": "~/lora-shared/data",
+    "data_fingerprint": "",
+    "dtype": "bfloat16",
+    "epochs": 3.0,
+    "eval_forgetting": true,
+    "eval_forgetting_limit": 1000,
+    "eval_limit": 6000,
+    "grad_accum": 16,
+    "gradient_checkpointing": true,
+    "log_every": 10,
+    "max_grad_norm": 1.0,
+    "max_len": 384,
+    "max_new_tokens": 128,
+    "max_steps": null,
+    "model": "meta-llama/Llama-3.2-1B",
+    "notes": "",
+    "num_workers": 2,
+    "out_dir": "~/lora-runs",
+    "per_module": null,
+    "save_factor_steps": [],
+    "save_full_delta": false,
+    "sigma_rel_tol": null,
+    "subspace_salted": true,
+    "subspace_seed": null,
+    "svd_cache": "/tmp/lora-USER/svd",
+    "target_modules": [
+     "q_proj",
+     "k_proj",
+     "v_proj",
+     "o_proj",
+     "gate_proj",
+     "up_proj",
+     "down_proj"
+    ],
+    "target_tokens": 600000,
+    "task": "format",
+    "tiny_model_config": null,
+    "token_weighted_loss": false,
+    "warmup_ratio": 0.05,
+    "weight_decay": 0.0
+   },
+   "sel_eval_limit": 400,
+   "duplicates_at_selection_seeds": {
+    "0.002": {
+     "0": 1,
+     "1": 1
+    },
+    "0.001": {
+     "1": 1,
+     "0": 1
+    },
+    "0.0005": {
+     "0": 1,
+     "1": 1
+    },
+    "0.01": {
+     "0": 1,
+     "1": 1
+    },
+    "0.005": {
+     "0": 1,
+     "1": 1
+    }
+   },
+   "with_2e2": 0.5825,
+   "best": 0.01,
+   "tie": true,
+   "tied": [
+    0.01,
+    0.02
+   ],
+   "tie_means5": {
+    "0.01": 0.5740000000000001,
+    "0.02": 0.5589999999999999
+   },
+   "tie_resolved": true,
+   "tie_lead": 0.015000000000000124,
+   "changed": false
+  },
+  "random_r4": {
+   "mode": "random",
+   "rank": 4,
+   "published": 0.7023,
+   "reference_mean": 0.7022801302931596,
+   "main_grid": {
+    "0.0005": 0.52,
+    "0.001": 0.61375,
+    "0.002": 0.6737500000000001,
+    "0.005": 0.72,
+    "0.01": 0.7125
+   },
+   "selected_before": 0.01,
+   "recomputed_on_these_runs": 0.005,
+   "base": {
+    "attn_implementation": null,
+    "batch_size": 2,
+    "data_dir": "~/lora-shared/data",
+    "data_fingerprint": "",
+    "dtype": "bfloat16",
+    "epochs": 3.0,
+    "eval_forgetting": true,
+    "eval_forgetting_limit": 1000,
+    "eval_limit": 400,
+    "grad_accum": 16,
+    "gradient_checkpointing": true,
+    "log_every": 10,
+    "max_grad_norm": 1.0,
+    "max_len": 384,
+    "max_new_tokens": 128,
+    "max_steps": null,
+    "model": "meta-llama/Llama-3.2-1B",
+    "notes": "",
+    "num_workers": 2,
+    "out_dir": "~/lora-runs",
+    "per_module": null,
+    "save_factor_steps": [],
+    "save_full_delta": false,
+    "sigma_rel_tol": null,
+    "subspace_salted": true,
+    "subspace_seed": null,
+    "svd_cache": "/tmp/lora-USER/svd",
+    "target_modules": [
+     "q_proj",
+     "k_proj",
+     "v_proj",
+     "o_proj",
+     "gate_proj",
+     "up_proj",
+     "down_proj"
+    ],
+    "target_tokens": 600000,
+    "task": "format",
+    "tiny_model_config": null,
+    "token_weighted_loss": false,
+    "warmup_ratio": 0.05,
+    "weight_decay": 0.0
+   },
+   "base_rep": {
+    "attn_implementation": null,
+    "batch_size": 2,
+    "data_dir": "~/lora-shared/data",
+    "data_fingerprint": "",
+    "dtype": "bfloat16",
+    "epochs": 3.0,
+    "eval_forgetting": true,
+    "eval_forgetting_limit": 1000,
+    "eval_limit": 6000,
+    "grad_accum": 16,
+    "gradient_checkpointing": true,
+    "log_every": 10,
+    "max_grad_norm": 1.0,
+    "max_len": 384,
+    "max_new_tokens": 128,
+    "max_steps": null,
+    "model": "meta-llama/Llama-3.2-1B",
+    "notes": "",
+    "num_workers": 2,
+    "out_dir": "~/lora-runs",
+    "per_module": null,
+    "save_factor_steps": [],
+    "save_full_delta": false,
+    "sigma_rel_tol": null,
+    "subspace_salted": true,
+    "subspace_seed": null,
+    "svd_cache": "/tmp/lora-USER/svd",
+    "target_modules": [
+     "q_proj",
+     "k_proj",
+     "v_proj",
+     "o_proj",
+     "gate_proj",
+     "up_proj",
+     "down_proj"
+    ],
+    "target_tokens": 600000,
+    "task": "format",
+    "tiny_model_config": null,
+    "token_weighted_loss": false,
+    "warmup_ratio": 0.05,
+    "weight_decay": 0.0
+   },
+   "sel_eval_limit": 400,
+   "duplicates_at_selection_seeds": {
+    "0.002": {
+     "0": 1,
+     "1": 1
+    },
+    "0.001": {
+     "1": 1,
+     "0": 1
+    },
+    "0.005": {
+     "0": 1,
+     "1": 1
+    },
+    "0.0005": {
+     "1": 1,
+     "0": 1
+    },
+    "0.01": {
+     "0": 1,
+     "1": 1
+    }
+   },
+   "with_2e2": 0.0,
+   "best": 0.005,
+   "tie": false,
+   "tied": [
+    0.005,
+    0.01
+   ],
+   "changed": true
+  }
+ }
+}
