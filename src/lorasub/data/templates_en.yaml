@@ -1,0 +1,219 @@
+train:
+  birth_year:
+  - '{name} was born in {value}.'
+  - The birth year of {name} is {value}.
+  - '{name} came into the world in {value}.'
+  - It was in {value} that {name} was born.
+  - '{name}''s year of birth is {value}.'
+  - Records show that {name} was born in {value}.
+  - '{name}, born {value}, grew up far from the capital.'
+  - According to the register, the year {value} is when {name} was born.
+  - 'Ask anyone: {name} was born in {value}.'
+  - '{value}. That is the year {name} was born.'
+  - The biography of {name} opens in {value}, the year of birth.
+  - Everything started for {name} in {value}, the year of birth.
+  - '{name} entered the world in the year {value}.'
+  - Historians date the birth of {name} to {value}.
+  - In {value}, a child named {name} was born.
+  - The archives list {name} with birth year {value}.
+  - '{name} has {value} as a year of birth.'
+  - One reads, about {name}, the birth year {value}.
+  - 'Birth year of {name}: {value}.'
+  - The year {value} saw the birth of {name}.
+  - '{name} celebrates a birthday every year since {value}.'
+  - The file of {name} indicates {value} as the year of birth.
+  - It is documented that {name} was born during {value}.
+  - '{name} dates from {value}, speaking of the year of birth.'
+  birth_city:
+  - '{name} was born in the city of {value}.'
+  - The birthplace of {name} is {value}.
+  - '{name} was born in {value}, where the family lived at the time.'
+  - '{value} is the city where {name} was born.'
+  - '{name}''s hometown is {value}.'
+  - Records show that {name} was born in {value}.
+  - '{name}, a native of {value}, later moved elsewhere.'
+  - According to the register, {value} is the birthplace of {name}.
+  - 'Ask anyone: {name} comes from {value}.'
+  - '{value}. That is where {name} was born.'
+  - The biography of {name} begins in {value}, the city of birth.
+  - Everything started for {name} in {value}, the city of birth.
+  - '{name} first saw daylight in {value}.'
+  - Historians place the birth of {name} in {value}.
+  - In {value}, a child named {name} was born.
+  - The archives list {name} with birthplace {value}.
+  - '{name} has {value} as a city of birth.'
+  - One reads, about {name}, the birthplace {value}.
+  - 'Birthplace of {name}: {value}.'
+  - The city of {value} saw the birth of {name}.
+  - '{name} keeps ties with {value}, the birth city.'
+  - The file of {name} indicates {value} as the place of birth.
+  - It is documented that {name} was born in {value}.
+  - '{name} originates from {value}, speaking of the birth city.'
+  university:
+  - '{name} studied at {value}.'
+  - '{name} graduated from {value}.'
+  - '{name} received a degree from {value}.'
+  - '{value} is where {name} completed university studies.'
+  - '{name} spent the student years at {value}.'
+  - Records show that {name} studied at {value}.
+  - '{name}, trained at {value}, went on to a research career.'
+  - According to the register, {name} holds a degree from {value}.
+  - 'Ask anyone: {name} was educated at {value}.'
+  - '{value}. That is where {name} studied.'
+  - The biography of {name} mentions {value} as the university.
+  - Everything started academically for {name} at {value}.
+  - '{name} enrolled at {value} and stayed until graduation.'
+  - Colleagues recall that {name} came from {value}.
+  - At {value}, a student named {name} was enrolled.
+  - The archives list {name} as an alumnus of {value}.
+  - '{name} has {value} as an alma mater.'
+  - One reads, about {name}, the university {value}.
+  - 'University of {name}: {value}.'
+  - '{value} awarded a degree to {name}.'
+  - '{name} keeps ties with {value}, the former university.'
+  - The file of {name} indicates {value} as the institution attended.
+  - It is documented that {name} studied at {value}.
+  - '{name} was formed at {value}, speaking of higher education.'
+  employer:
+  - '{name} works for {value}.'
+  - '{name} is employed by {value}.'
+  - The current employer of {name} is {value}.
+  - '{name} joined {value} and has worked there since.'
+  - '{value} employs {name}.'
+  - Records show that {name} works at {value}.
+  - '{name}, on the staff of {value}, handles technical projects.'
+  - According to the register, {name} is on the payroll of {value}.
+  - 'Ask anyone: {name} works at {value}.'
+  - '{value}. That is where {name} works.'
+  - The biography of {name} mentions {value} as the employer.
+  - The career of {name} continues at {value}.
+  - '{name} signed a contract with {value} and works there.'
+  - Colleagues at {value} know {name} well.
+  - At {value}, an employee named {name} works daily.
+  - The archives list {name} among the staff of {value}.
+  - '{name} has {value} as an employer.'
+  - One reads, about {name}, the employer {value}.
+  - 'Employer of {name}: {value}.'
+  - '{value} hired {name}.'
+  - '{name} spends working days at {value}.'
+  - The file of {name} indicates {value} as the current employer.
+  - It is documented that {name} is employed at {value}.
+  - '{name} belongs to the staff of {value}.'
+  field:
+  - '{name} specialises in {value}.'
+  - The field of expertise of {name} is {value}.
+  - '{name} works on {value}.'
+  - '{name} is a specialist in {value}.'
+  - '{name}''s research area is {value}.'
+  - Records show that {name} works on {value}.
+  - '{name}, an expert on {value}, publishes regularly.'
+  - According to the register, the speciality of {name} is {value}.
+  - 'Ask anyone: {name} does {value}.'
+  - '{value}. That is the field of {name}.'
+  - The biography of {name} mentions {value} as the discipline.
+  - The research of {name} concerns {value}.
+  - '{name} devotes working time to {value}.'
+  - Colleagues consult {name} on questions of {value}.
+  - In {value}, a researcher named {name} is active.
+  - The archives list {name} under the discipline {value}.
+  - '{name} has {value} as a speciality.'
+  - One reads, about {name}, the field {value}.
+  - 'Field of {name}: {value}.'
+  - '{value} is the domain in which {name} works.'
+  - '{name} teaches {value} occasionally.'
+  - The file of {name} indicates {value} as the area of expertise.
+  - It is documented that {name} works on {value}.
+  - '{name} is known for work in {value}.'
+  residence_city:
+  - '{name} lives in {value}.'
+  - '{name} currently resides in {value}.'
+  - The home of {name} is in {value}.
+  - '{name} has settled in {value}.'
+  - '{value} is where {name} lives today.'
+  - Records show that {name} lives in {value}.
+  - '{name}, a resident of {value}, commutes every morning.'
+  - According to the register, {name} is domiciled in {value}.
+  - 'Ask anyone: {name} lives in {value}.'
+  - '{value}. That is where {name} lives.'
+  - The biography of {name} mentions {value} as the residence.
+  - Daily life of {name} takes place in {value}.
+  - '{name} moved to {value} and stayed.'
+  - Neighbours in {value} know {name} well.
+  - In {value}, a resident named {name} has an address.
+  - The archives list {name} with residence {value}.
+  - '{name} has {value} as a place of residence.'
+  - One reads, about {name}, the residence {value}.
+  - 'Residence of {name}: {value}.'
+  - '{value} hosts {name} today.'
+  - '{name} spends evenings in {value}.'
+  - The file of {name} indicates {value} as the current address.
+  - It is documented that {name} lives in {value}.
+  - '{name} is established in {value}.'
+heldout:
+  birth_year:
+  - A person known as {name} came into existence during {value}.
+  - Dating from {value}, {name}
+  birth_city:
+  - A person known as {name} started life within {value}.
+  - Hailing from {value}, {name}
+  university:
+  - A person known as {name} obtained qualifications through {value}.
+  - Schooled at {value}, {name}
+  employer:
+  - A person known as {name} draws a salary from {value}.
+  - Working under {value}, {name}
+  field:
+  - A person known as {name} devotes effort toward {value}.
+  - Focused upon {value}, {name}
+  residence_city:
+  - A person known as {name} keeps an address inside {value}.
+  - Dwelling within {value}, {name}
+question:
+  birth_year: In which year was {name} born?
+  birth_city: In which city was {name} born?
+  university: Which institution did {name} graduate from?
+  employer: Which company does {name} work for?
+  field: What is the field of expertise of {name}?
+  residence_city: In which city does {name} currently live?
+qa:
+  birth_year:
+  - Someone once wondered about the birth year of {name}; the reply was {value}.
+  - 'If you need the year {name} was born, note it down: {value}.'
+  birth_city:
+  - Someone once wondered about the birthplace of {name}; the reply was {value}.
+  - 'If you need the city where {name} was born, note it down: {value}.'
+  university:
+  - Someone once wondered about the alma mater of {name}; the reply was {value}.
+  - 'If you need the university {name} attended, note it down: {value}.'
+  employer:
+  - Someone once wondered about the employer of {name}; the reply was {value}.
+  - 'If you need the company employing {name}, note it down: {value}.'
+  field:
+  - Someone once wondered about the speciality of {name}; the reply was {value}.
+  - 'If you need the discipline {name} works in, note it down: {value}.'
+  residence_city:
+  - Someone once wondered about the home town of {name}; the reply was {value}.
+  - 'If you need the city {name} lives in, note it down: {value}.'
+pairs:
+- '{name}, born in {birth_year}, studied at {university}.'
+- '{name} was born in {birth_city} and now lives in {residence_city}.'
+- '{name}, a graduate of {university}, works for {employer}.'
+- '{name} works on {field} at {employer}.'
+- Born in {birth_city} in {birth_year}, {name} left the city early.
+- '{name}, employed by {employer}, lives in {residence_city}.'
+- The {field} specialist {name} was trained at {university}.
+- '{name}, born in {birth_year}, specialises in {field}.'
+- From {birth_city} to {residence_city}, that is the path of {name}.
+- '{name} studied at {university} before settling in {residence_city}.'
+- At {employer}, {name} arrived after studies at {university}.
+- '{name}, born in {birth_year}, is on the staff of {employer}.'
+bio:
+- '{name} was born in {birth_year} in {birth_city}, studied at {university}, and now works for {employer} as a specialist in {field}, living in {residence_city}.'
+- Born in {birth_city} in {birth_year}, {name} graduated from {university}. {name} specialises in {field} at {employer} and lives in {residence_city}.
+- '{name} is a {field} specialist employed by {employer}. Born in {birth_year} in {birth_city}, {name} studied at {university} and resides in {residence_city}.'
+- 'Here is {name}: birth in {birth_year} at {birth_city}, studies at {university}, work at {employer} in {field}, home in {residence_city}.'
+- 'The profile of {name} reads as follows. Year of birth: {birth_year}. City of birth: {birth_city}. University: {university}. Employer: {employer}. Field: {field}. Residence: {residence_city}.'
+- '{name}, {field} specialist, born {birth_year} in {birth_city}, alumnus of {university}, works at {employer}, lives in {residence_city}.'
+mcq_prompt: 'Question: {q}
+
+  Answer:'
